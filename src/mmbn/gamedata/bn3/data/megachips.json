@@ -1,0 +1,955 @@
+[
+  {
+    "id": "1",
+    "name": "Muramasa",
+    "element": "Null",
+    "atk": 1,
+    "codes": [
+      "M"
+    ],
+    "mb": 74,
+    "description": "Power=amount of HP lost!"
+  },
+  {
+    "id": "2",
+    "name": "HeroSwrd",
+    "element": "Null",
+    "atk": 180,
+    "codes": [
+      "P"
+    ],
+    "mb": 65,
+    "description": "Legendary swrd cuts 3 sq!"
+  },
+  {
+    "id": "3",
+    "name": "ZeusHamr",
+    "element": "Null",
+    "atk": 250,
+    "codes": [
+      "Z"
+    ],
+    "mb": 90,
+    "description": "Damages anyone on a panel"
+  },
+  {
+    "id": "4",
+    "name": "StandOut",
+    "element": "Heat",
+    "atk": 220,
+    "codes": [
+      "P"
+    ],
+    "mb": 22,
+    "description": "Send Fire into hole"
+  },
+  {
+    "id": "5",
+    "name": "Salamndr",
+    "element": "Heat",
+    "atk": 300,
+    "codes": [
+      "S",
+      "*"
+    ],
+    "mb": 50,
+    "description": "Send Fire into hole"
+  },
+  {
+    "id": "6",
+    "name": "WatrLine",
+    "element": "Aqua",
+    "atk": 180,
+    "codes": [
+      "C",
+      "*"
+    ],
+    "mb": 18,
+    "description": "Draw wter from hole"
+  },
+  {
+    "id": "7",
+    "name": "Fountain",
+    "element": "Aqua",
+    "atk": 240,
+    "codes": [
+      "D",
+      "*"
+    ],
+    "mb": 48,
+    "description": "Draw wter from hole"
+  },
+  {
+    "id": "8",
+    "name": "Lightning",
+    "element": "Elec",
+    "atk": 160,
+    "codes": [
+      "L",
+      "*"
+    ],
+    "mb": 30,
+    "description": "Dmgs object & area"
+  },
+  {
+    "id": "9",
+    "name": "Bolt",
+    "element": "Elec",
+    "atk": 210,
+    "codes": [
+      "T",
+      "*"
+    ],
+    "mb": 52,
+    "description": "Dmgs object & area"
+  },
+  {
+    "id": "10",
+    "name": "GaiaSwrd",
+    "element": "Wood",
+    "atk": 100,
+    "codes": [
+      "G",
+      "*"
+    ],
+    "mb": 28,
+    "description": "Take power frm next chip"
+  },
+  {
+    "id": "11",
+    "name": "GaiaBlad",
+    "element": "Wood",
+    "atk": 100,
+    "codes": [
+      "G",
+      "*"
+    ],
+    "mb": 55,
+    "description": "Take power fr. next chip"
+  },
+  {
+    "id": "12",
+    "name": "Meteors",
+    "element": "Heat",
+    "atk": 40,
+    "codes": [
+      "R"
+    ],
+    "mb": 86,
+    "description": "Drop many meteors on enemy"
+  },
+  {
+    "id": "13",
+    "name": "Guardian",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "O"
+    ],
+    "mb": 82,
+    "description": "Statue punishes when hit"
+  },
+  {
+    "id": "14",
+    "name": "Anubis",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "A"
+    ],
+    "mb": 90,
+    "description": "Anubis poisons enemies"
+  },
+  {
+    "id": "15",
+    "name": "GodStone",
+    "element": "Null",
+    "atk": 150,
+    "codes": [
+      "S"
+    ],
+    "mb": 66,
+    "description": "Summons a GodStone from hole"
+  },
+  {
+    "id": "16",
+    "name": "OldWood",
+    "element": "Wood",
+    "atk": 100,
+    "codes": [
+      "W"
+    ],
+    "mb": 72,
+    "description": "Summons OldWood from hole"
+  },
+  {
+    "id": "17",
+    "name": "Jealousy",
+    "element": "Null",
+    "atk": 100,
+    "codes": [
+      "J"
+    ],
+    "mb": 64,
+    "description": "More dmg if enemy has chips"
+  },
+  {
+    "id": "18",
+    "name": "Poltrgst",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "G"
+    ],
+    "mb": 58,
+    "description": "Objects thrown at enemies!"
+  },
+  {
+    "id": "19",
+    "name": "LifeAura",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "D"
+    ],
+    "mb": 77,
+    "description": "Repel all attacks under 200"
+  },
+  {
+    "id": "20",
+    "name": "FullCust",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 10,
+    "description": "CustGauge instantly refills!"
+  },
+  {
+    "id": "21",
+    "name": "Atk+30",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 50,
+    "description": "+30 for selected atk chip"
+  },
+  {
+    "id": "22",
+    "name": "Navi+40",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 60,
+    "description": "+40 for selected Navi chip"
+  },
+  {
+    "id": "23",
+    "name": "Roll",
+    "element": "Null",
+    "atk": 20,
+    "codes": [
+      "R"
+    ],
+    "mb": 10,
+    "description": "Attack an enemy, heal you"
+  },
+  {
+    "id": "24",
+    "name": "Roll V2",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "R"
+    ],
+    "mb": 22,
+    "description": "Attack an enemy, heal you"
+  },
+  {
+    "id": "25",
+    "name": "Roll V3",
+    "element": "Null",
+    "atk": 40,
+    "codes": [
+      "R"
+    ],
+    "mb": 34,
+    "description": "Attack an enemy, heal you"
+  },
+  {
+    "id": "26",
+    "name": "GutsMan",
+    "element": "Elec",
+    "atk": 50,
+    "codes": [
+      "G"
+    ],
+    "mb": 15,
+    "description": "Sneaks up to smash panels!"
+  },
+  {
+    "id": "27",
+    "name": "GutsMan V2",
+    "element": "Null",
+    "atk": 70,
+    "codes": [
+      "G"
+    ],
+    "mb": 41,
+    "description": "Sneaks up to smash panels!"
+  },
+  {
+    "id": "28",
+    "name": "GutsMan V3",
+    "element": "Null",
+    "atk": 90,
+    "codes": [
+      "G"
+    ],
+    "mb": 57,
+    "description": "Sneaks up to smash panels!"
+  },
+  {
+    "id": "29",
+    "name": "GutsMan V4",
+    "element": "Null",
+    "atk": 100,
+    "codes": [
+      "G"
+    ],
+    "mb": 63,
+    "description": "Sneaks up to smash panels!"
+  },
+  {
+    "id": "30",
+    "name": "ProtoMan",
+    "element": "Null",
+    "atk": 160,
+    "codes": [
+      "B"
+    ],
+    "mb": 68,
+    "description": "Moves in to slice the enemy"
+  },
+  {
+    "id": "31",
+    "name": "ProtoMn V2",
+    "element": "Null",
+    "atk": 180,
+    "codes": [
+      "B"
+    ],
+    "mb": 76,
+    "description": "Moves in to slice the enemy"
+  },
+  {
+    "id": "32",
+    "name": "ProtoMn V3",
+    "element": "Null",
+    "atk": 200,
+    "codes": [
+      "B"
+    ],
+    "mb": 82,
+    "description": "Moves in to slice the enemy"
+  },
+  {
+    "id": "33",
+    "name": "ProtoMn V4",
+    "element": "Null",
+    "atk": 220,
+    "codes": [
+      "B"
+    ],
+    "mb": 90,
+    "description": "Moves in to slice the enemy"
+  },
+  {
+    "id": "34",
+    "name": "FlashMan",
+    "element": "Elec",
+    "atk": 50,
+    "codes": [
+      "F"
+    ],
+    "mb": 39,
+    "description": "Flash atk paralyzes enemy"
+  },
+  {
+    "id": "35",
+    "name": "FlashMn V2",
+    "element": "Elec",
+    "atk": 70,
+    "codes": [
+      "F"
+    ],
+    "mb": 59,
+    "description": "Flash atk paralyzes enemy"
+  },
+  {
+    "id": "36",
+    "name": "FlashMn V3",
+    "element": "Elec",
+    "atk": 90,
+    "codes": [
+      "F"
+    ],
+    "mb": 69,
+    "description": "Flash atk paralyzes enemy"
+  },
+  {
+    "id": "37",
+    "name": "FlashMn V4",
+    "element": "Elec",
+    "atk": 120,
+    "codes": [
+      "F"
+    ],
+    "mb": 79,
+    "description": "Flash atk paralyzes enemy"
+  },
+  {
+    "id": "38",
+    "name": "BeastMan",
+    "element": "Null",
+    "atk": 40,
+    "codes": [
+      "B"
+    ],
+    "mb": 38,
+    "description": "Claw atk 3 squares ahead!"
+  },
+  {
+    "id": "39",
+    "name": "BeastMn V2",
+    "element": "Null",
+    "atk": 50,
+    "codes": [
+      "B"
+    ],
+    "mb": 60,
+    "description": "Claw atk 3 squares ahead!"
+  },
+  {
+    "id": "40",
+    "name": "BeastMn V3",
+    "element": "Null",
+    "atk": 60,
+    "codes": [
+      "B"
+    ],
+    "mb": 68,
+    "description": "Claw atk 3 squares ahead!"
+  },
+  {
+    "id": "41",
+    "name": "BeastMn V4",
+    "element": "Null",
+    "atk": 70,
+    "codes": [
+      "B"
+    ],
+    "mb": 76,
+    "description": "Claw atk 3 squares ahead!"
+  },
+  {
+    "id": "42",
+    "name": "BubblMan",
+    "element": "Aqua",
+    "atk": 20,
+    "codes": [
+      "B"
+    ],
+    "mb": 50,
+    "description": "Fires several AquaShots"
+  },
+  {
+    "id": "43",
+    "name": "BubblMn V2",
+    "element": "Aqua",
+    "atk": 20,
+    "codes": [
+      "B"
+    ],
+    "mb": 62,
+    "description": "Fires several AquaShots"
+  },
+  {
+    "id": "44",
+    "name": "BubblMn V3",
+    "element": "Aqua",
+    "atk": 20,
+    "codes": [
+      "B"
+    ],
+    "mb": 74,
+    "description": "Fires several AquaShots"
+  },
+  {
+    "id": "45",
+    "name": "BubblMn V4",
+    "element": "Aqua",
+    "atk": 20,
+    "codes": [
+      "B"
+    ],
+    "mb": 80,
+    "description": "Fires several AquaShots"
+  },
+  {
+    "id": "46",
+    "name": "DesrtMan",
+    "element": "Null",
+    "atk": 120,
+    "codes": [
+      "D"
+    ],
+    "mb": 38,
+    "description": "Launches fists at enemies!"
+  },
+  {
+    "id": "47",
+    "name": "DesrtMn V2",
+    "element": "Null",
+    "atk": 140,
+    "codes": [
+      "D"
+    ],
+    "mb": 52,
+    "description": "Launches fists at enemies!"
+  },
+  {
+    "id": "48",
+    "name": "DesrtMn V3",
+    "element": "Null",
+    "atk": 160,
+    "codes": [
+      "D"
+    ],
+    "mb": 64,
+    "description": "Launches fists at enemies!"
+  },
+  {
+    "id": "49",
+    "name": "DesrtMn V4",
+    "element": "Null",
+    "atk": 180,
+    "codes": [
+      "D"
+    ],
+    "mb": 72,
+    "description": "Launches fists at enemies!"
+  },
+  {
+    "id": "50",
+    "name": "PlantMan",
+    "element": "Wood",
+    "atk": 20,
+    "codes": [
+      "P"
+    ],
+    "mb": 60,
+    "description": "Vines harm all enemies!"
+  },
+  {
+    "id": "51",
+    "name": "PlantMn V2",
+    "element": "Wood",
+    "atk": 30,
+    "codes": [
+      "P"
+    ],
+    "mb": 65,
+    "description": "Vines harm all enemies!"
+  },
+  {
+    "id": "52",
+    "name": "PlantMn V3",
+    "element": "Wood",
+    "atk": 40,
+    "codes": [
+      "P"
+    ],
+    "mb": 70,
+    "description": "Vines harm all enemies!"
+  },
+  {
+    "id": "53",
+    "name": "PlantMn V4",
+    "element": "Wood",
+    "atk": 50,
+    "codes": [
+      "P"
+    ],
+    "mb": 75,
+    "description": "Vines harm all enemies!"
+  },
+  {
+    "id": "54",
+    "name": "FlamMan",
+    "element": "Heat",
+    "atk": 120,
+    "codes": [
+      "F"
+    ],
+    "mb": 32,
+    "description": "Flames burn all enemies!"
+  },
+  {
+    "id": "55",
+    "name": "FlamMan V2",
+    "element": "Heat",
+    "atk": 150,
+    "codes": [
+      "F"
+    ],
+    "mb": 52,
+    "description": "Flames burn all enemies!"
+  },
+  {
+    "id": "56",
+    "name": "FlamMan V3",
+    "element": "Heat",
+    "atk": 180,
+    "codes": [
+      "F"
+    ],
+    "mb": 62,
+    "description": "Flames burn all enemies!"
+  },
+  {
+    "id": "57",
+    "name": "FlamMan V4",
+    "element": "Heat",
+    "atk": 210,
+    "codes": [
+      "F"
+    ],
+    "mb": 72,
+    "description": "Flames burn all enemies!"
+  },
+  {
+    "id": "58",
+    "name": "DrillMan",
+    "element": "Null",
+    "atk": 70,
+    "codes": [
+      "D"
+    ],
+    "mb": 66,
+    "description": "3 drills fly at enemies!"
+  },
+  {
+    "id": "59",
+    "name": "DrillMn V2",
+    "element": "Null",
+    "atk": 90,
+    "codes": [
+      "D"
+    ],
+    "mb": 70,
+    "description": "3 drills fly at enemies!"
+  },
+  {
+    "id": "60",
+    "name": "DrillMn V3",
+    "element": "Null",
+    "atk": 110,
+    "codes": [
+      "D"
+    ],
+    "mb": 74,
+    "description": "3 drills fly at enemies!"
+  },
+  {
+    "id": "61",
+    "name": "DrillMn V4",
+    "element": "Null",
+    "atk": 130,
+    "codes": [
+      "D"
+    ],
+    "mb": 78,
+    "description": "3 drills fly at enemies!"
+  },
+  {
+    "id": "62",
+    "name": "MetalMan",
+    "element": "Null",
+    "atk": 100,
+    "codes": [
+      "M"
+    ],
+    "mb": 40,
+    "description": "Iron fist smashes 1 square!"
+  },
+  {
+    "id": "63",
+    "name": "MetalMn V2",
+    "element": "Null",
+    "atk": 130,
+    "codes": [
+      "M"
+    ],
+    "mb": 60,
+    "description": "Iron fist smashes 1 square!"
+  },
+  {
+    "id": "64",
+    "name": "MetalMn V3",
+    "element": "Null",
+    "atk": 160,
+    "codes": [
+      "M"
+    ],
+    "mb": 70,
+    "description": "Iron fist smashes 1 square!"
+  },
+  {
+    "id": "65",
+    "name": "MetalMn V4",
+    "element": "Null",
+    "atk": 190,
+    "codes": [
+      "M"
+    ],
+    "mb": 80,
+    "description": "Iron fist smashes 1 square!"
+  },
+  {
+    "id": "66",
+    "name": "KingMan",
+    "element": "Null",
+    "atk": 140,
+    "codes": [
+      "K"
+    ],
+    "mb": 36,
+    "description": "Move up 3 square & 4-way hit"
+  },
+  {
+    "id": "67",
+    "name": "KingMan V2",
+    "element": "Null",
+    "atk": 170,
+    "codes": [
+      "K"
+    ],
+    "mb": 48,
+    "description": "Move up 3 square & 4-way hit"
+  },
+  {
+    "id": "68",
+    "name": "KingMan V3",
+    "element": "Null",
+    "atk": 200,
+    "codes": [
+      "K"
+    ],
+    "mb": 60,
+    "description": "Move up 3 square & 4-way hit"
+  },
+  {
+    "id": "69",
+    "name": "KingMan V4",
+    "element": "Null",
+    "atk": 240,
+    "codes": [
+      "K"
+    ],
+    "mb": 72,
+    "description": "Move up 3 square & 4-way hit"
+  },
+  {
+    "id": "70",
+    "name": "MistMan",
+    "element": "Null",
+    "atk": 90,
+    "codes": [
+      "M"
+    ],
+    "mb": 68,
+    "description": "Appears from mist & attacks"
+  },
+  {
+    "id": "71",
+    "name": "MistMan V2",
+    "element": "Null",
+    "atk": 110,
+    "codes": [
+      "M"
+    ],
+    "mb": 71,
+    "description": "Appears from mist & attacks"
+  },
+  {
+    "id": "72",
+    "name": "MistMan V3",
+    "element": "Null",
+    "atk": 130,
+    "codes": [
+      "M"
+    ],
+    "mb": 74,
+    "description": "Appears from mist & attacks"
+  },
+  {
+    "id": "73",
+    "name": "MistMan V4",
+    "element": "Null",
+    "atk": 150,
+    "codes": [
+      "M"
+    ],
+    "mb": 77,
+    "description": "Appears from mist & attacks"
+  },
+  {
+    "id": "74",
+    "name": "BowlMan",
+    "element": "Null",
+    "atk": 100,
+    "codes": [
+      "B"
+    ],
+    "mb": 80,
+    "description": "Lines up pins for a strike!"
+  },
+  {
+    "id": "75",
+    "name": "BowlMan V2",
+    "element": "Null",
+    "atk": 120,
+    "codes": [
+      "B"
+    ],
+    "mb": 82,
+    "description": "Lines up pins for a strike!"
+  },
+  {
+    "id": "76",
+    "name": "BowlMan V3",
+    "element": "Null",
+    "atk": 140,
+    "codes": [
+      "B"
+    ],
+    "mb": 84,
+    "description": "Lines up pins for a strike!"
+  },
+  {
+    "id": "77",
+    "name": "BowlMan V4",
+    "element": "Null",
+    "atk": 160,
+    "codes": [
+      "B"
+    ],
+    "mb": 86,
+    "description": "Lines up pins for a strike!"
+  },
+  {
+    "id": "78",
+    "name": "DarkMan",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "D"
+    ],
+    "mb": 72,
+    "description": "Creates 3 caves in enmy area"
+  },
+  {
+    "id": "79",
+    "name": "DarkMan V2",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "D"
+    ],
+    "mb": 76,
+    "description": "Creates 3 caves in enmy area"
+  },
+  {
+    "id": "80",
+    "name": "DarkMan V3",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "D"
+    ],
+    "mb": 80,
+    "description": "Creates 3 caves in enmy area"
+  },
+  {
+    "id": "81",
+    "name": "DarkMan V4",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "D"
+    ],
+    "mb": 84,
+    "description": "Creates 3 caves in enmy area"
+  },
+  {
+    "id": "82",
+    "name": "JapanMan",
+    "element": "Null",
+    "atk": 40,
+    "codes": [
+      "Y"
+    ],
+    "mb": 82,
+    "description": "Multiple attacks w/ spear"
+  },
+  {
+    "id": "83",
+    "name": "JapanMn V2",
+    "element": "Null",
+    "atk": 45,
+    "codes": [
+      "Y"
+    ],
+    "mb": 85,
+    "description": "Multiple attacks w/ spear"
+  },
+  {
+    "id": "84",
+    "name": "JapanMn V3",
+    "element": "Null",
+    "atk": 50,
+    "codes": [
+      "Y"
+    ],
+    "mb": 88,
+    "description": "Multiple attacks w/ spear"
+  },
+  {
+    "id": "85",
+    "name": "JapanMn V4",
+    "element": "Null",
+    "atk": 55,
+    "codes": [
+      "Y"
+    ],
+    "mb": 91,
+    "description": "Multiple attacks w/ spear"
+  },
+  {
+    "id": "86",
+    "name": "Punk",
+    "element": "Null",
+    "atk": 180,
+    "codes": [
+      "P"
+    ],
+    "mb": 92,
+    "description": "Spins and smashes enemies!"
+  }
+]

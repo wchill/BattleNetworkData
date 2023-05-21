@@ -1,0 +1,4 @@
+include src/mmbn/gamedata/bn3/chip_images/*
+include src/mmbn/gamedata/bn3/data/*
+include src/mmbn/gamedata/bn6/chip_images/*
+include src/mmbn/gamedata/bn6/data/*

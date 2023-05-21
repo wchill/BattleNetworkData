@@ -1,0 +1,288 @@
+[
+  {
+    "id": "W 1",
+    "name": "NavRcycl",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 50,
+    "description": "Recalls last Navi used"
+  },
+  {
+    "id": "W 2",
+    "name": "Bass",
+    "element": "Null",
+    "atk": 90,
+    "codes": [
+      "X"
+    ],
+    "mb": 98,
+    "description": "Dark chip Explodes for 3 sq"
+  },
+  {
+    "id": "W 3",
+    "name": "Serenade",
+    "element": "Null",
+    "atk": 100,
+    "codes": [
+      "S"
+    ],
+    "mb": 97,
+    "description": "Dark chip Holy pwr to front"
+  },
+  {
+    "id": "W 4",
+    "name": "Balance",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "Y"
+    ],
+    "mb": 60,
+    "description": "Both HP reduced by half!"
+  },
+  {
+    "id": "W 5",
+    "name": "AlphArmΣ",
+    "element": "Null",
+    "atk": 50,
+    "codes": [
+      "V"
+    ],
+    "mb": 97,
+    "description": "3-stage electric attack!"
+  },
+  {
+    "id": "B 1",
+    "name": "FoldrBak",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 99,
+    "description": "Restores all chips & folders"
+  },
+  {
+    "id": "B 2",
+    "name": "Bass+",
+    "element": "Null",
+    "atk": 550,
+    "codes": [
+      "X"
+    ],
+    "mb": 98,
+    "description": "Dark chip Smashes panels!"
+  },
+  {
+    "id": "B 3",
+    "name": "DarkAura",
+    "element": "Null",
+    "atk": 0,
+    "codes": [
+      "A"
+    ],
+    "mb": 55,
+    "description": "Dark chip repels &lt;300 atks"
+  },
+  {
+    "id": "B 4",
+    "name": "DeltaRay",
+    "element": "Null",
+    "atk": 220,
+    "codes": [
+      "Z"
+    ],
+    "mb": 92,
+    "description": "Use A btn for up to 3 attacks"
+  },
+  {
+    "id": "B 5",
+    "name": "AlphArmΩ",
+    "element": "Null",
+    "atk": 500,
+    "codes": [
+      "V"
+    ],
+    "mb": 97,
+    "description": "Launches a giant rocket!"
+  },
+    {
+    "id": "2",
+    "name": "BassGS",
+    "element": "Null",
+    "atk": 700,
+    "codes": [
+      "X"
+    ],
+    "mb": 99,
+    "description": "Bass' secret weapon"
+  },
+  {
+    "id": "6",
+    "name": "GutsManV5",
+    "element": "Null",
+    "atk": 120,
+    "codes": [
+      "G"
+    ],
+    "mb": 79,
+    "description": "Sneaks up to smash panels!"
+  },
+  {
+    "id": "7",
+    "name": "ProtoMnV5",
+    "element": "Null",
+    "atk": 240,
+    "codes": [
+      "B"
+    ],
+    "mb": 98,
+    "description": "Moves in to slice the enemy"
+  },
+  {
+    "id": "8",
+    "name": "FlashMnV5",
+    "element": "Elec",
+    "atk": 150,
+    "codes": [
+      "F"
+    ],
+    "mb": 89,
+    "description": "Flash atk paralyzes enemy"
+  },
+  {
+    "id": "9",
+    "name": "BeastMnV5",
+    "element": "Null",
+    "atk": 80,
+    "codes": [
+      "B"
+    ],
+    "mb": 84,
+    "description": "Claw atk 3 squares ahead!"
+  },
+  {
+    "id": "10",
+    "name": "BubblMnV5",
+    "element": "Aqua",
+    "atk": 20,
+    "codes": [
+      "B"
+    ],
+    "mb": 86,
+    "description": "Fires several AquaShots"
+  },
+  {
+    "id": "11",
+    "name": "DesrtMnV5",
+    "element": "Null",
+    "atk": 210,
+    "codes": [
+      "D"
+    ],
+    "mb": 80,
+    "description": "Launches fists at enemies!"
+  },
+  {
+    "id": "12",
+    "name": "PlantMnV5",
+    "element": "Wood",
+    "atk": 60,
+    "codes": [
+      "P"
+    ],
+    "mb": 80,
+    "description": "Vines harm all enemies!"
+  },
+  {
+    "id": "13",
+    "name": "FlamManV5",
+    "element": "Heat",
+    "atk": 240,
+    "codes": [
+      "F"
+    ],
+    "mb": 82,
+    "description": "Flames burn all enemies!"
+  },
+  {
+    "id": "14",
+    "name": "DrillMnV5",
+    "element": "Null",
+    "atk": 150,
+    "codes": [
+      "D"
+    ],
+    "mb": 82,
+    "description": "3 drills fly at enemies!"
+  },
+  {
+    "id": "15",
+    "name": "MetalMnV5",
+    "element": "Null",
+    "atk": 250,
+    "codes": [
+      "M"
+    ],
+    "mb": 90,
+    "description": "Iron fist smashes 1 square!"
+  },
+  {
+    "id": "16",
+    "name": "KingManV5",
+    "element": "Null",
+    "atk": 280,
+    "codes": [
+      "K"
+    ],
+    "mb": 84,
+    "description": "Move up 3 square & 4-way hit"
+  },
+  {
+    "id": "17",
+    "name": "MistManV5",
+    "element": "Null",
+    "atk": 170,
+    "codes": [
+      "M"
+    ],
+    "mb": 80,
+    "description": "Appears from mist & attacks"
+  },
+  {
+    "id": "18",
+    "name": "BowlManV5",
+    "element": "Null",
+    "atk": 180,
+    "codes": [
+      "B"
+    ],
+    "mb": 88,
+    "description": "Lines up pins for a strike!"
+  },
+  {
+    "id": "19",
+    "name": "DarkManV5",
+    "element": "Null",
+    "atk": 30,
+    "codes": [
+      "D"
+    ],
+    "mb": 88,
+    "description": "Creates 3 caves in enmy area"
+  },
+  {
+    "id": "20",
+    "name": "JapanMnV5",
+    "element": "Null",
+    "atk": 60,
+    "codes": [
+      "Y"
+    ],
+    "mb": 94,
+    "description": "Multiple attacks w/ spear"
+  }
+]

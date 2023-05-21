@@ -1,0 +1,702 @@
+[
+  {
+    "name": "SprArmor",
+    "color": ["Red"],
+    "description": "You won't get pushed back!",
+    "compression": "↑ → ↑ R ↑ ↓",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "  X  ",
+      "  XX ",
+      "  X- ",
+      "     "
+    ]
+  },
+  {
+    "name": "BrakBust",
+    "color": ["Red"],
+    "description": "MegaBuster pierces guards!",
+    "compression": "R A B ↓ L L",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "XXXX ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "BrakChrg",
+    "color": ["Orange", "Red"],
+    "description": "PwrAtks pierce guards!",
+    "compression": "B A ← L ↑ B",
+    "bug": "Modified Shot",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetGreen",
+    "color": ["Green"],
+    "description": "Changes panels to grass!",
+    "compression": "↓ R R ↓ B ←",
+    "bug": "Battle Panel Change",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetIce",
+    "color": ["Green"],
+    "description": "Changes panels to ice!",
+    "compression": "A ↑ A ↑ ← R",
+    "bug": "Battle Panel Change",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetLava",
+    "color": ["Green"],
+    "description": "Changes panels to lava!",
+    "compression": "B → → B R A",
+    "bug": "Battle Panel Change",
+    "layout": [
+      "  XX ",
+      "  XX ",
+      "  XX ",
+      "-XXX ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetSand",
+    "color": ["Green"],
+    "description": "Changes panels to sand!",
+    "compression": "← A A B ↑ ←",
+    "bug": "Battle Panel Change",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetMetal",
+    "color": ["Green"],
+    "description": "Changes panels to metal!",
+    "compression": "B R → → L L",
+    "bug": "Battle Panel Change",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SetHoly",
+    "color": ["Green"],
+    "description": "Changes panels to holy!",
+    "compression": "A B R R ← R",
+    "bug": "Battle Panel Change",
+    "layout": [
+      " XXX ",
+      " XXX ",
+      " XXX ",
+      "  X  ",
+      "  -  "
+    ]
+  },
+  {
+    "name": "Custom1",
+    "color": ["Yellow", "Blue"],
+    "description": "Can choose 1 more chip!",
+    "compression": "→ → → ↑ ← B",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      " X - ",
+      " XXX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Custom2",
+    "color": ["Blue"],
+    "description": "Can choose 2 more chip!",
+    "compression": "A ↓ ↑ ↓ R ↓",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      "   X ",
+      " -XX ",
+      " XXX ",
+      "     "
+    ]
+  },
+  {
+    "name": "MegFldr1",
+    "color": ["Pink", "Green"],
+    "description": "1 more MegaChip in folder!",
+    "compression": "→ R ↓ R L ←",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      "   - ",
+      "  XX ",
+      "  XX ",
+      "     "
+    ]
+  },
+  {
+    "name": "MegFldr2",
+    "color": ["Green"],
+    "description": "2 more MegaChip in folder!",
+    "compression": "A R ↓ ↓ → ←",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      " XXX ",
+      " XXX-",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Block",
+    "color": ["Blue"],
+    "description": "Half dmg w/ B Button+Left",
+    "compression": "↓ B ↑ ↓ A ←",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "  -  ",
+      "  X  ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Shield",
+    "color": ["Blue"],
+    "description": "Zero dmg w/ B Button+Left",
+    "compression": "← → ↓ R ↓ R",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "  X  ",
+      " -XX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Reflect",
+    "color": ["Blue"],
+    "description": "Return dmg w/ B Button+Left",
+    "compression": "B↑ A ← ← B",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      " X   ",
+      " X   ",
+      " XXX-",
+      "     "
+    ]
+  },
+  {
+    "name": "ShdwShoe",
+    "color": ["Red"],
+    "description": "Walk Safe on cracked blocks!",
+    "compression": "↑ ← → L ↑ R",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "  X  ",
+      " XX  ",
+      "  -  ",
+      "     "
+    ]
+  },
+  {
+    "name": "FlotShoe",
+    "color": ["Red"],
+    "description": "No effect from panel type!",
+    "compression": "← ↓ ← ↓ ← L",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "  X  ",
+      "XXXX ",
+      "  -  ",
+      "     "
+    ]
+  },
+  {
+    "name": "AntiDmg",
+    "color": ["Red"],
+    "description": "When hit, B Btn+Left hurls star",
+    "compression": "L ← R A → ↓",
+    "bug": "Player Movement",
+    "layout": [
+      " XXX ",
+      "  X  ",
+      " -X  ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "Press",
+    "color": ["White"],
+    "description": "Shrink in tight places!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "  XX ",
+      "  X  ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "EngyChng",
+    "color": ["White"],
+    "description": "Fire,water chips to energy!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "  X  ",
+      " XX  ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "Alpha",
+    "color": ["Pink"],
+    "description": "Find Alpha lurking in hallway!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "  XX ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "SneakRun",
+    "color": ["Yellow"],
+    "description": "Weak enemy stops appearing!",
+    "compression": "R L B ↓ ↓ ↓",
+    "bug": "Raised Encounter Rate",
+    "layout": [
+      "     ",
+      " XX  ",
+      " XX- ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "OilBody",
+    "color": ["Yellow"],
+    "description": "Attracts Fire viruses!",
+    "compression": "↑ → A A R ↑",
+    "bug": "Raised Encounter Rate",
+    "layout": [
+      "     ",
+      "  XX ",
+      " -XX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Fish",
+    "color": ["Pink"],
+    "description": "Attracts Aqua viruses!",
+    "compression": "L R ↓ ↑ ← →",
+    "bug": "Raised Encounter Rate",
+    "layout": [
+      "     ",
+      "  XX ",
+      " -XX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Battery",
+    "color": ["Yellow"],
+    "description": "Attracts Elec viruses!",
+    "compression": "→ R → R ← L",
+    "bug": "Raised Encounter Rate",
+    "layout": [
+      "     ",
+      "  XX ",
+      " -XX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Jungle",
+    "color": ["White"],
+    "description": "Attracts Wood viruses!",
+    "compression": "A R → B B A",
+    "bug": "Raised Encounter Rate",
+    "layout": [
+      "     ",
+      "  XX ",
+      " -XX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Collect",
+    "color": ["Pink"],
+    "description": "Find more chip data on enemies",
+    "compression": "B ↓ → R → →",
+    "bug": "Battle Result",
+    "layout": [
+      "     ",
+      " XX  ",
+      " XXX ",
+      "  -X ",
+      "     "
+    ]
+  },
+  {
+    "name": "AirShoes",
+    "color": ["White"],
+    "description": "Walk even if no panels!",
+    "compression": "↑ B B ↓ A R",
+    "bug": "Player Movement",
+    "layout": [
+      " X - ",
+      " X X ",
+      " XXX ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "UnderSht",
+    "color": ["White"],
+    "description": "Retain 1HP even on fatal hit!",
+    "compression": "← ↑ B L ← ↑",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "     ",
+      "  X- ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "FstGauge",
+    "color": ["Pink"],
+    "description": "Cust Gauge speeds up for battle",
+    "compression": "B ↓ A R ← R",
+    "bug": "Custom Gauge",
+    "layout": [
+      " -XX ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
+      "  X  "
+    ]
+  },
+  {
+    "name": "Rush",
+    "color": ["Yellow"],
+    "description": "VS only! Find invis opponent!",
+    "compression": "L A ↓ B B B",
+    "bug": "Support",
+    "layout": [
+      "     ",
+      "     ",
+      " -X  ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Beat",
+    "color": ["White"],
+    "description": "VS only! Take high lvl chips!",
+    "compression": "A ↓ A A R A",
+    "bug": "Support",
+    "layout": [
+      "     ",
+      " XX  ",
+      " -XX ",
+      " XXX ",
+      "     "
+    ]
+  },
+  {
+    "name": "Tango",
+    "color": ["Pink"],
+    "description": "VS only! Heals in a pinch!",
+    "compression": "A ↓ ← L L R",
+    "bug": "Support",
+    "layout": [
+      " XX  ",
+      "  X  ",
+      " -X  ",
+      " XX  ",
+      "     "
+    ]
+  },
+  {
+    "name": "BugStop",
+    "color": ["White"],
+    "description": "Stop occurance of bugs",
+    "compression": "B ↓ ↑ B ↓ B",
+    "bug": "Nothing",
+    "layout": [
+      " X   ",
+      " X   ",
+      " X   ",
+      " XXX-",
+      "     "
+    ]
+  },
+  {
+    "name": "Humor",
+    "color": ["Pink"],
+    "description": "Install and try L Button!",
+    "compression": "↑ R A ← → →",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "     ",
+      "  X  ",
+      "  -  ",
+      "     "
+    ]
+  },
+  {
+    "name": "BlckMind",
+    "color": ["White"],
+    "description": "Creates an evil disguise",
+    "compression": "→ ← → ↓ R ↓",
+    "bug": "Player Movement",
+    "layout": [
+      "     ",
+      "     ",
+      " XX- ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "BustrMAX",
+    "color": ["Pink"],
+    "description": "Maximizes MegaBuster abilities!",
+    "compression": "↓ A R R L ← ←",
+    "bug": "Auto Bug Chip Use",
+    "layout": [
+      "     ",
+      "  X  ",
+      " XXX ",
+      " -X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "GigFldr1",
+    "color": ["Purple"],
+    "description": "Hold 1 more GigaChip!",
+    "compression": "L ↓ A ↓ R B ↑",
+    "bug": "Auto Bug Swamp Panel",
+    "layout": [
+      "     ",
+      " XXX ",
+      "  X  ",
+      " XXX-",
+      "     "
+    ]
+  },
+  {
+    "name": "HubBatc",
+    "color": ["Orange"],
+    "description": "Become one with your Navi!",
+    "compression": "B ← A ↓ ↓ ↑ L",
+    "bug": "Auto Bug Half HP",
+    "layout": [
+      "     ",
+      " X-X ",
+      " XXX ",
+      " XXX ",
+      "     "
+    ]
+  },
+  {
+    "name": "DarkLcns",
+    "color": ["Dark"],
+    "description": "Connect with dark denizens!",
+    "compression": "R L R ↓ ← B R",
+    "bug": "Auto Bug Custom Chip",
+    "layout": [
+      "     ",
+      " XX  ",
+      " -XX ",
+      "   X ",
+      "     "
+    ]
+  },
+  {
+    "name": "WeaponLV+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "+1 to PwrAtks!",
+    "compression": "",
+    "bug": "Modified Shot",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "HP+100",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "Max HP +100!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "  ## ",
+      " ##  ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "HP+200",
+    "color": ["Pink", "Yellow"],
+    "description": "Max HP +200!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      " ##  ",
+      "     "
+    ]
+  },
+     {
+    "name": "HP+300",
+    "color": ["Pink", "Yellow"],
+    "description": "Max HP +300!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      " ### ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+    {
+    "name": "HP+500",
+    "color": ["Yellow"],
+    "description": "Max HP + 500",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "#####",
+      "# ###",
+      "     ",
+      "     "
+    ]
+  },
+      {
+    "name": "Reg+5",
+    "color": ["White", "Yellow"],
+    "description": "+5MB for chip capacity!",
+    "compression": "",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "Atk+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster atk +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      " ##  ",
+      "  #  ",
+      "     "
+    ]
+  },
+  {
+    "name": "Speed+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster speed +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      "  #  ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Charge+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster charge +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      "  #  ",
+      "     ",
+      "     "
+    ]
+  }
+]

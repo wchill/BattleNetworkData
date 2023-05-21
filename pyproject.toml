@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "mmbn-gamedata"
+authors = [
+    {name = "wchill"}
+]
+description = "Battle Network Game Data Library"
+requires-python = ">=3.8"
+version = "1.0"
+dependencies = [
+    "pillow"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "coverage.py"
+]
+
+[tool.setuptools]
+platforms = ["linux"]
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+py_version = 38
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
