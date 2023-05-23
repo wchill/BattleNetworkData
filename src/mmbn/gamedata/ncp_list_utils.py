@@ -72,7 +72,8 @@ def get_parts_by_color(
 
 def get_parts_by_name(all_parts: List[NaviCustPart], name: str) -> List[NaviCustPart]:
     retval = []
+    lower_name = name.lower()
     for ncp in all_parts:
-        if ncp.name.lower() == name.lower():
+        if ncp.name.lower() == lower_name:
             retval.append(ncp)
     return retval
