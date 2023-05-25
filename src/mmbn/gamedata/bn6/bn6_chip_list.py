@@ -17,17 +17,23 @@ UNTRADABLE_CHIPS = cast(List[BN6Chip], _BN6_CHIP_READER.get_untradable_chips())
 TRADABLE_STANDARD_CHIPS = cast(List[BN6Chip], _BN6_CHIP_READER.get_tradable_standard_chips())
 TRADABLE_MEGA_CHIPS = cast(List[BN6Chip], _BN6_CHIP_READER.get_tradable_mega_chips())
 TRADABLE_CHIPS = cast(List[BN6Chip], _BN6_CHIP_READER.get_tradable_chips())
+ILLEGAL_CHIPS = cast(List[BN6Chip], _BN6_CHIP_READER.get_illegal_chips())
 
 TRADABLE_CHIP_ORDER = {
     method: _BN6_CHIP_READER.calculate_sort_result(method, NOTHING, SENTINEL) for method in SORT_METHODS
 }
 TRADABLE_CHIP_INDEX = {(chip.name.lower(), chip.code): chip for chip in TRADABLE_CHIPS}
+ILLEGAL_CHIP_INDEX = {(chip.name.lower(), chip.code): chip for chip in ILLEGAL_CHIPS}
 
 CHIP_INDEX = {(chip.name.lower(), chip.code): chip for chip in ALL_CHIPS}
 
 
 def get_tradable_chip(name: str, code: Union[str, Code]) -> Optional[BN6Chip]:
     return get_chip_from_index(name, code, TRADABLE_CHIP_INDEX)
+
+
+def get_illegal_chip(name: str, code: Union[str, Code]) -> Optional[BN6Chip]:
+    return get_chip_from_index(name, code, ILLEGAL_CHIP_INDEX)
 
 
 def get_chip(name: str, code: Union[str, Code]) -> Optional[BN6Chip]:

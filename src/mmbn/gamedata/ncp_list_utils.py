@@ -25,6 +25,26 @@ def get_navicust_parts(game: int, make_func: Callable[[Dict[str, Any], int], Lis
     return retval
 
 
+def get_untradable_parts(
+    game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]
+) -> List[NaviCustPart]:
+    all_parts = get_navicust_parts(game, make_func)
+    data = pkgutil.get_data(__name__, f"bn{game}/data/untradable_navicust.json").decode("utf-8")
+    ncp_data = json.loads(data)
+    retval = []
+    all_parts_map = {(part.name, part.color.name): part for part in all_parts}
+    for part in ncp_data:
+        parts = part.split(" ")
+        retval.append(all_parts_map[(parts[0], parts[1])])
+    return retval
+
+
+def get_tradable_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
+    all_parts = get_navicust_parts(game, make_func)
+    untradable_parts = get_untradable_parts(game, make_func)
+    return sorted(set(all_parts) - set(untradable_parts))
+
+
 def create_ncp_index(
     game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]
 ) -> Dict[Tuple[str, ColorT], NaviCustPart]:

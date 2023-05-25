@@ -476,6 +476,132 @@
     ]
   },
   {
+    "name": "WeapLV+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "+1 to PwrAtks!",
+    "compression": "",
+    "bug": "Modified Shot",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "HP+100",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "Max HP +100!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "  ## ",
+      " ##  ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "HP+200",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "Max HP +200!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      " ##  ",
+      "     "
+    ]
+  },
+     {
+    "name": "HP+300",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "Max HP +300!",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      " ### ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+    {
+    "name": "HP+500",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "Max HP + 500",
+    "compression": "",
+    "bug": "Battle HP Drop",
+    "layout": [
+      "     ",
+      "#####",
+      "# ###",
+      "     ",
+      "     "
+    ]
+  },
+      {
+    "name": "Reg+5",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "+5MB for chip capacity!",
+    "compression": "",
+    "bug": "Custom Screen HP Drop",
+    "layout": [
+      "     ",
+      "     ",
+      " ### ",
+      "     ",
+      "     "
+    ]
+  },
+   {
+    "name": "Atk+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster atk +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      " ##  ",
+      "  #  ",
+      "     "
+    ]
+  },
+  {
+    "name": "Speed+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster speed +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      "  #  ",
+      "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "Charge+1",
+    "color": ["White", "Pink", "Yellow"],
+    "description": "MegaBuster charge +1!",
+    "compression": "",
+    "bug": "Weakened Buster",
+    "layout": [
+      "     ",
+      "     ",
+      "  #  ",
+      "     ",
+      "     "
+    ]
+  },
+    {
     "name": "BugStop",
     "color": ["White"],
     "description": "Stop occurance of bugs",
@@ -561,7 +687,9 @@
   },
   {
     "name": "DarkLcns",
-    "color": ["Dark"],
+    "color": [
+      "Dark"
+    ],
     "description": "Connect with dark denizens!",
     "compression": "R L R ↓ ← B R",
     "bug": "Auto Bug Custom Chip",
@@ -570,132 +698,6 @@
       " XX  ",
       " -XX ",
       "   X ",
-      "     "
-    ]
-  },
-  {
-    "name": "WeaponLV+1",
-    "color": ["White", "Pink", "Yellow"],
-    "description": "+1 to PwrAtks!",
-    "compression": "",
-    "bug": "Modified Shot",
-    "layout": [
-      "     ",
-      "     ",
-      " ### ",
-      "     ",
-      "     "
-    ]
-  },
-   {
-    "name": "HP+100",
-    "color": ["White", "Pink", "Yellow"],
-    "description": "Max HP +100!",
-    "compression": "",
-    "bug": "Battle HP Drop",
-    "layout": [
-      "     ",
-      "  ## ",
-      " ##  ",
-      "     ",
-      "     "
-    ]
-  },
-   {
-    "name": "HP+200",
-    "color": ["Pink", "Yellow"],
-    "description": "Max HP +200!",
-    "compression": "",
-    "bug": "Battle HP Drop",
-    "layout": [
-      "     ",
-      "     ",
-      " ### ",
-      " ##  ",
-      "     "
-    ]
-  },
-     {
-    "name": "HP+300",
-    "color": ["Pink", "Yellow"],
-    "description": "Max HP +300!",
-    "compression": "",
-    "bug": "Battle HP Drop",
-    "layout": [
-      "     ",
-      " ### ",
-      " ### ",
-      "     ",
-      "     "
-    ]
-  },
-    {
-    "name": "HP+500",
-    "color": ["Yellow"],
-    "description": "Max HP + 500",
-    "compression": "",
-    "bug": "Battle HP Drop",
-    "layout": [
-      "     ",
-      "#####",
-      "# ###",
-      "     ",
-      "     "
-    ]
-  },
-      {
-    "name": "Reg+5",
-    "color": ["White", "Yellow"],
-    "description": "+5MB for chip capacity!",
-    "compression": "",
-    "bug": "Custom Screen HP Drop",
-    "layout": [
-      "     ",
-      "     ",
-      " ### ",
-      "     ",
-      "     "
-    ]
-  },
-   {
-    "name": "Atk+1",
-    "color": ["White", "Pink", "Yellow"],
-    "description": "MegaBuster atk +1!",
-    "compression": "",
-    "bug": "Weakened Buster",
-    "layout": [
-      "     ",
-      "     ",
-      " ##  ",
-      "  #  ",
-      "     "
-    ]
-  },
-  {
-    "name": "Speed+1",
-    "color": ["White", "Pink", "Yellow"],
-    "description": "MegaBuster speed +1!",
-    "compression": "",
-    "bug": "Weakened Buster",
-    "layout": [
-      "     ",
-      "     ",
-      "  #  ",
-      "     ",
-      "     "
-    ]
-  },
-  {
-    "name": "Charge+1",
-    "color": ["White", "Pink", "Yellow"],
-    "description": "MegaBuster charge +1!",
-    "compression": "",
-    "bug": "Weakened Buster",
-    "layout": [
-      "     ",
-      "     ",
-      "  #  ",
-      "     ",
       "     "
     ]
   }

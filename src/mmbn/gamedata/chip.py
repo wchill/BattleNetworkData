@@ -107,11 +107,11 @@ class Chip:
         return hash((self.name, self.chip_id, self.code, self.element.value, self.atk, self.mb, self.chip_type))
 
     def __repr__(self) -> str:
-        if self.chip_type == 3:
+        if self.chip_type == Chip.NOTHING:
             return "Nothing"
         return f"{self.chip_id} - {self.name} {self.code} ({self.element.name}, {self.atk}, {self.mb}MB)"
 
     def __str__(self) -> str:
-        if self.chip_type == 3:
+        if self.chip_type == Chip.NOTHING:
             return "Nothing"
         return f"{self.name} {self.code}"

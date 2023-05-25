@@ -62,6 +62,7 @@ def _create_ncp_index() -> Dict[Tuple[str, ColorT], NaviCustPart]:
 
 
 ALL_PARTS = _get_navicust_parts()
+TRADABLE_PARTS = ncp_list_utils.get_tradable_parts(GAME, _make_bn3_part)
 NOTHING = NaviCustPart(
     "Nothing", BN3NaviCustPartColor.Nothing, "Nothing", "", BN3NaviCustBug.Nothing, ["     "] * 5, 999
 )

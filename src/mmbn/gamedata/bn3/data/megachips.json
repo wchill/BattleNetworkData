@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "01",
     "name": "Muramasa",
     "element": "Null",
     "atk": 1,
@@ -11,7 +11,7 @@
     "description": "Power=amount of HP lost!"
   },
   {
-    "id": "2",
+    "id": "02",
     "name": "HeroSwrd",
     "element": "Null",
     "atk": 180,
@@ -22,7 +22,7 @@
     "description": "Legendary swrd cuts 3 sq!"
   },
   {
-    "id": "3",
+    "id": "03",
     "name": "ZeusHamr",
     "element": "Null",
     "atk": 250,
@@ -33,18 +33,19 @@
     "description": "Damages anyone on a panel"
   },
   {
-    "id": "4",
+    "id": "04",
     "name": "StandOut",
     "element": "Heat",
     "atk": 220,
     "codes": [
-      "P"
+      "P",
+      "*"
     ],
     "mb": 22,
     "description": "Send Fire into hole"
   },
   {
-    "id": "5",
+    "id": "05",
     "name": "Salamndr",
     "element": "Heat",
     "atk": 300,
@@ -56,7 +57,7 @@
     "description": "Send Fire into hole"
   },
   {
-    "id": "6",
+    "id": "06",
     "name": "WatrLine",
     "element": "Aqua",
     "atk": 180,
@@ -68,7 +69,7 @@
     "description": "Draw wter from hole"
   },
   {
-    "id": "7",
+    "id": "07",
     "name": "Fountain",
     "element": "Aqua",
     "atk": 240,
@@ -80,8 +81,8 @@
     "description": "Draw wter from hole"
   },
   {
-    "id": "8",
-    "name": "Lightning",
+    "id": "08",
+    "name": "Ligtning",
     "element": "Elec",
     "atk": 160,
     "codes": [
@@ -92,7 +93,7 @@
     "description": "Dmgs object & area"
   },
   {
-    "id": "9",
+    "id": "09",
     "name": "Bolt",
     "element": "Elec",
     "atk": 210,
@@ -261,7 +262,7 @@
   },
   {
     "id": "24",
-    "name": "Roll V2",
+    "name": "RollV2",
     "element": "Null",
     "atk": 30,
     "codes": [
@@ -272,7 +273,7 @@
   },
   {
     "id": "25",
-    "name": "Roll V3",
+    "name": "RollV3",
     "element": "Null",
     "atk": 40,
     "codes": [
@@ -294,7 +295,7 @@
   },
   {
     "id": "27",
-    "name": "GutsMan V2",
+    "name": "GutsManV2",
     "element": "Null",
     "atk": 70,
     "codes": [
@@ -305,7 +306,7 @@
   },
   {
     "id": "28",
-    "name": "GutsMan V3",
+    "name": "GutsManV3",
     "element": "Null",
     "atk": 90,
     "codes": [
@@ -316,7 +317,7 @@
   },
   {
     "id": "29",
-    "name": "GutsMan V4",
+    "name": "GutsManV4",
     "element": "Null",
     "atk": 100,
     "codes": [
@@ -338,7 +339,7 @@
   },
   {
     "id": "31",
-    "name": "ProtoMn V2",
+    "name": "ProtoMnV2",
     "element": "Null",
     "atk": 180,
     "codes": [
@@ -349,7 +350,7 @@
   },
   {
     "id": "32",
-    "name": "ProtoMn V3",
+    "name": "ProtoMnV3",
     "element": "Null",
     "atk": 200,
     "codes": [
@@ -360,7 +361,7 @@
   },
   {
     "id": "33",
-    "name": "ProtoMn V4",
+    "name": "ProtoMnV4",
     "element": "Null",
     "atk": 220,
     "codes": [
@@ -382,7 +383,7 @@
   },
   {
     "id": "35",
-    "name": "FlashMn V2",
+    "name": "FlashMnV2",
     "element": "Elec",
     "atk": 70,
     "codes": [
@@ -393,7 +394,7 @@
   },
   {
     "id": "36",
-    "name": "FlashMn V3",
+    "name": "FlashMnV3",
     "element": "Elec",
     "atk": 90,
     "codes": [
@@ -404,7 +405,7 @@
   },
   {
     "id": "37",
-    "name": "FlashMn V4",
+    "name": "FlashMnV4",
     "element": "Elec",
     "atk": 120,
     "codes": [
@@ -426,7 +427,7 @@
   },
   {
     "id": "39",
-    "name": "BeastMn V2",
+    "name": "BeastMnV2",
     "element": "Null",
     "atk": 50,
     "codes": [
@@ -437,7 +438,7 @@
   },
   {
     "id": "40",
-    "name": "BeastMn V3",
+    "name": "BeastMnV3",
     "element": "Null",
     "atk": 60,
     "codes": [
@@ -448,7 +449,7 @@
   },
   {
     "id": "41",
-    "name": "BeastMn V4",
+    "name": "BeastMnV4",
     "element": "Null",
     "atk": 70,
     "codes": [
@@ -470,7 +471,7 @@
   },
   {
     "id": "43",
-    "name": "BubblMn V2",
+    "name": "BubblMnV2",
     "element": "Aqua",
     "atk": 20,
     "codes": [
@@ -481,7 +482,7 @@
   },
   {
     "id": "44",
-    "name": "BubblMn V3",
+    "name": "BubblMnV3",
     "element": "Aqua",
     "atk": 20,
     "codes": [
@@ -492,7 +493,7 @@
   },
   {
     "id": "45",
-    "name": "BubblMn V4",
+    "name": "BubblMnV4",
     "element": "Aqua",
     "atk": 20,
     "codes": [
@@ -514,7 +515,7 @@
   },
   {
     "id": "47",
-    "name": "DesrtMn V2",
+    "name": "DesrtMnV2",
     "element": "Null",
     "atk": 140,
     "codes": [
@@ -525,7 +526,7 @@
   },
   {
     "id": "48",
-    "name": "DesrtMn V3",
+    "name": "DesrtMnV3",
     "element": "Null",
     "atk": 160,
     "codes": [
@@ -536,7 +537,7 @@
   },
   {
     "id": "49",
-    "name": "DesrtMn V4",
+    "name": "DesrtMnV4",
     "element": "Null",
     "atk": 180,
     "codes": [
@@ -558,7 +559,7 @@
   },
   {
     "id": "51",
-    "name": "PlantMn V2",
+    "name": "PlantMnV2",
     "element": "Wood",
     "atk": 30,
     "codes": [
@@ -569,7 +570,7 @@
   },
   {
     "id": "52",
-    "name": "PlantMn V3",
+    "name": "PlantMnV3",
     "element": "Wood",
     "atk": 40,
     "codes": [
@@ -580,7 +581,7 @@
   },
   {
     "id": "53",
-    "name": "PlantMn V4",
+    "name": "PlantMnV4",
     "element": "Wood",
     "atk": 50,
     "codes": [
@@ -602,7 +603,7 @@
   },
   {
     "id": "55",
-    "name": "FlamMan V2",
+    "name": "FlamManV2",
     "element": "Heat",
     "atk": 150,
     "codes": [
@@ -613,7 +614,7 @@
   },
   {
     "id": "56",
-    "name": "FlamMan V3",
+    "name": "FlamManV3",
     "element": "Heat",
     "atk": 180,
     "codes": [
@@ -624,7 +625,7 @@
   },
   {
     "id": "57",
-    "name": "FlamMan V4",
+    "name": "FlamManV4",
     "element": "Heat",
     "atk": 210,
     "codes": [
@@ -646,7 +647,7 @@
   },
   {
     "id": "59",
-    "name": "DrillMn V2",
+    "name": "DrillMnV2",
     "element": "Null",
     "atk": 90,
     "codes": [
@@ -657,7 +658,7 @@
   },
   {
     "id": "60",
-    "name": "DrillMn V3",
+    "name": "DrillMnV3",
     "element": "Null",
     "atk": 110,
     "codes": [
@@ -668,7 +669,7 @@
   },
   {
     "id": "61",
-    "name": "DrillMn V4",
+    "name": "DrillMnV4",
     "element": "Null",
     "atk": 130,
     "codes": [
@@ -690,7 +691,7 @@
   },
   {
     "id": "63",
-    "name": "MetalMn V2",
+    "name": "MetalMnV2",
     "element": "Null",
     "atk": 130,
     "codes": [
@@ -701,7 +702,7 @@
   },
   {
     "id": "64",
-    "name": "MetalMn V3",
+    "name": "MetalMnV3",
     "element": "Null",
     "atk": 160,
     "codes": [
@@ -712,7 +713,7 @@
   },
   {
     "id": "65",
-    "name": "MetalMn V4",
+    "name": "MetalMnV4",
     "element": "Null",
     "atk": 190,
     "codes": [
@@ -734,7 +735,7 @@
   },
   {
     "id": "67",
-    "name": "KingMan V2",
+    "name": "KingManV2",
     "element": "Null",
     "atk": 170,
     "codes": [
@@ -745,7 +746,7 @@
   },
   {
     "id": "68",
-    "name": "KingMan V3",
+    "name": "KingManV3",
     "element": "Null",
     "atk": 200,
     "codes": [
@@ -756,7 +757,7 @@
   },
   {
     "id": "69",
-    "name": "KingMan V4",
+    "name": "KingManV4",
     "element": "Null",
     "atk": 240,
     "codes": [
@@ -778,7 +779,7 @@
   },
   {
     "id": "71",
-    "name": "MistMan V2",
+    "name": "MistManV2",
     "element": "Null",
     "atk": 110,
     "codes": [
@@ -789,7 +790,7 @@
   },
   {
     "id": "72",
-    "name": "MistMan V3",
+    "name": "MistManV3",
     "element": "Null",
     "atk": 130,
     "codes": [
@@ -800,7 +801,7 @@
   },
   {
     "id": "73",
-    "name": "MistMan V4",
+    "name": "MistManV4",
     "element": "Null",
     "atk": 150,
     "codes": [
@@ -822,7 +823,7 @@
   },
   {
     "id": "75",
-    "name": "BowlMan V2",
+    "name": "BowlManV2",
     "element": "Null",
     "atk": 120,
     "codes": [
@@ -833,7 +834,7 @@
   },
   {
     "id": "76",
-    "name": "BowlMan V3",
+    "name": "BowlManV3",
     "element": "Null",
     "atk": 140,
     "codes": [
@@ -844,7 +845,7 @@
   },
   {
     "id": "77",
-    "name": "BowlMan V4",
+    "name": "BowlManV4",
     "element": "Null",
     "atk": 160,
     "codes": [
@@ -866,7 +867,7 @@
   },
   {
     "id": "79",
-    "name": "DarkMan V2",
+    "name": "DarkManV2",
     "element": "Null",
     "atk": 30,
     "codes": [
@@ -877,7 +878,7 @@
   },
   {
     "id": "80",
-    "name": "DarkMan V3",
+    "name": "DarkManV3",
     "element": "Null",
     "atk": 30,
     "codes": [
@@ -888,7 +889,7 @@
   },
   {
     "id": "81",
-    "name": "DarkMan V4",
+    "name": "DarkManV4",
     "element": "Null",
     "atk": 30,
     "codes": [
@@ -910,7 +911,7 @@
   },
   {
     "id": "83",
-    "name": "JapanMn V2",
+    "name": "JapanMnV2",
     "element": "Null",
     "atk": 45,
     "codes": [
@@ -921,7 +922,7 @@
   },
   {
     "id": "84",
-    "name": "JapanMn V3",
+    "name": "JapanMnV3",
     "element": "Null",
     "atk": 50,
     "codes": [
@@ -932,7 +933,7 @@
   },
   {
     "id": "85",
-    "name": "JapanMn V4",
+    "name": "JapanMnV4",
     "element": "Null",
     "atk": 55,
     "codes": [

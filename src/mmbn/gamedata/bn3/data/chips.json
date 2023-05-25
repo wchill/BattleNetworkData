@@ -229,7 +229,8 @@
       "E",
       "F",
       "S",
-      "V"
+      "V",
+      "*"
     ],
     "mb": 22,
     "description": "Explodes 2 diag. squares"
@@ -244,7 +245,8 @@
       "E",
       "F",
       "G",
-      "R"
+      "R",
+      "*"
     ],
     "mb": 30,
     "description": "Explodes up, down on hit"
@@ -1264,8 +1266,8 @@
       "C",
       "F",
       "G",
-      "T",
-      "Z"
+      "K",
+      "W"
     ],
     "mb": 66,
     "description": "Fires if something behind"
@@ -1829,7 +1831,8 @@
       "C",
       "D",
       "K",
-      "Y"
+      "Y",
+      "*"
     ],
     "mb": 18,
     "description": "Gel atk steals a panel!"
@@ -2040,7 +2043,8 @@
       "E",
       "N",
       "R",
-      "Y"
+      "Y",
+      "*"
     ],
     "mb": 7,
     "description": "Destroys 3 panels in front"
@@ -2308,7 +2312,8 @@
       "P",
       "R",
       "T",
-      "V"
+      "V",
+      "*"
     ],
     "mb": 50,
     "description": "Recovers 150HP"
@@ -2385,7 +2390,8 @@
       "E",
       "J",
       "R",
-      "Y"
+      "Y",
+      "*"
     ],
     "mb": 40,
     "description": "CustGauge speeds up in battle"
@@ -2400,7 +2406,8 @@
       "C",
       "L",
       "R",
-      "Z"
+      "Z",
+      "*"
     ],
     "mb": 14,
     "description": "Confuses enemies if you are"
@@ -2522,7 +2529,7 @@
     "atk": 0,
     "codes": [
       "B",
-      "D",
+      "G",
       "I",
       "K",
       "R",
@@ -2864,7 +2871,8 @@
       "C",
       "Q",
       "U",
-      "W"
+      "W",
+      "*"
     ],
     "mb": 18,
     "description": "Changes all panls to sand"
@@ -2879,7 +2887,8 @@
       "G",
       "M",
       "O",
-      "S"
+      "S",
+      "*"
     ],
     "mb": 18,
     "description": "Changes all panls to metal"
