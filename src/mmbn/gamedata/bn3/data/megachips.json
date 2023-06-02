@@ -285,7 +285,7 @@
   {
     "id": "26",
     "name": "GutsMan",
-    "element": "Elec",
+    "element": "Null",
     "atk": 50,
     "codes": [
       "G"
