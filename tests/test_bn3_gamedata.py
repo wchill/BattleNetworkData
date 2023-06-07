@@ -29,3 +29,5 @@ class TestBN3GameData:
         assert len(bn3_ncp_list.get_parts_by_color("Red")) > 0
         assert bn3_ncp_list.get_ncp("SprArmor", "Red") is not None
         assert bn3_ncp_list.get_ncp("SprArmor", "Blue") is None
+
+        assert bn3_ncp_list.ILLEGAL_PARTS_INDEX.get("HP+200", "White") is not None
