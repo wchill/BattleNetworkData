@@ -63,11 +63,13 @@ def _create_ncp_index() -> Dict[Tuple[str, ColorT], NaviCustPart]:
 
 ALL_PARTS = _get_navicust_parts()
 TRADABLE_PARTS = ncp_list_utils.get_tradable_parts(GAME, _make_bn3_part)
+ILLEGAL_PARTS = ncp_list_utils.get_illegal_parts(GAME, _make_bn3_part)
 NOTHING = NaviCustPart(
     "Nothing", BN3NaviCustPartColor.Nothing, "Nothing", "", BN3NaviCustBug.Nothing, ["     "] * 5, 999
 )
 
-PARTS_INDEX = {(ncp.name.lower(), ncp.color): ncp for ncp in _get_navicust_parts()}
+PARTS_INDEX = {(ncp.name.lower(), ncp.color): ncp for ncp in ALL_PARTS}
+ILLEGAL_PARTS_INDEX = {(ncp.name.lower(), ncp.color): ncp for ncp in ILLEGAL_PARTS}
 
 
 def get_ncp(name: str, color: Union[BN3NaviCustPartColor, str]) -> Optional[NaviCustPart]:
