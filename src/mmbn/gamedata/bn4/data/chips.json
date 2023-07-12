@@ -1,0 +1,1972 @@
+[
+    {
+        "id": "001",
+        "name": "Cannon",
+        "element": "Null",
+        "atk": 40,
+        "codes": [
+            "A",
+            "B",
+            "C",
+            "*"
+        ],
+        "mb": 8,
+        "description": "Cannon to attack 1 enemy"
+    },
+    {
+        "id": "002",
+        "name": "HiCannon",
+        "element": "Null",
+        "atk": 80,
+        "codes": [
+            "C",
+            "D",
+            "E"
+        ],
+        "mb": 24,
+        "description": "Cannon to attack 1 enemy"
+    },
+    {
+        "id": "003",
+        "name": "M-Cannon",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "E",
+            "F",
+            "G"
+        ],
+        "mb": 40,
+        "description": "Cannon to attack 1 enemy"
+    },
+    {
+        "id": "004",
+        "name": "AirShot",
+        "element": "Wind",
+        "atk": 20,
+        "codes": [
+            "A",
+            "S",
+            "V",
+            "*"
+        ],
+        "mb": 6,
+        "description": "Knocks enemy back 1"
+    },
+    {
+        "id": "005",
+        "name": "Vulcan1",
+        "element": "Null",
+        "atk": 10,
+        "codes": [
+            "E",
+            "S",
+            "V",
+            "*"
+        ],
+        "mb": 6,
+        "description": "3-shot to pierce 1 panel!"
+    },
+    {
+        "id": "006",
+        "name": "Vulcan2",
+        "element": "Null",
+        "atk": 10,
+        "codes": [
+            "B",
+            "H",
+            "O"
+        ],
+        "mb": 18,
+        "description": "5-shot to pierce 1 panel!"
+    },
+    {
+        "id": "007",
+        "name": "Vulcan3",
+        "element": "Null",
+        "atk": 10,
+        "codes": [
+            "O",
+            "W",
+            "Y"
+        ],
+        "mb": 30,
+        "description": "7-shot to pierce 1 panel!"
+    },
+    {
+        "id": "008",
+        "name": "Spreader",
+        "element": "Null",
+        "atk": 30,
+        "codes": [
+            "L",
+            "M",
+            "N",
+            "*"
+        ],
+        "mb": 10,
+        "description": "Creates a large explosion"
+    },
+    {
+        "id": "009",
+        "name": "HeatShot",
+        "element": "Heat",
+        "atk": 40,
+        "codes": [
+            "B",
+            "C",
+            "D",
+            "*"
+        ],
+        "mb": 8,
+        "description": "Explodes 1 square behind"
+    },
+    {
+        "id": "010",
+        "name": "Heat-V",
+        "element": "Heat",
+        "atk": 70,
+        "codes": [
+            "C",
+            "D",
+            "E"
+        ],
+        "mb": 22,
+        "description": "Explodes 2 diag. squares"
+    },
+    {
+        "id": "011",
+        "name": "HeatSide",
+        "element": "Heat",
+        "atk": 100,
+        "codes": [
+            "D",
+            "E",
+            "F"
+        ],
+        "mb": 44,
+        "description": "Explodes up, down on hit"
+    },
+    {
+        "id": "012",
+        "name": "Bubbler",
+        "element": "Aqua",
+        "atk": 50,
+        "codes": [
+            "P",
+            "Q",
+            "R",
+            "*"
+        ],
+        "mb": 12,
+        "description": "Explodes 1 square behind"
+    },
+    {
+        "id": "013",
+        "name": "Bub-V",
+        "element": "Aqua",
+        "atk": 80,
+        "codes": [
+            "C",
+            "D",
+            "E"
+        ],
+        "mb": 22,
+        "description": "Explodes 2 diag. squares"
+    },
+    {
+        "id": "014",
+        "name": "BublSide",
+        "element": "Aqua",
+        "atk": 110,
+        "codes": [
+            "D",
+            "E",
+            "F"
+        ],
+        "mb": 44,
+        "description": "Explodes up, down on hit"
+    },
+    {
+        "id": "015",
+        "name": "Thunder1",
+        "element": "Elec",
+        "atk": 40,
+        "codes": [
+            "B",
+            "L",
+            "P",
+            "*"
+        ],
+        "mb": 7,
+        "description": "Paralyzing electric attack!"
+    },
+    {
+        "id": "016",
+        "name": "Thunder2",
+        "element": "Elec",
+        "atk": 60,
+        "codes": [
+            "H",
+            "P",
+            "S"
+        ],
+        "mb": 18,
+        "description": "Paralyzing electric attack!"
+    },
+    {
+        "id": "017",
+        "name": "Thunder3",
+        "element": "Elec",
+        "atk": 80,
+        "codes": [
+            "I",
+            "T",
+            "W"
+        ],
+        "mb": 33,
+        "description": "Paralyzing electric attack!"
+    },
+    {
+        "id": "018",
+        "name": "WideSht1",
+        "element": "Aqua",
+        "atk": 60,
+        "codes": [
+            "C",
+            "D",
+            "E",
+            "*"
+        ],
+        "mb": 10,
+        "description": "Fires 3sq shotgun blast!"
+    },
+    {
+        "id": "019",
+        "name": "WideSht2",
+        "element": "Aqua",
+        "atk": 80,
+        "codes": [
+            "L",
+            "M",
+            "N"
+        ],
+        "mb": 30,
+        "description": "Fires 3sq shotgun blast!"
+    },
+    {
+        "id": "020",
+        "name": "WideSht3",
+        "element": "Aqua",
+        "atk": 100,
+        "codes": [
+            "S",
+            "T",
+            "U"
+        ],
+        "mb": 50,
+        "description": "Fires 3sq shotgun blast!"
+    },
+    {
+        "id": "021",
+        "name": "FlmLine1",
+        "element": "Heat",
+        "atk": 70,
+        "codes": [
+            "F",
+            "G",
+            "H",
+            "*"
+        ],
+        "mb": 18,
+        "description": "Firebeam 2sq ahead 3sq long!"
+    },
+    {
+        "id": "022",
+        "name": "FlmLine2",
+        "element": "Heat",
+        "atk": 120,
+        "codes": [
+            "D",
+            "E",
+            "F"
+        ],
+        "mb": 26,
+        "description": "Firebeam 2sq ahead 3sq long!"
+    },
+    {
+        "id": "023",
+        "name": "FlmLine3",
+        "element": "Heat",
+        "atk": 170,
+        "codes": [
+            "J",
+            "K",
+            "L"
+        ],
+        "mb": 54,
+        "description": "Firebeam 2sq ahead 3sq long!"
+    },
+    {
+        "id": "024",
+        "name": "GunSol1",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "A",
+            "G",
+            "M",
+            "*"
+        ],
+        "mb": 15,
+        "description": "Sunshine appear w/ Button"
+    },
+    {
+        "id": "025",
+        "name": "GunSol2",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "B",
+            "G",
+            "S"
+        ],
+        "mb": 25,
+        "description": "Sunshine appear w/ Button"
+    },
+    {
+        "id": "026",
+        "name": "GunSol3",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "C",
+            "G",
+            "T"
+        ],
+        "mb": 35,
+        "description": "Sunshine appear w/ Button"
+    },
+    {
+        "id": "027",
+        "name": "Blizzard",
+        "element": "Aqua",
+        "atk": 100,
+        "codes": [
+            "H",
+            "J",
+            "V"
+        ],
+        "mb": 26,
+        "description": "Snowstorm attack! Ice Panel"
+    },
+    {
+        "id": "028",
+        "name": "HeatBrth",
+        "element": "Heat",
+        "atk": 90,
+        "codes": [
+            "D",
+            "K",
+            "O",
+            "*"
+        ],
+        "mb": 30,
+        "description": "Magma Firestorm attack!"
+    },
+    {
+        "id": "029",
+        "name": "ElecShok",
+        "element": "Elec",
+        "atk": 80,
+        "codes": [
+            "J",
+            "L",
+            "S",
+            "*"
+        ],
+        "mb": 40,
+        "description": "Cracker Electric blast"
+    },
+    {
+        "id": "030",
+        "name": "WoodPwdr",
+        "element": "Wood",
+        "atk": 100,
+        "codes": [
+            "F",
+            "T",
+            "W",
+            "*"
+        ],
+        "mb": 40,
+        "description": "Changes panels to grass"
+    },
+    {
+        "id": "031",
+        "name": "SandRing",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "C",
+            "R",
+            "S",
+            "*"
+        ],
+        "mb": 8,
+        "description": "Opens a pitfall trap"
+    },
+    {
+        "id": "032",
+        "name": "TwnFng1",
+        "element": "Null",
+        "atk": 70,
+        "codes": [
+            "A",
+            "B",
+            "C",
+            "*"
+        ],
+        "mb": 13,
+        "description": "Launch 2 fangs up and down"
+    },
+    {
+        "id": "033",
+        "name": "TwnFng2",
+        "element": "Null",
+        "atk": 100,
+        "codes": [
+            "O",
+            "P",
+            "Q"
+        ],
+        "mb": 26,
+        "description": "Launch 2 fangs up and down"
+    },
+    {
+        "id": "034",
+        "name": "TwnFng3",
+        "element": "Null",
+        "atk": 130,
+        "codes": [
+            "F",
+            "G",
+            "H"
+        ],
+        "mb": 39,
+        "description": "Launch 2 fangs up and down"
+    },
+    {
+        "id": "035",
+        "name": "ElemFlar",
+        "element": "Heat",
+        "atk": 100,
+        "codes": [
+            "K",
+            "N",
+            "P"
+        ],
+        "mb": 24,
+        "description": "3-sq atk Powerful on magma!"
+    },
+    {
+        "id": "036",
+        "name": "ElemIce",
+        "element": "Aqua",
+        "atk": 100,
+        "codes": [
+            "H",
+            "Q",
+            "V"
+        ],
+        "mb": 24,
+        "description": "3-sq atk Powerful on ice"
+    },
+    {
+        "id": "037",
+        "name": "ElemLeaf",
+        "element": "Wood",
+        "atk": 80,
+        "codes": [
+            "C",
+            "D",
+            "I"
+        ],
+        "mb": 24,
+        "description": "3-sq atk Powerful on grass"
+    },
+    {
+        "id": "038",
+        "name": "ElemSand",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "A",
+            "L",
+            "S",
+            "*"
+        ],
+        "mb": 24,
+        "description": "3-sq atk Powerful on pitfall"
+    },
+    {
+        "id": "039",
+        "name": "MagBolt1",
+        "element": "Elec",
+        "atk": 90,
+        "codes": [
+            "B",
+            "C",
+            "D"
+        ],
+        "mb": 18,
+        "description": "Shocks an enemy ahead"
+    },
+    {
+        "id": "040",
+        "name": "MagBolt2",
+        "element": "Elec",
+        "atk": 110,
+        "codes": [
+            "E",
+            "F",
+            "G"
+        ],
+        "mb": 28,
+        "description": "Shocks an enemy ahead"
+    },
+    {
+        "id": "041",
+        "name": "MagBolt3",
+        "element": "Elec",
+        "atk": 130,
+        "codes": [
+            "A",
+            "B",
+            "C"
+        ],
+        "mb": 38,
+        "description": "Shocks an enemy ahead"
+    },
+    {
+        "id": "042",
+        "name": "Tornado",
+        "element": "Wind",
+        "atk": 20,
+        "codes": [
+            "E",
+            "L",
+            "T"
+        ],
+        "mb": 22,
+        "description": "Creates 8 whirlwind ahead"
+    },
+    {
+        "id": "043",
+        "name": "Static",
+        "element": "Wind",
+        "atk": 20,
+        "codes": [
+            "B",
+            "G",
+            "Z",
+            "*"
+        ],
+        "mb": 30,
+        "description": "A static blast 2sq ahead"
+    },
+    {
+        "id": "044",
+        "name": "MiniBomb",
+        "element": "Null",
+        "atk": 50,
+        "codes": [
+            "B",
+            "L",
+            "T",
+            "*"
+        ],
+        "mb": 5,
+        "description": "Throws a bomb 3 squares"
+    },
+    {
+        "id": "045",
+        "name": "EnergBom",
+        "element": "Null",
+        "atk": 40,
+        "codes": [
+            "E",
+            "N",
+            "T",
+            "*"
+        ],
+        "mb": 11,
+        "description": "Throws bomb 3sq ahead"
+    },
+    {
+        "id": "046",
+        "name": "MegEnBom",
+        "element": "Null",
+        "atk": 60,
+        "codes": [
+            "D",
+            "J",
+            "W"
+        ],
+        "mb": 30,
+        "description": "Throws bomb 3sq ahead"
+    },
+    {
+        "id": "047",
+        "name": "Ball",
+        "element": "Break",
+        "atk": 140,
+        "codes": [
+            "B",
+            "T",
+            "V",
+            "*"
+        ],
+        "mb": 30,
+        "description": "Breaks 3rd panel ahead"
+    },
+    {
+        "id": "048",
+        "name": "BlkBomb",
+        "element": "Heat",
+        "atk": 210,
+        "codes": [
+            "D",
+            "H",
+            "Z"
+        ],
+        "mb": 55,
+        "description": "Firebomb hits 3rd sq ahead!"
+    },
+    {
+        "id": "049",
+        "name": "Geyser",
+        "element": "Aqua",
+        "atk": 200,
+        "codes": [
+            "B",
+            "L",
+            "V"
+        ],
+        "mb": 38,
+        "description": "Geyser 3 squares forward"
+    },
+    {
+        "id": "050",
+        "name": "BugBomb",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "B",
+            "G",
+            "Z",
+            "*"
+        ],
+        "mb": 30,
+        "description": "Throws a bug-bomb 3sq ahead"
+    },
+    {
+        "id": "051",
+        "name": "Binder1",
+        "element": "Null",
+        "atk": 60,
+        "codes": [
+            "C",
+            "O",
+            "S",
+            "*"
+        ],
+        "mb": 10,
+        "description": "Fires a sonic blast"
+    },
+    {
+        "id": "052",
+        "name": "Binder2",
+        "element": "Null",
+        "atk": 80,
+        "codes": [
+            "A",
+            "T",
+            "Y"
+        ],
+        "mb": 17,
+        "description": "Fires a sonic blast"
+    },
+    {
+        "id": "053",
+        "name": "Binder3",
+        "element": "Null",
+        "atk": 100,
+        "codes": [
+            "E",
+            "I",
+            "O"
+        ],
+        "mb": 24,
+        "description": "Fires a sonic blast"
+    },
+    {
+        "id": "054",
+        "name": "Sword",
+        "element": "Sword",
+        "atk": 80,
+        "codes": [
+            "E",
+            "L",
+            "S"
+        ],
+        "mb": 9,
+        "description": "Cuts enmy in front! Range: 1"
+    },
+    {
+        "id": "055",
+        "name": "WideSwrd",
+        "element": "Sword",
+        "atk": 80,
+        "codes": [
+            "E",
+            "L",
+            "S"
+        ],
+        "mb": 16,
+        "description": "Cuts enmy in front! Range: 3"
+    },
+    {
+        "id": "056",
+        "name": "LongSwrd",
+        "element": "Sword",
+        "atk": 80,
+        "codes": [
+            "E",
+            "L",
+            "S"
+        ],
+        "mb": 25,
+        "description": "Cuts enmy in front! Range: 2"
+    },
+    {
+        "id": "057",
+        "name": "WideBlde",
+        "element": "Sword",
+        "atk": 130,
+        "codes": [
+            "C",
+            "K",
+            "S"
+        ],
+        "mb": 38,
+        "description": "Cuts enmy in front! Range: 3"
+    },
+    {
+        "id": "058",
+        "name": "LongBlde",
+        "element": "Sword",
+        "atk": 130,
+        "codes": [
+            "G",
+            "R",
+            "S"
+        ],
+        "mb": 40,
+        "description": "Cuts enmy in front! Range: 2"
+    },
+    {
+        "id": "059",
+        "name": "CustSwrd",
+        "element": "Sword",
+        "atk": 1,
+        "codes": [
+            "B",
+            "P",
+            "S"
+        ],
+        "mb": 20,
+        "description": "Cust Gauge = Atk Str"
+    },
+    {
+        "id": "060",
+        "name": "VarSwrd",
+        "element": "Sword",
+        "atk": 150,
+        "codes": [
+            "C",
+            "J",
+            "V"
+        ],
+        "mb": 60,
+        "description": "A magical shifting sword"
+    },
+    {
+        "id": "061",
+        "name": "Slasher",
+        "element": "Sword",
+        "atk": 240,
+        "codes": [
+            "F",
+            "H",
+            "R"
+        ],
+        "mb": 18,
+        "description": "Cut while A Button is held!"
+    },
+    {
+        "id": "062",
+        "name": "WindRack",
+        "element": "Wind",
+        "atk": 100,
+        "codes": [
+            "A",
+            "L",
+            "R",
+            "*"
+        ],
+        "mb": 23,
+        "description": "Blow enmy in front! Range: 3"
+    },
+    {
+        "id": "063",
+        "name": "AirHoc1",
+        "element": "Break",
+        "atk": 50,
+        "codes": [
+            "D",
+            "E",
+            "F",
+            "*"
+        ],
+        "mb": 20,
+        "description": "Ricochet attack to right"
+    },
+    {
+        "id": "064",
+        "name": "AirHoc2",
+        "element": "Break",
+        "atk": 60,
+        "codes": [
+            "I",
+            "J",
+            "K"
+        ],
+        "mb": 30,
+        "description": "Ricochet attack to right"
+    },
+    {
+        "id": "065",
+        "name": "AirHoc3",
+        "element": "Break",
+        "atk": 70,
+        "codes": [
+            "U",
+            "V",
+            "W"
+        ],
+        "mb": 40,
+        "description": "Ricochet attack to right"
+    },
+    {
+        "id": "066",
+        "name": "Counter1",
+        "element": "Null",
+        "atk": 70,
+        "codes": [
+            "F",
+            "M",
+            "T",
+            "*"
+        ],
+        "mb": 14,
+        "description": "Counter-attack to enemy"
+    },
+    {
+        "id": "067",
+        "name": "Counter2",
+        "element": "Null",
+        "atk": 110,
+        "codes": [
+            "B",
+            "H",
+            "L",
+            "*"
+        ],
+        "mb": 28,
+        "description": "Counter-attack to enemy"
+    },
+    {
+        "id": "068",
+        "name": "Counter3",
+        "element": "Null",
+        "atk": 150,
+        "codes": [
+            "A",
+            "N",
+            "V"
+        ],
+        "mb": 42,
+        "description": "Counter-attack to enemy"
+    },
+    {
+        "id": "069",
+        "name": "Boomer1",
+        "element": "Wood",
+        "atk": 60,
+        "codes": [
+            "L",
+            "M",
+            "N"
+        ],
+        "mb": 16,
+        "description": "Boomerang encircles field"
+    },
+    {
+        "id": "070",
+        "name": "Boomer2",
+        "element": "Wood",
+        "atk": 80,
+        "codes": [
+            "L",
+            "M",
+            "N"
+        ],
+        "mb": 28,
+        "description": "Boomerang encircles field"
+    },
+    {
+        "id": "071",
+        "name": "Boomer3",
+        "element": "Wood",
+        "atk": 100,
+        "codes": [
+            "S",
+            "T",
+            "U"
+        ],
+        "mb": 40,
+        "description": "Boomerang encircles field"
+    },
+    {
+        "id": "072",
+        "name": "SidBmbo1",
+        "element": "Wood",
+        "atk": 80,
+        "codes": [
+            "B",
+            "I",
+            "R",
+            "*"
+        ],
+        "mb": 14,
+        "description": "Lance attck 3sq ahead"
+    },
+    {
+        "id": "073",
+        "name": "SidBmbo2",
+        "element": "Wood",
+        "atk": 110,
+        "codes": [
+            "H",
+            "O",
+            "S"
+        ],
+        "mb": 22,
+        "description": "Lance attck 3sq ahead"
+    },
+    {
+        "id": "074",
+        "name": "SidBmbo3",
+        "element": "Wood",
+        "atk": 140,
+        "codes": [
+            "A",
+            "F",
+            "U"
+        ],
+        "mb": 30,
+        "description": "Lance attck 3sq ahead"
+    },
+    {
+        "id": "075",
+        "name": "Lance",
+        "element": "Wood",
+        "atk": 130,
+        "codes": [
+            "A",
+            "G",
+            "R",
+            "*"
+        ],
+        "mb": 42,
+        "description": "Lances through back line"
+    },
+    {
+        "id": "076",
+        "name": "WhitWeb1",
+        "element": "Wood",
+        "atk": 40,
+        "codes": [
+            "D",
+            "L",
+            "R",
+            "*"
+        ],
+        "mb": 26,
+        "description": "Stretches web over enmy area"
+    },
+    {
+        "id": "077",
+        "name": "WhitWeb2",
+        "element": "Wood",
+        "atk": 40,
+        "codes": [
+            "C",
+            "E",
+            "Y",
+            "*"
+        ],
+        "mb": 36,
+        "description": "Stretches web on enmy area"
+    },
+    {
+        "id": "078",
+        "name": "WhitWeb3",
+        "element": "Wood",
+        "atk": 40,
+        "codes": [
+            "K",
+            "O",
+            "V",
+            "*"
+        ],
+        "mb": 46,
+        "description": "Stretches web under enmy area"
+    },
+    {
+        "id": "079",
+        "name": "MokoRus1",
+        "element": "Null",
+        "atk": 60,
+        "codes": [
+            "C",
+            "I",
+            "M"
+        ],
+        "mb": 14,
+        "description": "3 Molokos charge the enemy"
+    },
+    {
+        "id": "080",
+        "name": "MokoRus2",
+        "element": "Null",
+        "atk": 90,
+        "codes": [
+            "G",
+            "K",
+            "U"
+        ],
+        "mb": 28,
+        "description": "3 Molokos charge the enemy"
+    },
+    {
+        "id": "081",
+        "name": "MokoRus3",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "O",
+            "T",
+            "Y"
+        ],
+        "mb": 42,
+        "description": "3 Molokos charge the enemy"
+    },
+    {
+        "id": "082",
+        "name": "CircGun1",
+        "element": "Null",
+        "atk": 80,
+        "codes": [
+            "H",
+            "T",
+            "Z"
+        ],
+        "mb": 28,
+        "description": "Stop site w/ Button and attck"
+    },
+    {
+        "id": "083",
+        "name": "CircGun2",
+        "element": "Null",
+        "atk": 100,
+        "codes": [
+            "D",
+            "G",
+            "T"
+        ],
+        "mb": 40,
+        "description": "Stop site w/ Button and attck"
+    },
+    {
+        "id": "084",
+        "name": "CircGun3",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "J",
+            "M",
+            "R"
+        ],
+        "mb": 52,
+        "description": "Stop site w/ Button and attck"
+    },
+    {
+        "id": "085",
+        "name": "Snake",
+        "element": "Null",
+        "atk": 20,
+        "codes": [
+            "D",
+            "M",
+            "R"
+        ],
+        "mb": 60,
+        "description": "Snake from hole in area"
+    },
+    {
+        "id": "086",
+        "name": "Magnum",
+        "element": "",
+        "atk": 130,
+        "codes": [
+            "H",
+            "Q",
+            "V"
+        ],
+        "mb": 52,
+        "description": "Cursor destroys panel!"
+    },
+    {
+        "id": "087",
+        "name": "BigHamr1",
+        "element": "Break",
+        "atk": 160,
+        "codes": [
+            "B",
+            "O",
+            "R"
+        ],
+        "mb": 22,
+        "description": "Hammr atk smashes in front!"
+    },
+    {
+        "id": "088",
+        "name": "BigHamr2",
+        "element": "Break",
+        "atk": 220,
+        "codes": [
+            "G",
+            "J",
+            "W"
+        ],
+        "mb": 33,
+        "description": "Hammr atk smashes in front!"
+    },
+    {
+        "id": "089",
+        "name": "BigHamr3",
+        "element": "Break",
+        "atk": 280,
+        "codes": [
+            "D",
+            "V",
+            "Z"
+        ],
+        "mb": 44,
+        "description": "Hammr atk smashes in front!"
+    },
+    {
+        "id": "090",
+        "name": "BoyBomb1",
+        "element": "Obstacle",
+        "atk": 220,
+        "codes": [
+            "E",
+            "J",
+            "M"
+        ],
+        "mb": 30,
+        "description": "Places BoyBom in your area"
+    },
+    {
+        "id": "091",
+        "name": "BoyBomb2",
+        "element": "Obstacle",
+        "atk": 250,
+        "codes": [
+            "I",
+            "S",
+            "W"
+        ],
+        "mb": 40,
+        "description": "Places BoyBom in your area"
+    },
+    {
+        "id": "092",
+        "name": "BoyBomb3",
+        "element": "Obstacle",
+        "atk": 280,
+        "codes": [
+            "G",
+            "T",
+            "V"
+        ],
+        "mb": 50,
+        "description": "Places BoyBom in your area"
+    },
+    {
+        "id": "093",
+        "name": "TimeBomb",
+        "element": "Obstacle",
+        "atk": 150,
+        "codes": [
+            "J",
+            "K",
+            "L"
+        ],
+        "mb": 55,
+        "description": "An area-wide time bomb"
+    },
+    {
+        "id": "094",
+        "name": "Mine",
+        "element": "Obstacle",
+        "atk": 300,
+        "codes": [
+            "C",
+            "H",
+            "Z"
+        ],
+        "mb": 42,
+        "description": "Places a mine in enmy area"
+    },
+    {
+        "id": "095",
+        "name": "RockCube",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 6,
+        "description": "Places a rock cube in front"
+    },
+    {
+        "id": "096",
+        "name": "Wind",
+        "element": "Wind",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 10,
+        "description": "WindBox blows at enmy area"
+    },
+    {
+        "id": "097",
+        "name": "Fan",
+        "element": "Wind",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 10,
+        "description": "VacuumFan pulls enemies"
+    },
+    {
+        "id": "098",
+        "name": "Fanfare",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "E",
+            "G",
+            "N",
+            "*"
+        ],
+        "mb": 20,
+        "description": "Take no dmg for a while"
+    },
+    {
+        "id": "099",
+        "name": "Discord",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "D",
+            "T",
+            "V",
+            "*"
+        ],
+        "mb": 20,
+        "description": "Confuses enemies w/ music"
+    },
+    {
+        "id": "100",
+        "name": "Timpani",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "P",
+            "T",
+            "Z",
+            "*"
+        ],
+        "mb": 20,
+        "description": "Paralyzes enemies w/ music"
+    },
+    {
+        "id": "101",
+        "name": "Silence",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "C",
+            "M",
+            "R",
+            "*"
+        ],
+        "mb": 20,
+        "description": "MuteAnt to blind enemy"
+    },
+    {
+        "id": "102",
+        "name": "VDoll",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "I",
+            "O",
+            "Y"
+        ],
+        "mb": 58,
+        "description": " Throws VDoll ahead"
+    },
+    {
+        "id": "103",
+        "name": "Guard1",
+        "element": "Null",
+        "atk": 50,
+        "codes": [
+            "A",
+            "L",
+            "V",
+            "*"
+        ],
+        "mb": 4,
+        "description": "Repels enemy's attack"
+    },
+    {
+        "id": "104",
+        "name": "Guard2",
+        "element": "Null",
+        "atk": 80,
+        "codes": [
+            "C",
+            "G",
+            "P",
+            "*"
+        ],
+        "mb": 10,
+        "description": "Repels enemy's attack"
+    },
+    {
+        "id": "105",
+        "name": "Guard3",
+        "element": "Null",
+        "atk": 110,
+        "codes": [
+            "F",
+            "R",
+            "T",
+            "*"
+        ],
+        "mb": 16,
+        "description": "Repels enemy's attack"
+    },
+    {
+        "id": "106",
+        "name": "CrakOut",
+        "element": "",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 4,
+        "description": "Destroys 1 panel in front"
+    },
+    {
+        "id": "107",
+        "name": "DublCrak",
+        "element": "",
+        "atk": 0,
+        "codes": [
+            "B",
+            "L",
+            "R",
+            "*"
+        ],
+        "mb": 7,
+        "description": "Destroys 2 panels in front"
+    },
+    {
+        "id": "108",
+        "name": "TripCrak",
+        "element": "",
+        "atk": 0,
+        "codes": [
+            "B",
+            "L",
+            "R",
+            "*"
+        ],
+        "mb": 10,
+        "description": "Destroys 3 panels in front"
+    },
+    {
+        "id": "109",
+        "name": "Recov10",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "A",
+            "L",
+            "N",
+            "*"
+        ],
+        "mb": 8,
+        "description": "Recovers 10HP"
+    },
+    {
+        "id": "110",
+        "name": "Recov30",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "F",
+            "H",
+            "R",
+            "*"
+        ],
+        "mb": 16,
+        "description": "Recovers 30HP"
+    },
+    {
+        "id": "111",
+        "name": "Recov50",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "E",
+            "L",
+            "S",
+            "*"
+        ],
+        "mb": 24,
+        "description": "Recovers 50HP"
+    },
+    {
+        "id": "112",
+        "name": "Recov80",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "B",
+            "J",
+            "O",
+            "*"
+        ],
+        "mb": 32,
+        "description": "Recovers 80HP"
+    },
+    {
+        "id": "113",
+        "name": "Recov120",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "F",
+            "J",
+            "Q",
+            "*"
+        ],
+        "mb": 40,
+        "description": "Recovers 120HP"
+    },
+    {
+        "id": "114",
+        "name": "Recov150",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "C",
+            "T",
+            "Z"
+        ],
+        "mb": 48,
+        "description": "Recovers 150HP"
+    },
+    {
+        "id": "115",
+        "name": "Recov200",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "H",
+            "M",
+            "W"
+        ],
+        "mb": 56,
+        "description": "Recovers 200HP"
+    },
+    {
+        "id": "116",
+        "name": "Recov300",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "J",
+            "?"
+        ],
+        "mb": null,
+        "description": "Recovers 300HP"
+    },
+    {
+        "id": "117",
+        "name": "Repair",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "I",
+            "P",
+            "R",
+            "*"
+        ],
+        "mb": 5,
+        "description": "Recovers HP of items"
+    },
+    {
+        "id": "118",
+        "name": "PanlGrab",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "K",
+            "O",
+            "Y",
+            "*"
+        ],
+        "mb": 6,
+        "description": "Steals 1 enemy square!"
+    },
+    {
+        "id": "119",
+        "name": "AreaGrab",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "E",
+            "M",
+            "S",
+            "*"
+        ],
+        "mb": 8,
+        "description": "Steals left edge from enmy"
+    },
+    {
+        "id": "120",
+        "name": "MetaGel",
+        "element": "Aqua",
+        "atk": 120,
+        "codes": [
+            "K",
+            "T",
+            "Z"
+        ],
+        "mb": 52,
+        "description": "Gel attck steals a panel!"
+    },
+    {
+        "id": "121",
+        "name": "GrabBnsh",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "E",
+            "K",
+            "P"
+        ],
+        "mb": 24,
+        "description": "Retaliate stolen panels!"
+    },
+    {
+        "id": "122",
+        "name": "GrabRvng",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "D",
+            "J",
+            "N"
+        ],
+        "mb": 48,
+        "description": "Retaliate stolen panels!"
+    },
+    {
+        "id": "123",
+        "name": "PnlRetrn",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 14,
+        "description": "Fix your area's panels"
+    },
+    {
+        "id": "124",
+        "name": "Geddon1",
+        "element": "",
+        "atk": 0,
+        "codes": [
+            "J",
+            "K",
+            "W"
+        ],
+        "mb": 34,
+        "description": "Cracks all panel on screen"
+    },
+    {
+        "id": "125",
+        "name": "Geddon2",
+        "element": "",
+        "atk": 0,
+        "codes": [
+            "N",
+            "T",
+            "Y"
+        ],
+        "mb": 47,
+        "description": "Breaks all empty panels"
+    },
+    {
+        "id": "126",
+        "name": "Geddon3",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "H",
+            "Q",
+            "U"
+        ],
+        "mb": 62,
+        "description": "Turns all panels to swamp"
+    },
+    {
+        "id": "127",
+        "name": "SloGauge",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "E",
+            "H",
+            "V",
+            "*"
+        ],
+        "mb": 22,
+        "description": "CustGauge Temporary slow-down"
+    },
+    {
+        "id": "128",
+        "name": "FstGauge",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "I",
+            "Q",
+            "U",
+            "*"
+        ],
+        "mb": 32,
+        "description": "CustGauge Temporary speed-up"
+    },
+    {
+        "id": "129",
+        "name": "Blinder",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 9,
+        "description": "Blinds enemy w/ light"
+    },
+    {
+        "id": "130",
+        "name": "NrthWind",
+        "element": "Wind",
+        "atk": 0,
+        "codes": [
+            "E",
+            "N",
+            "T",
+            "*"
+        ],
+        "mb": 33,
+        "description": "Wind blws off aura, barriers"
+    },
+    {
+        "id": "131",
+        "name": "HolyPanl",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 24,
+        "description": "Creates a HolyPanl in front"
+    },
+    {
+        "id": "132",
+        "name": "Hole",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 23,
+        "description": "Appears Hole in front"
+    },
+    {
+        "id": "133",
+        "name": "Invis",
+        "element": "Invis",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 12,
+        "description": "Invisible for a while"
+    },
+    {
+        "id": "134",
+        "name": "PopUp",
+        "element": "Invis",
+        "atk": 0,
+        "codes": [
+            "J",
+            "P",
+            "Y",
+            "*"
+        ],
+        "mb": 21,
+        "description": "Attacks frm under ground"
+    },
+    {
+        "id": "135",
+        "name": "Barrier",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "A",
+            "D",
+            "Z",
+            "*"
+        ],
+        "mb": 7,
+        "description": "Nullifies 10 HP of damage"
+    },
+    {
+        "id": "136",
+        "name": "Barr100",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "P",
+            "Q",
+            "W"
+        ],
+        "mb": 27,
+        "description": "Nullifies 100 HP of damage"
+    },
+    {
+        "id": "137",
+        "name": "Barr200",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "I",
+            "O",
+            "U"
+        ],
+        "mb": 47,
+        "description": "Nullifies 200 HP of damage"
+    },
+    {
+        "id": "138",
+        "name": "AntiFire",
+        "element": "Heat",
+        "atk": 200,
+        "codes": [
+            "K"
+        ],
+        "mb": 58,
+        "description": "Fire atk damages you"
+    },
+    {
+        "id": "139",
+        "name": "AntiWatr",
+        "element": "Aqua",
+        "atk": 200,
+        "codes": [
+            "D"
+        ],
+        "mb": 54,
+        "description": "Water atk damages you"
+    },
+    {
+        "id": "140",
+        "name": "AntiElec",
+        "element": "Elec",
+        "atk": 200,
+        "codes": [
+            "H"
+        ],
+        "mb": 59,
+        "description": "Elec atk damages you"
+    },
+    {
+        "id": "141",
+        "name": "AntiWood",
+        "element": "Wood",
+        "atk": 200,
+        "codes": [
+            "M"
+        ],
+        "mb": 55,
+        "description": "Wood atk damages you"
+    },
+    {
+        "id": "142",
+        "name": "AntiDmg",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "K",
+            "M",
+            "R"
+        ],
+        "mb": 31,
+        "description": "Sets trap and throw stars"
+    },
+    {
+        "id": "143",
+        "name": "AntiSwrd",
+        "element": "Sword",
+        "atk": 100,
+        "codes": [
+            "C",
+            "I",
+            "N",
+            "*"
+        ],
+        "mb": 43,
+        "description": "Retaliate for sword damage"
+    },
+    {
+        "id": "144",
+        "name": "AntiNavi",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "J",
+            "M",
+            "T"
+        ],
+        "mb": 44,
+        "description": "Takes the enemy's Navi away"
+    },
+    {
+        "id": "145",
+        "name": "AntiRecv",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "B",
+            "D",
+            "G",
+            "*"
+        ],
+        "mb": 37,
+        "description": "Damages enemy in recovery"
+    },
+    {
+        "id": "146",
+        "name": "CopyDmg",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 12,
+        "description": "Duplicate damage to 2nd enemy"
+    },
+    {
+        "id": "147",
+        "name": "LifeSync",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "N",
+            "Q",
+            "Y"
+        ],
+        "mb": 12,
+        "description": "Makes enmy's HP same"
+    },
+    {
+        "id": "148",
+        "name": "Atk+10",
+        "element": "Plus",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 6,
+        "description": "+10 for selected atk chip"
+    },
+    {
+        "id": "149",
+        "name": "Navi+20",
+        "element": "Plus",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 36,
+        "description": "+20 for selected Navi chip"
+    },
+    {
+        "id": "150",
+        "name": "ColorPt",
+        "element": "Plus",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 25,
+        "description": "+10 for next chip attack"
+    }
+]

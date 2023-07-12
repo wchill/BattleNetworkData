@@ -1,0 +1,863 @@
+[
+    {
+        "id": "1",
+        "name": "SuprVulc",
+        "element": "Null",
+        "atk": 10,
+        "codes": [
+            "V"
+        ],
+        "mb": 75,
+        "description": "12-shot vulcan cannon"
+    },
+    {
+        "id": "2",
+        "name": "NeoVari",
+        "element": "Sword",
+        "atk": 240,
+        "codes": [
+            "N"
+        ],
+        "mb": 74,
+        "description": "A magical shifting sword"
+    },
+    {
+        "id": "3",
+        "name": "ShotStar",
+        "element": "Heat",
+        "atk": 40,
+        "codes": [
+            "R"
+        ],
+        "mb": 73,
+        "description": "Drop many meteor on enmy area"
+    },
+    {
+        "id": "4",
+        "name": "GodHammr",
+        "element": "Obstacle",
+        "atk": 250,
+        "codes": [
+            "G"
+        ],
+        "mb": 68,
+        "description": "Places a stone statue"
+    },
+    {
+        "id": "5",
+        "name": "Guardian",
+        "element": "Obstacle",
+        "atk": 200,
+        "codes": [
+            "O"
+        ],
+        "mb": 64,
+        "description": "Statue retaliate when hit"
+    },
+    {
+        "id": "6",
+        "name": "Jealousy",
+        "element": "Null",
+        "atk": 80,
+        "codes": [
+            "J"
+        ],
+        "mb": 35,
+        "description": "More chip mean more damage"
+    },
+    {
+        "id": "7",
+        "name": "BugChain",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "C",
+            "✱"
+        ],
+        "mb": 59,
+        "description": "Fires bugs into enmy area"
+    },
+    {
+        "id": "8",
+        "name": "BugFix",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "B",
+            "✱"
+        ],
+        "mb": 62,
+        "description": "Repairs & removes bugs"
+    },
+    {
+        "id": "9",
+        "name": "FullCust",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "✱"
+        ],
+        "mb": 45,
+        "description": "CustGauge instantly refills"
+    },
+    {
+        "id": "10",
+        "name": "LifeAura",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "D"
+        ],
+        "mb": 70,
+        "description": "Repels all attck under 200"
+    },
+    {
+        "id": "11",
+        "name": "Snctuary",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "S"
+        ],
+        "mb": 62,
+        "description": "Chng all own panel to holy"
+    },
+    {
+        "id": "12",
+        "name": "Atk+30",
+        "element": "Plus",
+        "atk": 0,
+        "codes": [
+            "✱"
+        ],
+        "mb": 66,
+        "description": " +30 for selected atk chip"
+    },
+    {
+        "id": "13",
+        "name": "DblPoint",
+        "element": "Plus",
+        "atk": 0,
+        "codes": [
+            "✱"
+        ],
+        "mb": 25,
+        "description": " +20 for next chip attack"
+    },
+    {
+        "id": "14",
+        "name": "Muramasa",
+        "element": "Sword",
+        "atk": 1,
+        "codes": [
+            "M"
+        ],
+        "mb": 81,
+        "description": "EvilChip! Power = HP lost"
+    },
+    {
+        "id": "15",
+        "name": "Anubis",
+        "element": "Obstacle",
+        "atk": 0,
+        "codes": [
+            "A"
+        ],
+        "mb": 86,
+        "description": "EvilChip! Anubis poisons"
+    },
+    {
+        "id": "16",
+        "name": "ElemDark",
+        "element": "Null",
+        "atk": 220,
+        "codes": [
+            "E"
+        ],
+        "mb": 38,
+        "description": "EvilChip! Powerful over swamp"
+    },
+    {
+        "id": "17",
+        "name": "BlakWing",
+        "element": "Null",
+        "atk": 20,
+        "codes": [
+            "W"
+        ],
+        "mb": 58,
+        "description": "EvilChip! Wings descend"
+    },
+    {
+        "id": "18",
+        "name": "DrkLine",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "L",
+            "✱"
+        ],
+        "mb": 59,
+        "description": "Turns all rows into Holes"
+    },
+    {
+        "id": "37",
+        "name": "TopMan",
+        "element": "Break",
+        "atk": 20,
+        "codes": [
+            "T"
+        ],
+        "mb": 54,
+        "description": "Attck hit 3 panels ahead"
+    },
+    {
+        "id": "38",
+        "name": "TopMnSP",
+        "element": "Break",
+        "atk": 1,
+        "codes": [
+            "T"
+        ],
+        "mb": 71,
+        "description": "Attck hit 3 panels ahead"
+    },
+    {
+        "id": "39",
+        "name": "TopMnDS",
+        "element": "Break",
+        "atk": 1,
+        "codes": [
+            "T"
+        ],
+        "mb": 71,
+        "description": "Attck hit 3 panels ahead"
+    },
+    {
+        "id": "40",
+        "name": "BurnMan",
+        "element": "Heat",
+        "atk": 60,
+        "codes": [
+            "B"
+        ],
+        "mb": 46,
+        "description": "3-direct burnr fry 2 ahead!"
+    },
+    {
+        "id": "41",
+        "name": "BurnMnSP",
+        "element": "Heat",
+        "atk": 1,
+        "codes": [
+            "B"
+        ],
+        "mb": 69,
+        "description": "3-direct burnr fry 2 ahead!"
+    },
+    {
+        "id": "42",
+        "name": "BurnMnDS",
+        "element": "Heat",
+        "atk": 1,
+        "codes": [
+            "B"
+        ],
+        "mb": 69,
+        "description": "3-direct burnr fry 2 ahead!"
+    },
+    {
+        "id": "43",
+        "name": "ColdMan",
+        "element": "Aqua",
+        "atk": 100,
+        "codes": [
+            "C"
+        ],
+        "mb": 53,
+        "description": "Ices over all and slides!"
+    },
+    {
+        "id": "44",
+        "name": "ColdMnSP",
+        "element": "Aqua",
+        "atk": 1,
+        "codes": [
+            "C"
+        ],
+        "mb": 72,
+        "description": "Ices over all and slides!"
+    },
+    {
+        "id": "45",
+        "name": "ColdMnDS",
+        "element": "Aqua",
+        "atk": 1,
+        "codes": [
+            "C"
+        ],
+        "mb": 72,
+        "description": "Ices over all and slides!"
+    },
+    {
+        "id": "46",
+        "name": "SparkMan",
+        "element": "Elec",
+        "atk": 70,
+        "codes": [
+            "S"
+        ],
+        "mb": 55,
+        "description": "SparkWave blinds enemy!"
+    },
+    {
+        "id": "47",
+        "name": "SprkMnSP",
+        "element": "Elec",
+        "atk": 1,
+        "codes": [
+            "S"
+        ],
+        "mb": 77,
+        "description": "SparkWave blinds enemy!"
+    },
+    {
+        "id": "48",
+        "name": "SprkMnDS",
+        "element": "Elec",
+        "atk": 1,
+        "codes": [
+            "S"
+        ],
+        "mb": 77,
+        "description": "SparkWave blinds enemy!"
+    },
+    {
+        "id": "49",
+        "name": "ShadeMan",
+        "element": "Null",
+        "atk": 120,
+        "codes": [
+            "X"
+        ],
+        "mb": 73,
+        "description": "CrshNoise attck all direction"
+    },
+    {
+        "id": "50",
+        "name": "ShadMnSP",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "X"
+        ],
+        "mb": 88,
+        "description": "CrshNoise attck all direction"
+    },
+    {
+        "id": "51",
+        "name": "ShadMnDS",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "X"
+        ],
+        "mb": 88,
+        "description": "CrshNoise attck all direction"
+    },
+    {
+        "id": "52",
+        "name": "LaserMan",
+        "element": "Null",
+        "atk": 100,
+        "codes": [
+            "L"
+        ],
+        "mb": 60,
+        "description": "A laser pierces 1 thru!"
+    },
+    {
+        "id": "53",
+        "name": "LasrMnSP",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "L"
+        ],
+        "mb": 80,
+        "description": "A laser pierces 1 thru!"
+    },
+    {
+        "id": "54",
+        "name": "LasrMnDS",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "L"
+        ],
+        "mb": 80,
+        "description": "A laser pierces 1 thru!"
+    },
+    {
+        "id": "55",
+        "name": "KendoMan",
+        "element": "Null",
+        "atk": 70,
+        "codes": [
+            "K"
+        ],
+        "mb": 45,
+        "description": "Attck hit an enemy in front"
+    },
+    {
+        "id": "56",
+        "name": "KendMnSP",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "K"
+        ],
+        "mb": 75,
+        "description": "Attck hit an enemy in front"
+    },
+    {
+        "id": "57",
+        "name": "KendMnDS",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "K"
+        ],
+        "mb": 75,
+        "description": "Attck hit an enemy in front"
+    },
+    {
+        "id": "58",
+        "name": "VideoMan",
+        "element": "Null",
+        "atk": 25,
+        "codes": [
+            "V"
+        ],
+        "mb": 44,
+        "description": "Attack tape slam 2.5 in"
+    },
+    {
+        "id": "59",
+        "name": "VideMnSP",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "V"
+        ],
+        "mb": 67,
+        "description": "Attack tape slam 2.5 in"
+    },
+    {
+        "id": "60",
+        "name": "VideMnDS",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "V"
+        ],
+        "mb": null,
+        "description": "Attack tape slam 2.5 in"
+    },
+    {
+        "id": "RS 19",
+        "name": "Roll",
+        "element": "Recover",
+        "atk": 20,
+        "codes": [
+            "R"
+        ],
+        "mb": 54,
+        "description": "Attcks an enmy, then heals you"
+    },
+    {
+        "id": "RS 20",
+        "name": "RollSP",
+        "element": "Recover",
+        "atk": 1,
+        "codes": [
+            "R"
+        ],
+        "mb": 79,
+        "description": "Attcks an enmy, then heals you"
+    },
+    {
+        "id": "RS 21",
+        "name": "RollDS",
+        "element": "Recover",
+        "atk": 1,
+        "codes": [
+            "R"
+        ],
+        "mb": 79,
+        "description": "Attcks an enmy, then heals you"
+    },
+    {
+        "id": "RS 22",
+        "name": "GutsMan",
+        "element": "",
+        "atk": 80,
+        "codes": [
+            "G"
+        ],
+        "mb": 33,
+        "description": "GutsHammr destroys enmy area"
+    },
+    {
+        "id": "RS 23",
+        "name": "GutsMnSP",
+        "element": "",
+        "atk": 1,
+        "codes": [
+            "G"
+        ],
+        "mb": 66,
+        "description": "GutsHammr destroys enmy area"
+    },
+    {
+        "id": "RS 24",
+        "name": "GutsMnDS",
+        "element": "",
+        "atk": 1,
+        "codes": [
+            "G"
+        ],
+        "mb": 66,
+        "description": "GutsHammr destroys enmy area"
+    },
+    {
+        "id": "RS 25",
+        "name": "WindMan",
+        "element": "Wind",
+        "atk": 40,
+        "codes": [
+            "W"
+        ],
+        "mb": 52,
+        "description": "Whirlwind that spin acrss 3sq"
+    },
+    {
+        "id": "RS 26",
+        "name": "WindMnSP",
+        "element": "Wind",
+        "atk": 1,
+        "codes": [
+            "W"
+        ],
+        "mb": 74,
+        "description": "Whirlwind that spin acrss 3sq"
+    },
+    {
+        "id": "RS 27",
+        "name": "WindMnDS",
+        "element": "Wind",
+        "atk": 1,
+        "codes": [
+            "W"
+        ],
+        "mb": 74,
+        "description": "Whirlwind that spin acrss 3sq"
+    },
+    {
+        "id": "RS 28",
+        "name": "SerchMan",
+        "element": "Invis",
+        "atk": 20,
+        "codes": [
+            "S"
+        ],
+        "mb": 80,
+        "description": "Stop site and fire 5 shots"
+    },
+    {
+        "id": "RS 29",
+        "name": "SrchMnSP",
+        "element": "Invis",
+        "atk": 1,
+        "codes": [
+            "S"
+        ],
+        "mb": 80,
+        "description": "Stop site and fire 5 shots"
+    },
+    {
+        "id": "RS 30",
+        "name": "SrchMnDS",
+        "element": "Invis",
+        "atk": 1,
+        "codes": [
+            "S"
+        ],
+        "mb": 80,
+        "description": "Stop site and fire 5 shots"
+    },
+    {
+        "id": "RS 31",
+        "name": "FireMan",
+        "element": "Heat",
+        "atk": 100,
+        "codes": [
+            "F"
+        ],
+        "mb": 36,
+        "description": "Fire burn to front side"
+    },
+    {
+        "id": "RS 32",
+        "name": "FireMnSP",
+        "element": "Heat",
+        "atk": 1,
+        "codes": [
+            "F"
+        ],
+        "mb": 72,
+        "description": "Fire burn to front side"
+    },
+    {
+        "id": "RS 33",
+        "name": "FireMnDS",
+        "element": "Heat",
+        "atk": 1,
+        "codes": [
+            "F"
+        ],
+        "mb": 72,
+        "description": "Fire burn to front side"
+    },
+    {
+        "id": "RS 34",
+        "name": "ThunMan",
+        "element": "Elec",
+        "atk": 90,
+        "codes": [
+            "T"
+        ],
+        "mb": 50,
+        "description": "Lightning strikes 3sq ahead"
+    },
+    {
+        "id": "RS 35",
+        "name": "ThunMnSP",
+        "element": "Elec",
+        "atk": 1,
+        "codes": [
+            "T"
+        ],
+        "mb": 76,
+        "description": "Lightning strikes 3sq ahead"
+    },
+    {
+        "id": "RS 36",
+        "name": "ThunMnDS",
+        "element": "Elec",
+        "atk": 1,
+        "codes": [
+            "T"
+        ],
+        "mb": 76,
+        "description": "Lightning strikes 3sq ahead"
+    },
+    {
+        "id": "BM 19",
+        "name": "ProtoMan",
+        "element": "Sword",
+        "atk": 100,
+        "codes": [
+            "B"
+        ],
+        "mb": 54,
+        "description": "Rush up to enemy and slice"
+    },
+    {
+        "id": "BM 20",
+        "name": "ProtoMSP",
+        "element": "Sword",
+        "atk": 1,
+        "codes": [
+            "B"
+        ],
+        "mb": 79,
+        "description": "Rush up to enemy and slice"
+    },
+    {
+        "id": "BM 21",
+        "name": "ProtoMDS",
+        "element": "Sword",
+        "atk": 1,
+        "codes": [
+            "B"
+        ],
+        "mb": 79,
+        "description": "Rush up to enemy and slice"
+    },
+    {
+        "id": "BM 22",
+        "name": "NumbrMan",
+        "element": "Plus",
+        "atk": 30,
+        "codes": [
+            "N"
+        ],
+        "mb": 33,
+        "description": "Bomb 3 ahead! Hits 9sq"
+    },
+    {
+        "id": "BM 23",
+        "name": "NumbMnSP",
+        "element": "Plus",
+        "atk": 1,
+        "codes": [
+            "N"
+        ],
+        "mb": 66,
+        "description": "Bomb 3 ahead! Hits 9sq"
+    },
+    {
+        "id": "BM 24",
+        "name": "NumbMnDS",
+        "element": "Plus",
+        "atk": 1,
+        "codes": [
+            "N"
+        ],
+        "mb": 66,
+        "description": "Bomb 3 ahead! Hits 9sq"
+    },
+    {
+        "id": "BM 25",
+        "name": "MetalMan",
+        "element": "Break",
+        "atk": 160,
+        "codes": [
+            "M"
+        ],
+        "mb": 52,
+        "description": "Iron fist crushes 1sq ahead"
+    },
+    {
+        "id": "BM 26",
+        "name": "MetlMnSP",
+        "element": "Break",
+        "atk": 1,
+        "codes": [
+            "M"
+        ],
+        "mb": 74,
+        "description": "Iron fist crushes 1sq ahead"
+    },
+    {
+        "id": "BM 27",
+        "name": "MetlMnDS",
+        "element": "Break",
+        "atk": 1,
+        "codes": [
+            "M"
+        ],
+        "mb": 74,
+        "description": "Iron fist crushes 1sq ahead"
+    },
+    {
+        "id": "BM 28",
+        "name": "JunkMan",
+        "element": "Obstacle",
+        "atk": 100,
+        "codes": [
+            "J"
+        ],
+        "mb": 80,
+        "description": "Throw any objects on field"
+    },
+    {
+        "id": "BM 29",
+        "name": "JunkMnSP",
+        "element": "Obstacle",
+        "atk": 1,
+        "codes": [
+            "J"
+        ],
+        "mb": 80,
+        "description": "Throw any objects on field"
+    },
+    {
+        "id": "BM 30",
+        "name": "JunkMnDS",
+        "element": "Obstacle",
+        "atk": 1,
+        "codes": [
+            "J"
+        ],
+        "mb": 80,
+        "description": "Throw any objects on field"
+    },
+    {
+        "id": "BM 31",
+        "name": "AquaMan",
+        "element": "Aqua",
+        "atk": 70,
+        "codes": [
+            "A"
+        ],
+        "mb": 36,
+        "description": "Water Gun sprays 2sq ahead"
+    },
+    {
+        "id": "BM 32",
+        "name": "AquaMnSP",
+        "element": "Aqua",
+        "atk": 1,
+        "codes": [
+            "A"
+        ],
+        "mb": 72,
+        "description": "Water Gun sprays 2sq ahead"
+    },
+    {
+        "id": "BM 33",
+        "name": "AquaMnDS",
+        "element": "Aqua",
+        "atk": 1,
+        "codes": [
+            "A"
+        ],
+        "mb": 72,
+        "description": "Water Gun sprays 2sq ahead"
+    },
+    {
+        "id": "BM 34",
+        "name": "WoodMan",
+        "element": "Wood",
+        "atk": 130,
+        "codes": [
+            "W"
+        ],
+        "mb": 50,
+        "description": "WoodTowr pierce to enmy area"
+    },
+    {
+        "id": "BM 35",
+        "name": "WoodMnSP",
+        "element": "Wood",
+        "atk": 1,
+        "codes": [
+            "W"
+        ],
+        "mb": 76,
+        "description": "WoodTowr pierce to enmy area"
+    },
+    {
+        "id": "BM 36",
+        "name": "WoodMnDS",
+        "element": "Wood",
+        "atk": 1,
+        "codes": [
+            "W"
+        ],
+        "mb": 76,
+        "description": "WoodTowr pierce to enmy area"
+    }
+]
