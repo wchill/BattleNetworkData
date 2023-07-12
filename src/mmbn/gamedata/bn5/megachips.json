@@ -1,1 +1,862 @@
-[{"id":"1","name":"SuprVulc","element":"null","atk":"10","codes":["S"],"mb":"75","description":"12-shot vulcan cannon"},{"id":"2","name":"NeoVari","element":"sword","atk":"240","codes":["V"],"mb":"74","description":"A magical shifting sword"},{"id":"3","name":"Meteors","element":"heat","atk":"40","codes":["R"],"mb":"73","description":"Drop many meteor on enmy area"},{"id":"4","name":"NumbrBl","element":"null","atk":0,"codes":["N","*"],"mb":"69","description":"Last 2 HP digits = atk pwr"},{"id":"5","name":"Guardian","element":"obstacle","atk":"200","codes":["O"],"mb":"64","description":"Statue punishes when hit"},{"id":"6","name":"Jealousy","element":"null","atk":"80","codes":["J"],"mb":"35","description":"More damage if enemy has chip"},{"id":"7","name":"Poltrgst","element":"null","atk":"150","codes":["P"],"mb":"40","description":"Objects thrown at enemies"},{"id":"8","name":"BugFix","element":"null","atk":0,"codes":["H","*"],"mb":"62","description":"Repairs & removes bugs"},{"id":"9","name":"FullCust","element":"null","atk":0,"codes":["*"],"mb":"45","description":"CustGauge instantly refills"},{"id":"10","name":"LifeAur","element":"null","atk":0,"codes":["D"],"mb":"70","description":"Repel all attacks under 200"},{"id":"11","name":"Snctuary","element":"null","atk":0,"codes":["S"],"mb":"62","description":"Chng all own panel to holy"},{"id":"12","name":"Attck+30","element":"plus","atk":0,"codes":["*"],"mb":"66","description":"+30 for selected atk chip"},{"id":"13","name":"DblPoint","element":"plus","atk":0,"codes":["*"],"mb":"50","description":"+20 for next chip attack"},{"id":"14","name":"Muramasa","element":"sword","atk":0,"codes":["M"],"mb":"81","description":"Atk power equal amt of lost HP"},{"id":"15","name":"Anubis","element":"obstacle","atk":0,"codes":["A"],"mb":"86","description":"Anubis poisons enemies"},{"id":"16","name":"BlakWing","element":"null","atk":"20","codes":["W"],"mb":"58","description":"Wing atk from a cave"},{"id":"17","name":"JustcOne","element":"break","atk":"280","codes":["J"],"mb":"90","description":"Fist atk on center panel"},{"id":"18","name":"Z Saver","element":"sword","atk":"100","codes":["Z"],"mb":"80","description":"Repliroid swrd cuts 3 times"},{"id":"19","name":"Roll","element":"recover","atk":"20","codes":["R"],"mb":"20","description":"Attack an enmy, then heals you"},{"id":"20","name":"RollSP","element":"recover","atk":0,"codes":["R"],"mb":"60","description":"Attack an enmy, then heals you"},{"id":"21","name":"RollDS","element":"recover","atk":0,"codes":["R"],"mb":"60","description":"Attack an enmy, then heals you"},{"id":"40","name":"BlizMan","element":"aqua","atk":"100","codes":["B"],"mb":"27","description":"Snowball expands when hit"},{"id":"41","name":"BlizMnSP","element":"aqua","atk":0,"codes":["B"],"mb":"55","description":"Snowball expands when hit"},{"id":"42","name":"BlizMnDS","element":"aqua","atk":0,"codes":["B"],"mb":"55","description":"Snowball expands when hit"},{"id":"43","name":"ShadeMan","element":"null","atk":"120","codes":["S"],"mb":"44","description":"CrshNoise attck all direction"},{"id":"44","name":"ShadeMnSP","element":"null","atk":0,"codes":["S"],"mb":"74","description":"CrshNoise attck all direction"},{"id":"45","name":"ShadeMnDS","element":"null","atk":0,"codes":["S"],"mb":"74","description":"CrshNoise attck all direction"},{"id":"46","name":"CloudMan","element":"elec","atk":"50","codes":["C"],"mb":"60","description":"Thundr atk behind the enmy"},{"id":"47","name":"CloudMnSP","element":"elec","atk":0,"codes":["C"],"mb":"74","description":"Thundr atk behind the enmy"},{"id":"48","name":"CloudMnDS","element":"elec","atk":0,"codes":["C"],"mb":"74","description":"Thundr atk behind the enmy"},{"id":"49","name":"CosmoMan","element":"null","atk":"70","codes":["C"],"mb":"50","description":"Meteors hit enemy"},{"id":"50","name":"CosmoMnSP","element":"null","atk":0,"codes":["C"],"mb":"80","description":"Meteors hit enemy"},{"id":"51","name":"CosmoMnDS","element":"null","atk":0,"codes":["C"],"mb":"80","description":"Meteors hit enemy"},{"id":"52","name":"LarkMan","element":"null","atk":"140","codes":["S"],"mb":"45","description":"Whirl forward and atk"},{"id":"53","name":"LarkMnSP","element":"null","atk":0,"codes":["S"],"mb":"77","description":"Whirl forward and atk"},{"id":"54","name":"LarkMnDS","element":"null","atk":0,"codes":["S"],"mb":"77","description":"Whirl forward and atk"},{"id":"55","name":"GridMan","element":"null","atk":"100","codes":["F"],"mb":"46","description":"Explodes when touchdown"},{"id":"56","name":"GridMnSP","element":"null","atk":0,"codes":["F"],"mb":"72","description":"Explodes when touchdown"},{"id":"57","name":"GridMnDS","element":"null","atk":0,"codes":["F"],"mb":"72","description":"Explodes when touchdown"},{"id":"58","name":"Django","element":"null","atk":0,"codes":["D"],"mb":"40","description":"Burns with sunlight"},{"id":"59","name":"DjangoSP","element":"null","atk":0,"codes":["D"],"mb":"68","description":"Burns with sunlight"},{"id":"60","name":"DjangoDS","element":"null","atk":0,"codes":["D"],"mb":"68","description":"Burns with sunlight"},{"id":"TP 22","name":"ProtoMan","element":"sword","atk":"130","codes":["B"],"mb":"54","description":"Move in and slice enemy"},{"id":"TP 23","name":"ProtoMnSP","element":"sword","atk":0,"codes":["B"],"mb":"79","description":"Move in and slice enemy"},{"id":"TP 24","name":"ProtoMnDS","element":"sword","atk":0,"codes":["B"],"mb":"79","description":"Move in and slice enemy"},{"id":"TP 25","name":"GyroMan","element":"wind","atk":"80","codes":["G"],"mb":"32","description":"Bombs the front of same row"},{"id":"TP 26","name":"GyroMnSP","element":"wind","atk":0,"codes":["G"],"mb":"66","description":"Bombs the front of same row"},{"id":"TP 27","name":"GyroMnDS","element":"wind","atk":0,"codes":["G"],"mb":"66","description":"Bombs the front of same row"},{"id":"TP 28","name":"SearchMan","element":"cursor","atk":"20","codes":["S"],"mb":"42","description":"Aim and fire 5 shots"},{"id":"TP 29","name":"SearchMnSP","element":"cursor","atk":0,"codes":["S"],"mb":"72","description":"Aim and fire 5 shots"},{"id":"TP 30","name":"SearchMnDS","element":"cursor","atk":0,"codes":["S"],"mb":"72","description":"Aim and fire 5 shots"},{"id":"TP 31","name":"NapalmMan","element":"heat","atk":"120","codes":["N"],"mb":"38","description":"Explosion spreads 9 panels"},{"id":"TP 32","name":"NapalmMnSP","element":"heat","atk":0,"codes":["N"],"mb":"72","description":"Explosion spreads 9 panels"},{"id":"TP 33","name":"NapalmMnDS","element":"heat","atk":0,"codes":["N"],"mb":"72","description":"Explosion spreads 9 panels"},{"id":"TP 34","name":"MagnetMan","element":"elec","atk":"90","codes":["M"],"mb":"25","description":"NS tackle and chrge"},{"id":"TP 35","name":"MagnetMnSP","element":"elec","atk":0,"codes":["M"],"mb":"75","description":"NS tackle and chrge"},{"id":"TP 36","name":"MagnetMnDS","element":"elec","atk":0,"codes":["M"],"mb":"75","description":"NS tackle and chrge"},{"id":"TP 37","name":"Meddy","element":"null","atk":"80","codes":["M"],"mb":"36","description":"Throws 2 bombs to enmy area"},{"id":"TP 38","name":"MeddySP","element":"null","atk":0,"codes":["M"],"mb":"63","description":"Throws 2 bombs to enmy area"},{"id":"TP 39","name":"MeddyDS","element":"null","atk":0,"codes":["M"],"mb":"63","description":"Throws 2 bombs to enmy area"},{"id":"TC 22","name":"Colonel","element":"null","atk":"160","codes":["C"],"mb":"39","description":"Slice enemy in same row"},{"id":"TC 23","name":"ColonelSP","element":"null","atk":0,"codes":["C"],"mb":"75","description":"Slice enemy in same row"},{"id":"TC 24","name":"ColonelDS","element":"null","atk":0,"codes":["C"],"mb":"75","description":"Slice enemy in same row"},{"id":"TC 25","name":"ShadoMan","element":"null","atk":"40","codes":["S"],"mb":"50","description":"Throw 3 ninja stars"},{"id":"TC 26","name":"ShadoMnSP","element":"null","atk":0,"codes":["S"],"mb":"80","description":"Throw 3 ninja stars"},{"id":"TC 27","name":"ShadoMnDS","element":"null","atk":0,"codes":["S"],"mb":"80","description":"Throw 3 ninja stars"},{"id":"TC 28","name":"NumbrMan","element":"null","atk":"30","codes":["N"],"mb":"33","description":"Bomb 3 ahead! Hits 9sq"},{"id":"TC 29","name":"NumbrMnSP","element":"null","atk":0,"codes":["N"],"mb":"66","description":"Bomb 3 ahead! Hits 9sq"},{"id":"TC 30","name":"NumbrMnDS","element":"null","atk":0,"codes":["N"],"mb":"66","description":"Bomb 3 ahead! Hits 9sq"},{"id":"TC 31","name":"TmhwkMan","element":"wood","atk":"140","codes":["T"],"mb":"43","description":"Slice 2sq side, 3sq vertical"},{"id":"TC 32","name":"TmhwkMnSP","element":"wood","atk":0,"codes":["T"],"mb":"81","description":"Slice 2sq side, 3sq vertical"},{"id":"TC 33","name":"TmhwkMnDS","element":"wood","atk":0,"codes":["T"],"mb":"81","description":"Slice 2sq side, 3sq vertical"},{"id":"TC 34","name":"KnightMan","element":"break","atk":"170","codes":["K"],"mb":"50","description":"Circle around and atk"},{"id":"TC 35","name":"KnigtMnSP","element":"break","atk":0,"codes":["K"],"mb":"90","description":"Circle around and atk"},{"id":"TC 36","name":"KnigtMnDS","element":"break","atk":0,"codes":["K"],"mb":"90","description":"Circle around and atk"},{"id":"TC 37","name":"ToadMan","element":"elec","atk":"80","codes":["T"],"mb":"53","description":"Sing and paralyze the enemy"},{"id":"TC 38","name":"ToadMnSP","element":"elec","atk":0,"codes":["T"],"mb":"69","description":"Sing and paralyze the enemy"},{"id":"TC 39","name":"ToadMnDS","element":"elec","atk":0,"codes":["T"],"mb":"69","description":"Sing and paralyze the enemy"}]
+[
+  {
+    "id": "1",
+    "name": "SuprVulc",
+    "element": "null",
+    "atk": "10",
+    "codes": [
+      "S"
+    ],
+    "mb": "75",
+    "description": "12-shot vulcan cannon"
+  },
+  {
+    "id": "2",
+    "name": "NeoVari",
+    "element": "sword",
+    "atk": "240",
+    "codes": [
+      "V"
+    ],
+    "mb": "74",
+    "description": "A magical shifting sword"
+  },
+  {
+    "id": "3",
+    "name": "Meteors",
+    "element": "heat",
+    "atk": "40",
+    "codes": [
+      "R"
+    ],
+    "mb": "73",
+    "description": "Drop many meteor on enmy area"
+  },
+  {
+    "id": "4",
+    "name": "NumbrBl",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "N",
+      "*"
+    ],
+    "mb": "69",
+    "description": "Last 2 HP digits = atk pwr"
+  },
+  {
+    "id": "5",
+    "name": "Guardian",
+    "element": "obstacle",
+    "atk": "200",
+    "codes": [
+      "O"
+    ],
+    "mb": "64",
+    "description": "Statue punishes when hit"
+  },
+  {
+    "id": "6",
+    "name": "Jealousy",
+    "element": "null",
+    "atk": "80",
+    "codes": [
+      "J"
+    ],
+    "mb": "35",
+    "description": "More damage if enemy has chip"
+  },
+  {
+    "id": "7",
+    "name": "Poltrgst",
+    "element": "null",
+    "atk": "150",
+    "codes": [
+      "P"
+    ],
+    "mb": "40",
+    "description": "Objects thrown at enemies"
+  },
+  {
+    "id": "8",
+    "name": "BugFix",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "H",
+      "*"
+    ],
+    "mb": "62",
+    "description": "Repairs & removes bugs"
+  },
+  {
+    "id": "9",
+    "name": "FullCust",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": "45",
+    "description": "CustGauge instantly refills"
+  },
+  {
+    "id": "10",
+    "name": "LifeAur",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "D"
+    ],
+    "mb": "70",
+    "description": "Repel all attacks under 200"
+  },
+  {
+    "id": "11",
+    "name": "Snctuary",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "62",
+    "description": "Chng all own panel to holy"
+  },
+  {
+    "id": "12",
+    "name": "Attck+30",
+    "element": "plus",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": "66",
+    "description": "+30 for selected atk chip"
+  },
+  {
+    "id": "13",
+    "name": "DblPoint",
+    "element": "plus",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": "50",
+    "description": "+20 for next chip attack"
+  },
+  {
+    "id": "14",
+    "name": "Muramasa",
+    "element": "sword",
+    "atk": 0,
+    "codes": [
+      "M"
+    ],
+    "mb": "81",
+    "description": "Atk power equal amt of lost HP"
+  },
+  {
+    "id": "15",
+    "name": "Anubis",
+    "element": "obstacle",
+    "atk": 0,
+    "codes": [
+      "A"
+    ],
+    "mb": "86",
+    "description": "Anubis poisons enemies"
+  },
+  {
+    "id": "16",
+    "name": "BlakWing",
+    "element": "null",
+    "atk": "20",
+    "codes": [
+      "W"
+    ],
+    "mb": "58",
+    "description": "Wing atk from a cave"
+  },
+  {
+    "id": "17",
+    "name": "JustcOne",
+    "element": "break",
+    "atk": "280",
+    "codes": [
+      "J"
+    ],
+    "mb": "90",
+    "description": "Fist atk on center panel"
+  },
+  {
+    "id": "18",
+    "name": "Z Saver",
+    "element": "sword",
+    "atk": "100",
+    "codes": [
+      "Z"
+    ],
+    "mb": "80",
+    "description": "Repliroid swrd cuts 3 times"
+  },
+  {
+    "id": "19",
+    "name": "Roll",
+    "element": "recover",
+    "atk": "20",
+    "codes": [
+      "R"
+    ],
+    "mb": "20",
+    "description": "Attack an enmy, then heals you"
+  },
+  {
+    "id": "20",
+    "name": "RollSP",
+    "element": "recover",
+    "atk": 0,
+    "codes": [
+      "R"
+    ],
+    "mb": "60",
+    "description": "Attack an enmy, then heals you"
+  },
+  {
+    "id": "21",
+    "name": "RollDS",
+    "element": "recover",
+    "atk": 0,
+    "codes": [
+      "R"
+    ],
+    "mb": "60",
+    "description": "Attack an enmy, then heals you"
+  },
+  {
+    "id": "40",
+    "name": "BlizMan",
+    "element": "aqua",
+    "atk": "100",
+    "codes": [
+      "B"
+    ],
+    "mb": "27",
+    "description": "Snowball expands when hit"
+  },
+  {
+    "id": "41",
+    "name": "BlizMnSP",
+    "element": "aqua",
+    "atk": 0,
+    "codes": [
+      "B"
+    ],
+    "mb": "55",
+    "description": "Snowball expands when hit"
+  },
+  {
+    "id": "42",
+    "name": "BlizMnDS",
+    "element": "aqua",
+    "atk": 0,
+    "codes": [
+      "B"
+    ],
+    "mb": "55",
+    "description": "Snowball expands when hit"
+  },
+  {
+    "id": "43",
+    "name": "ShadeMan",
+    "element": "null",
+    "atk": "120",
+    "codes": [
+      "S"
+    ],
+    "mb": "44",
+    "description": "CrshNoise attck all direction"
+  },
+  {
+    "id": "44",
+    "name": "ShadeMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "74",
+    "description": "CrshNoise attck all direction"
+  },
+  {
+    "id": "45",
+    "name": "ShadeMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "74",
+    "description": "CrshNoise attck all direction"
+  },
+  {
+    "id": "46",
+    "name": "CloudMan",
+    "element": "elec",
+    "atk": "50",
+    "codes": [
+      "C"
+    ],
+    "mb": "60",
+    "description": "Thundr atk behind the enmy"
+  },
+  {
+    "id": "47",
+    "name": "CloudMnSP",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "74",
+    "description": "Thundr atk behind the enmy"
+  },
+  {
+    "id": "48",
+    "name": "CloudMnDS",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "74",
+    "description": "Thundr atk behind the enmy"
+  },
+  {
+    "id": "49",
+    "name": "CosmoMan",
+    "element": "null",
+    "atk": "70",
+    "codes": [
+      "C"
+    ],
+    "mb": "50",
+    "description": "Meteors hit enemy"
+  },
+  {
+    "id": "50",
+    "name": "CosmoMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "80",
+    "description": "Meteors hit enemy"
+  },
+  {
+    "id": "51",
+    "name": "CosmoMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "80",
+    "description": "Meteors hit enemy"
+  },
+  {
+    "id": "52",
+    "name": "LarkMan",
+    "element": "null",
+    "atk": "140",
+    "codes": [
+      "S"
+    ],
+    "mb": "45",
+    "description": "Whirl forward and atk"
+  },
+  {
+    "id": "53",
+    "name": "LarkMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "77",
+    "description": "Whirl forward and atk"
+  },
+  {
+    "id": "54",
+    "name": "LarkMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "77",
+    "description": "Whirl forward and atk"
+  },
+  {
+    "id": "55",
+    "name": "GridMan",
+    "element": "null",
+    "atk": "100",
+    "codes": [
+      "F"
+    ],
+    "mb": "46",
+    "description": "Explodes when touchdown"
+  },
+  {
+    "id": "56",
+    "name": "GridMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "F"
+    ],
+    "mb": "72",
+    "description": "Explodes when touchdown"
+  },
+  {
+    "id": "57",
+    "name": "GridMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "F"
+    ],
+    "mb": "72",
+    "description": "Explodes when touchdown"
+  },
+  {
+    "id": "58",
+    "name": "Django",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "D"
+    ],
+    "mb": "40",
+    "description": "Burns with sunlight"
+  },
+  {
+    "id": "59",
+    "name": "DjangoSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "D"
+    ],
+    "mb": "68",
+    "description": "Burns with sunlight"
+  },
+  {
+    "id": "60",
+    "name": "DjangoDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "D"
+    ],
+    "mb": "68",
+    "description": "Burns with sunlight"
+  },
+  {
+    "id": "TP 22",
+    "name": "ProtoMan",
+    "element": "sword",
+    "atk": "130",
+    "codes": [
+      "B"
+    ],
+    "mb": "54",
+    "description": "Move in and slice enemy"
+  },
+  {
+    "id": "TP 23",
+    "name": "ProtoMnSP",
+    "element": "sword",
+    "atk": 0,
+    "codes": [
+      "B"
+    ],
+    "mb": "79",
+    "description": "Move in and slice enemy"
+  },
+  {
+    "id": "TP 24",
+    "name": "ProtoMnDS",
+    "element": "sword",
+    "atk": 0,
+    "codes": [
+      "B"
+    ],
+    "mb": "79",
+    "description": "Move in and slice enemy"
+  },
+  {
+    "id": "TP 25",
+    "name": "GyroMan",
+    "element": "wind",
+    "atk": "80",
+    "codes": [
+      "G"
+    ],
+    "mb": "32",
+    "description": "Bombs the front of same row"
+  },
+  {
+    "id": "TP 26",
+    "name": "GyroMnSP",
+    "element": "wind",
+    "atk": 0,
+    "codes": [
+      "G"
+    ],
+    "mb": "66",
+    "description": "Bombs the front of same row"
+  },
+  {
+    "id": "TP 27",
+    "name": "GyroMnDS",
+    "element": "wind",
+    "atk": 0,
+    "codes": [
+      "G"
+    ],
+    "mb": "66",
+    "description": "Bombs the front of same row"
+  },
+  {
+    "id": "TP 28",
+    "name": "SearchMan",
+    "element": "cursor",
+    "atk": "20",
+    "codes": [
+      "S"
+    ],
+    "mb": "42",
+    "description": "Aim and fire 5 shots"
+  },
+  {
+    "id": "TP 29",
+    "name": "SearchMnSP",
+    "element": "cursor",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "72",
+    "description": "Aim and fire 5 shots"
+  },
+  {
+    "id": "TP 30",
+    "name": "SearchMnDS",
+    "element": "cursor",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "72",
+    "description": "Aim and fire 5 shots"
+  },
+  {
+    "id": "TP 31",
+    "name": "NapalmMan",
+    "element": "heat",
+    "atk": "120",
+    "codes": [
+      "N"
+    ],
+    "mb": "38",
+    "description": "Explosion spreads 9 panels"
+  },
+  {
+    "id": "TP 32",
+    "name": "NapalmMnSP",
+    "element": "heat",
+    "atk": 0,
+    "codes": [
+      "N"
+    ],
+    "mb": "72",
+    "description": "Explosion spreads 9 panels"
+  },
+  {
+    "id": "TP 33",
+    "name": "NapalmMnDS",
+    "element": "heat",
+    "atk": 0,
+    "codes": [
+      "N"
+    ],
+    "mb": "72",
+    "description": "Explosion spreads 9 panels"
+  },
+  {
+    "id": "TP 34",
+    "name": "MagnetMan",
+    "element": "elec",
+    "atk": "90",
+    "codes": [
+      "M"
+    ],
+    "mb": "25",
+    "description": "NS tackle and chrge"
+  },
+  {
+    "id": "TP 35",
+    "name": "MagnetMnSP",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "M"
+    ],
+    "mb": "75",
+    "description": "NS tackle and chrge"
+  },
+  {
+    "id": "TP 36",
+    "name": "MagnetMnDS",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "M"
+    ],
+    "mb": "75",
+    "description": "NS tackle and chrge"
+  },
+  {
+    "id": "TP 37",
+    "name": "Meddy",
+    "element": "null",
+    "atk": "80",
+    "codes": [
+      "M"
+    ],
+    "mb": "36",
+    "description": "Throws 2 bombs to enmy area"
+  },
+  {
+    "id": "TP 38",
+    "name": "MeddySP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "M"
+    ],
+    "mb": "63",
+    "description": "Throws 2 bombs to enmy area"
+  },
+  {
+    "id": "TP 39",
+    "name": "MeddyDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "M"
+    ],
+    "mb": "63",
+    "description": "Throws 2 bombs to enmy area"
+  },
+  {
+    "id": "TC 22",
+    "name": "Colonel",
+    "element": "null",
+    "atk": "160",
+    "codes": [
+      "C"
+    ],
+    "mb": "39",
+    "description": "Slice enemy in same row"
+  },
+  {
+    "id": "TC 23",
+    "name": "ColonelSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "75",
+    "description": "Slice enemy in same row"
+  },
+  {
+    "id": "TC 24",
+    "name": "ColonelDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "C"
+    ],
+    "mb": "75",
+    "description": "Slice enemy in same row"
+  },
+  {
+    "id": "TC 25",
+    "name": "ShadoMan",
+    "element": "null",
+    "atk": "40",
+    "codes": [
+      "S"
+    ],
+    "mb": "50",
+    "description": "Throw 3 ninja stars"
+  },
+  {
+    "id": "TC 26",
+    "name": "ShadoMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "80",
+    "description": "Throw 3 ninja stars"
+  },
+  {
+    "id": "TC 27",
+    "name": "ShadoMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "S"
+    ],
+    "mb": "80",
+    "description": "Throw 3 ninja stars"
+  },
+  {
+    "id": "TC 28",
+    "name": "NumbrMan",
+    "element": "null",
+    "atk": "30",
+    "codes": [
+      "N"
+    ],
+    "mb": "33",
+    "description": "Bomb 3 ahead! Hits 9sq"
+  },
+  {
+    "id": "TC 29",
+    "name": "NumbrMnSP",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "N"
+    ],
+    "mb": "66",
+    "description": "Bomb 3 ahead! Hits 9sq"
+  },
+  {
+    "id": "TC 30",
+    "name": "NumbrMnDS",
+    "element": "null",
+    "atk": 0,
+    "codes": [
+      "N"
+    ],
+    "mb": "66",
+    "description": "Bomb 3 ahead! Hits 9sq"
+  },
+  {
+    "id": "TC 31",
+    "name": "TmhwkMan",
+    "element": "wood",
+    "atk": "140",
+    "codes": [
+      "T"
+    ],
+    "mb": "43",
+    "description": "Slice 2sq side, 3sq vertical"
+  },
+  {
+    "id": "TC 32",
+    "name": "TmhwkMnSP",
+    "element": "wood",
+    "atk": 0,
+    "codes": [
+      "T"
+    ],
+    "mb": "81",
+    "description": "Slice 2sq side, 3sq vertical"
+  },
+  {
+    "id": "TC 33",
+    "name": "TmhwkMnDS",
+    "element": "wood",
+    "atk": 0,
+    "codes": [
+      "T"
+    ],
+    "mb": "81",
+    "description": "Slice 2sq side, 3sq vertical"
+  },
+  {
+    "id": "TC 34",
+    "name": "KnightMan",
+    "element": "break",
+    "atk": "170",
+    "codes": [
+      "K"
+    ],
+    "mb": "50",
+    "description": "Circle around and atk"
+  },
+  {
+    "id": "TC 35",
+    "name": "KnigtMnSP",
+    "element": "break",
+    "atk": 0,
+    "codes": [
+      "K"
+    ],
+    "mb": "90",
+    "description": "Circle around and atk"
+  },
+  {
+    "id": "TC 36",
+    "name": "KnigtMnDS",
+    "element": "break",
+    "atk": 0,
+    "codes": [
+      "K"
+    ],
+    "mb": "90",
+    "description": "Circle around and atk"
+  },
+  {
+    "id": "TC 37",
+    "name": "ToadMan",
+    "element": "elec",
+    "atk": "80",
+    "codes": [
+      "T"
+    ],
+    "mb": "53",
+    "description": "Sing and paralyze the enemy"
+  },
+  {
+    "id": "TC 38",
+    "name": "ToadMnSP",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "T"
+    ],
+    "mb": "69",
+    "description": "Sing and paralyze the enemy"
+  },
+  {
+    "id": "TC 39",
+    "name": "ToadMnDS",
+    "element": "elec",
+    "atk": 0,
+    "codes": [
+      "T"
+    ],
+    "mb": "69",
+    "description": "Sing and paralyze the enemy"
+  }
+]

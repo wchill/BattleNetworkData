@@ -1,1 +1,137 @@
-[{"id":"1","name":"DrkSword","element":"sword","atk":"400","codes":["Z","u"],"mb":99,"description":"USE LARGE SWORD AND SLICE"},{"id":"2","name":"DarkTorn","element":"wind","atk":"50 ","codes":["T"],"mb":99,"description":"TORNADO EXPANDS WHEN HIT"},{"id":"3","name":"DarkCirc","element":"cursor","atk":"300","codes":["R"],"mb":99,"description":"STOP CURSR AND ATTACK"},{"id":"4","name":"DarkMetr","element":"heat","atk":"100","codes":["F"],"mb":99,"description":"METEOR SHOWER ON ENMY"},{"id":"5","name":"DarkThnd","element":"elec","atk":"200","codes":["M","u"],"mb":99,"description":"CORNER ENMY BY THUNDER"},{"id":"6","name":"DrkRecov","element":"recover","atk":0,"codes":["H"],"mb":99,"description":"BECOME ALMOST INVINCBLE"},{"id":"7","name":"DrkSonic","element":"obstacle","atk":0,"codes":["E"],"mb":99,"description":"PARALYZE THE ENEMY"},{"id":"8","name":"DarkInvs","element":"invis","atk":0,"codes":["I","u"],"mb":99,"description":"RELEASE YOUR DARKNESS"},{"id":"9","name":"DarkPlus","element":"plus","atk":0,"codes":["*"],"mb":99,"description":"NEXT CHIP ATK +50"},{"id":"10","name":"DrkLance","element":"wood","atk":"400","codes":["W"],"mb":99,"description":"ATK ENMY FROM BEHIND"},{"id":"11","name":"DarkDril","element":"break","atk":"100","codes":["D"],"mb":99,"description":"LETHAL DRILL OF DARKNESS"},{"id":"12","name":"DarkWide","element":"aqua","atk":"300","codes":["T"],"mb":99,"description":"WIDE SHOT PIERCES THE ENMY"}]
+[
+  {
+    "id": "1",
+    "name": "DrkSword",
+    "element": "sword",
+    "atk": "400",
+    "codes": [
+      "Z",
+      "u"
+    ],
+    "mb": 99,
+    "description": "USE LARGE SWORD AND SLICE"
+  },
+  {
+    "id": "2",
+    "name": "DarkTorn",
+    "element": "wind",
+    "atk": "50 ",
+    "codes": [
+      "T"
+    ],
+    "mb": 99,
+    "description": "TORNADO EXPANDS WHEN HIT"
+  },
+  {
+    "id": "3",
+    "name": "DarkCirc",
+    "element": "cursor",
+    "atk": "300",
+    "codes": [
+      "R"
+    ],
+    "mb": 99,
+    "description": "STOP CURSR AND ATTACK"
+  },
+  {
+    "id": "4",
+    "name": "DarkMetr",
+    "element": "heat",
+    "atk": "100",
+    "codes": [
+      "F"
+    ],
+    "mb": 99,
+    "description": "METEOR SHOWER ON ENMY"
+  },
+  {
+    "id": "5",
+    "name": "DarkThnd",
+    "element": "elec",
+    "atk": "200",
+    "codes": [
+      "M",
+      "u"
+    ],
+    "mb": 99,
+    "description": "CORNER ENMY BY THUNDER"
+  },
+  {
+    "id": "6",
+    "name": "DrkRecov",
+    "element": "recover",
+    "atk": 0,
+    "codes": [
+      "H"
+    ],
+    "mb": 99,
+    "description": "BECOME ALMOST INVINCBLE"
+  },
+  {
+    "id": "7",
+    "name": "DrkSonic",
+    "element": "obstacle",
+    "atk": 0,
+    "codes": [
+      "E"
+    ],
+    "mb": 99,
+    "description": "PARALYZE THE ENEMY"
+  },
+  {
+    "id": "8",
+    "name": "DarkInvs",
+    "element": "invis",
+    "atk": 0,
+    "codes": [
+      "I",
+      "u"
+    ],
+    "mb": 99,
+    "description": "RELEASE YOUR DARKNESS"
+  },
+  {
+    "id": "9",
+    "name": "DarkPlus",
+    "element": "plus",
+    "atk": 0,
+    "codes": [
+      "*"
+    ],
+    "mb": 99,
+    "description": "NEXT CHIP ATK +50"
+  },
+  {
+    "id": "10",
+    "name": "DrkLance",
+    "element": "wood",
+    "atk": "400",
+    "codes": [
+      "W"
+    ],
+    "mb": 99,
+    "description": "ATK ENMY FROM BEHIND"
+  },
+  {
+    "id": "11",
+    "name": "DarkDril",
+    "element": "break",
+    "atk": "100",
+    "codes": [
+      "D"
+    ],
+    "mb": 99,
+    "description": "LETHAL DRILL OF DARKNESS"
+  },
+  {
+    "id": "12",
+    "name": "DarkWide",
+    "element": "aqua",
+    "atk": "300",
+    "codes": [
+      "T"
+    ],
+    "mb": 99,
+    "description": "WIDE SHOT PIERCES THE ENMY"
+  }
+]
