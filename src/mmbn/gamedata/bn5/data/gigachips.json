@@ -1,0 +1,134 @@
+[
+    {
+        "id": "TP 1",
+        "name": "DeltaRay",
+        "element": "Sword",
+        "atk": 220,
+        "codes": [
+            "C"
+        ],
+        "mb": 82,
+        "description": "A Button power up by 3 swrd"
+    },
+    {
+        "id": "TP 2",
+        "name": "BigHook",
+        "element": "Break",
+        "atk": 240,
+        "codes": [
+            "M"
+        ],
+        "mb": 92,
+        "description": "Hook atk 2 sq wide"
+    },
+    {
+        "id": "TP 3",
+        "name": "Bass",
+        "element": "Null",
+        "atk": 60,
+        "codes": [
+            "F"
+        ],
+        "mb": 95,
+        "description": "Buster rake wide enmy area"
+    },
+    {
+        "id": "TP 4",
+        "name": "HolyDrem",
+        "element": "Null",
+        "atk": 50,
+        "codes": [
+            "R"
+        ],
+        "mb": 92,
+        "description": "Holy shot sucks in HolyPanl!"
+    },
+    {
+        "id": "TP 5",
+        "name": "BugCurse",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "B"
+        ],
+        "mb": 73,
+        "description": "Make enemy buggy"
+    },
+    {
+        "id": "TP 6",
+        "name": "DethPhnx",
+        "element": "Null",
+        "atk": 150,
+        "codes": [
+            "P"
+        ],
+        "mb": 93,
+        "description": "Fire Atk! Recycle Navi too"
+    },
+    {
+        "id": "TC 1",
+        "name": "CrossDiv",
+        "element": "Null",
+        "atk": 220,
+        "codes": [
+            "C"
+        ],
+        "mb": 90,
+        "description": "Cross-slice!"
+    },
+    {
+        "id": "TC 2",
+        "name": "MetrKnuk",
+        "element": "Break",
+        "atk": 100,
+        "codes": [
+            "M"
+        ],
+        "mb": 90,
+        "description": "Meteors bombard from sky"
+    },
+    {
+        "id": "TC 3",
+        "name": "BassAnly",
+        "element": "Null",
+        "atk": 160,
+        "codes": [
+            "F"
+        ],
+        "mb": 95,
+        "description": "A ring the hits 4 times"
+    },
+    {
+        "id": "TC 4",
+        "name": "OmegaRkt",
+        "element": "Null",
+        "atk": 270,
+        "codes": [
+            "R"
+        ],
+        "mb": 89,
+        "description": "A rocket moves straight"
+    },
+    {
+        "id": "TC 5",
+        "name": "BugCharg",
+        "element": "Null",
+        "atk": 200,
+        "codes": [
+            "B"
+        ],
+        "mb": 77,
+        "description": "All your bugs will attack!"
+    },
+    {
+        "id": "TC 6",
+        "name": "Phoenix",
+        "element": "Heat",
+        "atk": 150,
+        "codes": [
+            "P"
+        ],
+        "mb": 95,
+        "description": "Fire Atk! Recover HP, too!"
+    }
+]
