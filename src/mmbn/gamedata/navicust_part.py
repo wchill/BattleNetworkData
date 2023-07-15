@@ -114,6 +114,8 @@ class NaviCustPart:
         return f"{self.name} ({self.color.name})"
 
     def __setstate__(self, state):
+        self.__dict__ = state
+
         if "BN3NaviCustPartColor" in self.color.__class__.__name__:
             self.game = 3
         else:

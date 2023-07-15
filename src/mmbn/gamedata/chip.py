@@ -127,6 +127,8 @@ class Chip:
         return f"{self.name} {self.code}"
 
     def __setstate__(self, state):
+        self.__dict__ = state
+
         if "BN3Chip" in self.__class__.__name__:
             self.game = 3
         else:
