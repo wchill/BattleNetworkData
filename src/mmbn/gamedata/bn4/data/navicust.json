@@ -5,13 +5,13 @@
       "Red"
     ],
     "description": "MegaMan cannot be flinched.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      "  x  ",
-      "  xx ",
-      "  x  ",
+      "  X  ",
+      "  XX ",
+      "  X  ",
       "     "
     ]
   },
@@ -21,13 +21,13 @@
       "Blue"
     ],
     "description": "1 more chip is available in the Custom Screen.",
-    "compression": "-",
-    "bug": "Custom HP Bug",
+    "compression": "",
+    "bug": "Custom HP",
     "layout": [
       "     ",
-      "  xx ",
-      " xx  ",
-      "  x  ",
+      "  XX ",
+      " XX  ",
+      "  X  ",
       "     "
     ]
   },
@@ -37,13 +37,13 @@
       "Yellow"
     ],
     "description": "2 more chips are available in the Custom Screen.",
-    "compression": "-",
-    "bug": "Custom HP Bug",
+    "compression": "",
+    "bug": "Custom HP",
     "layout": [
       "     ",
-      "  xx ",
-      " xxx ",
-      " xx  ",
+      "  XX ",
+      " XXX ",
+      " XX  ",
       "     "
     ]
   },
@@ -53,13 +53,13 @@
       "Green"
     ],
     "description": "1 more MegaChip can be added in the folder.",
-    "compression": "-",
-    "bug": "Custom HP Bug",
+    "compression": "",
+    "bug": "Custom HP",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      "  xx ",
+      "  X  ",
+      "  X  ",
+      "  XX ",
       "     "
     ]
   },
@@ -69,13 +69,13 @@
       "Green"
     ],
     "description": "2 more MegaChips can be added in the folder.",
-    "compression": "-",
-    "bug": "Custom HP Bug",
+    "compression": "",
+    "bug": "Custom HP",
     "layout": [
       "     ",
-      " xx  ",
-      " xx  ",
-      " xx  ",
+      " XX  ",
+      " XX  ",
+      " XX  ",
       "     "
     ]
   },
@@ -85,13 +85,13 @@
       "Red"
     ],
     "description": "1 more GigaChip can be added in the folder.",
-    "compression": "-",
-    "bug": "Custom HP Bug",
+    "compression": "",
+    "bug": "Custom HP",
     "layout": [
-      "   x ",
-      "  xx ",
-      " xxx ",
-      " xxx ",
+      "   X ",
+      "  XX ",
+      " XXX ",
+      " XXX ",
       "     "
     ]
   },
@@ -101,12 +101,12 @@
       "White"
     ],
     "description": "Start battle with a Barrier (10 HP).",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      " x x ",
-      " xxx ",
+      " X X ",
+      " XXX ",
       "     ",
       "     "
     ]
@@ -117,13 +117,13 @@
       "Blue"
     ],
     "description": "Press B + Left to access a shield that block attacks.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
       "     "
     ]
   },
@@ -133,13 +133,13 @@
       "Blue"
     ],
     "description": "Press B + Left to access a Reflector that block attacks and sends 100 damage ahead.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
-      " x   ",
-      " x   ",
-      " x x ",
-      " xxx ",
+      " X   ",
+      " X   ",
+      " X X ",
+      " XXX ",
       "     "
     ]
   },
@@ -148,13 +148,13 @@
     "color": [
       "Red"
     ],
-    "description": "Press B + Left to set-up an temporary AntiDamage trap, it will overwrite any existing&#160;???? trap.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "description": "Press B + Left to set-up an temporary AntiDamage trap, it will overwrite any existing trap.",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      " xxx ",
-      " xxx ",
+      " XXX ",
+      " XXX ",
       "     ",
       "     "
     ]
@@ -165,13 +165,13 @@
       "Green"
     ],
     "description": "MegaMan ignores Cracked, Lava, Swamp, Ice, and Pitfall panels.",
-    "compression": "-",
-    "bug": "Panel Bug",
+    "compression": "",
+    "bug": "Panel",
     "layout": [
       "     ",
-      "  x  ",
-      " xxx ",
-      " x x ",
+      "  X  ",
+      " XXX ",
+      " X X ",
       "     "
     ]
   },
@@ -181,13 +181,13 @@
       "Blue"
     ],
     "description": "MegaMan ignores Hole and Complete Hole panels.",
-    "compression": "-",
-    "bug": "Panel Bug",
+    "compression": "",
+    "bug": "Panel",
     "layout": [
-      " x   ",
-      " x   ",
-      " xxxx",
-      " x   ",
+      " X   ",
+      " X   ",
+      " XXXX",
+      " X   ",
       "     "
     ]
   },
@@ -197,12 +197,12 @@
       "White"
     ],
     "description": "If MegaMan would hit 0 HP, he goes down to 1 instead.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -213,13 +213,13 @@
       "Yellow"
     ],
     "description": "Certain random encounters based on your HP will not be encountered.",
-    "compression": "-",
-    "bug": "Encounter Bug",
+    "compression": "",
+    "bug": "Encounter",
     "layout": [
       "     ",
-      "  x  ",
-      " xx  ",
-      " xx  ",
+      "  X  ",
+      " XX  ",
+      " XX  ",
       "     "
     ]
   },
@@ -229,13 +229,13 @@
       "Red"
     ],
     "description": "If possible, changes all random encounters in that area into those with Fire enemies.",
-    "compression": "-",
-    "bug": "Encounter Bug",
+    "compression": "",
+    "bug": "Encounter",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -245,13 +245,13 @@
       "Blue"
     ],
     "description": "If possible, changes all random encounters in that area into those with Aqua enemies.",
-    "compression": "-",
-    "bug": "Encounter Bug",
+    "compression": "",
+    "bug": "Encounter",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -261,13 +261,13 @@
       "Yellow"
     ],
     "description": "If possible, changes all random encounters in that area into those with Elec enemies.",
-    "compression": "-",
-    "bug": "Encounter Bug",
+    "compression": "",
+    "bug": "Encounter",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -277,13 +277,13 @@
       "Green"
     ],
     "description": "If possible, changes all random encounters in that area into those with Wood enemies.",
-    "compression": "-",
-    "bug": "Encounter Bug",
+    "compression": "",
+    "bug": "Encounter",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -293,13 +293,13 @@
       "White"
     ],
     "description": "If possible, the reward from a battle will always be a BattleChip.",
-    "compression": "-",
-    "bug": "Battle Result Bug",
+    "compression": "",
+    "bug": "Battle Result",
     "layout": [
       "     ",
       "     ",
-      "xxx  ",
-      " xxx ",
+      "XXX  ",
+      " XXX ",
       "     "
     ]
   },
@@ -309,12 +309,12 @@
       "Pink"
     ],
     "description": "In overworld, press L. MegaMan makes jokes.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -325,13 +325,13 @@
       "Red"
     ],
     "description": "+3 to Buster's Attack, Speed, and Charge.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
-      " xx  ",
-      " xxx ",
-      " xxx ",
+      " XX  ",
+      " XXX ",
+      " XXX ",
       "     "
     ]
   },
@@ -341,13 +341,13 @@
       "Blue"
     ],
     "description": "Effects of SuperArmor, UnderShirt, FloatShoes, and AirShoes.",
-    "compression": "-",
-    "bug": "Player Bug",
+    "compression": "",
+    "bug": "Player",
     "layout": [
-      " xxx ",
-      "xxxx ",
-      "xxxx ",
-      "xxx  ",
+      " XXX ",
+      "XXXX ",
+      "XXXX ",
+      "XXX  ",
       "     "
     ]
   },
@@ -357,14 +357,14 @@
       "White"
     ],
     "description": "Effects of AirShoes, FirstBarrier, Custom1, FloatShoes, MegaFolder1, Shield, SuperArmor, and UnderShirt. HubBatc also cannot be traded.",
-    "compression": "-",
-    "bug": "Auto Bug: MegaMan's HP is halved.",
+    "compression": "",
+    "bug": "Auto Bug Half HP",
     "layout": [
-      "  x  ",
-      " xxx ",
-      "xxxxx",
-      " xxx ",
-      "  x  "
+      "  X  ",
+      " XXX ",
+      "XXXXX",
+      " XXX ",
+      "  X  "
     ]
   },
   {
@@ -372,13 +372,13 @@
     "color": [
       "White"
     ],
-    "description": "Removes all bugs in NaviCustomizer.",
-    "compression": "-",
-    "bug": "None",
+    "description": "Removes alls in NaviCustomizer.",
+    "compression": "",
+    "bug": "Nothing",
     "layout": [
       "     ",
       "     ",
-      "  x  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -389,14 +389,14 @@
       "White"
     ],
     "description": "Speeds up obtaining MegaMan's karma points.",
-    "compression": "-",
-    "bug": "None",
+    "compression": "",
+    "bug": "Nothing",
     "layout": [
-      "  x  ",
-      "  x  ",
-      "xxxxx",
-      "  x  ",
-      "  x  "
+      "  X  ",
+      "  X  ",
+      "XXXXX",
+      "  X  ",
+      "  X  "
     ]
   },
   {
@@ -405,12 +405,12 @@
       "Yellow"
     ],
     "description": "NetworkDuel only; When opponent uses an Invis or PopUp chip, takes the chip away and they become paralyzed.",
-    "compression": "-",
-    "bug": "Doesn't activate",
+    "compression": "",
+    "bug": "Activation",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -421,14 +421,14 @@
       "Blue"
     ],
     "description": "NetworkDuel only; Opponent's first Mega or Giga Chip gets taken away. <span style=\"color:#666666\"><span style=\"font-size:85%;\">(<b>JP</b>)</span></span> It will also trigger against DrkVulcn.",
-    "compression": "-",
-    "bug": "Doesn't activate",
+    "compression": "",
+    "bug": "Activation",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
-      "  x  ",
-      "  x  "
+      "  X  ",
+      "  X  ",
+      "  X  ",
+      "  X  "
     ]
   },
   {
@@ -437,13 +437,13 @@
       "Green"
     ],
     "description": "NetworkDuel only; If MegaMan falls into red outside of a screen-dim, he obtains 300HP and a Barrier100.",
-    "compression": "-",
-    "bug": "Doesn't activate",
+    "compression": "",
+    "bug": "Activation",
     "layout": [
       "     ",
-      " x x ",
-      " xxx ",
-      " x x ",
+      " X X ",
+      " XXX ",
+      " X X ",
       "     "
     ]
   },
@@ -455,8 +455,8 @@
       "Yellow"
     ],
     "description": "MegaBuster Attack +1.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "  #  ",
@@ -473,8 +473,8 @@
       "Yellow"
     ],
     "description": "MegaBuster Speed +1.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "     ",
@@ -491,8 +491,8 @@
       "Yellow"
     ],
     "description": "MegaBuster Charge +1.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "     ",
@@ -507,8 +507,8 @@
       "White"
     ],
     "description": "MegaBuster Attack becomes 5.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       " ##  ",
       " ##  ",
@@ -523,8 +523,8 @@
       "White"
     ],
     "description": "MegaBuster Speed becomes 5.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "  #  ",
@@ -539,8 +539,8 @@
       "Pink"
     ],
     "description": "MegaBuster Charge becomes 5.",
-    "compression": "-",
-    "bug": "Buster Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "  #  ",
@@ -557,8 +557,8 @@
       "Yellow"
     ],
     "description": "Max HP +50!",
-    "compression": "-",
-    "bug": "Battle HP Bug",
+    "compression": "",
+    "bug": "Battle HP",
     "layout": [
       "     ",
       "     ",
@@ -574,8 +574,8 @@
       "Yellow"
     ],
     "description": "Max HP +100!",
-    "compression": "-",
-    "bug": "Battle HP Bug",
+    "compression": "",
+    "bug": "Battle HP",
     "layout": [
       "     ",
       "     ",
@@ -592,8 +592,8 @@
       "Yellow"
     ],
     "description": "Max HP +200!",
-    "compression": "-",
-    "bug": "Battle HP Bug",
+    "compression": "",
+    "bug": "Battle HP",
     "layout": [
       "     ",
       "     ",
@@ -610,8 +610,8 @@
       "Yellow"
     ],
     "description": "Max HP +300!",
-    "compression": "-",
-    "bug": "Battle HP Bug",
+    "compression": "",
+    "bug": "Battle HP",
     "layout": [
       "     ",
       " ##  ",
@@ -628,8 +628,8 @@
       "Yellow"
     ],
     "description": "Max HP +400!",
-    "compression": "-",
-    "bug": "Battle HP Bug",
+    "compression": "",
+    "bug": "Battle HP",
     "layout": [
       "     ",
       "#  # ",

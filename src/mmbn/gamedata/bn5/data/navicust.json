@@ -6,12 +6,12 @@
     ],
     "description": "MegaMan cannot be flinched.",
     "compression": "RABRALLRBA",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "     ",
-      "  x  ",
-      " -xx ",
-      "  x  ",
+      "  X  ",
+      " -XX ",
+      "  X  ",
       "     "
     ]
   },
@@ -22,11 +22,11 @@
     ],
     "description": "1 more chip is available in the Custom Screen.",
     "compression": "AARLBABALB",
-    "bug": "Custom Bug",
+    "bug": "Custom",
     "layout": [
       "     ",
-      "  xx ",
-      " xx  ",
+      "  XX ",
+      " XX  ",
       "  -  ",
       "     "
     ]
@@ -38,12 +38,12 @@
     ],
     "description": "2 more chips are available in the Custom Screen.",
     "compression": "BARLLRALBR",
-    "bug": "Custom Bug",
+    "bug": "Custom",
     "layout": [
       "     ",
-      "  xx ",
-      " xxx ",
-      " xx- ",
+      "  XX ",
+      " XXX ",
+      " XX- ",
       "     "
     ]
   },
@@ -54,12 +54,12 @@
     ],
     "description": "1 more MegaChip can be added in the folder.",
     "compression": "BBABBRRLAR",
-    "bug": "Custom Bug",
+    "bug": "Custom",
     "layout": [
       "     ",
       "  -  ",
-      "  xx ",
-      "  x  ",
+      "  XX ",
+      "  X  ",
       "     "
     ]
   },
@@ -70,12 +70,12 @@
     ],
     "description": "2 more MegaChips can be added in the folder.",
     "compression": "LABBLBAALL",
-    "bug": "Custom Bug",
+    "bug": "Custom",
     "layout": [
       "     ",
-      "  xx ",
-      "  xx ",
-      "  x- ",
+      "  XX ",
+      "  XX ",
+      "  X- ",
       "     "
     ]
   },
@@ -86,12 +86,12 @@
     ],
     "description": "1 more GigaChip can be added in the folder.",
     "compression": "RRLBLLARBL",
-    "bug": "Custom Bug",
+    "bug": "Custom",
     "layout": [
       "     ",
       "  -  ",
-      " xxx ",
-      "xxxxx",
+      " XXX ",
+      "XXXXX",
       "     "
     ]
   },
@@ -102,11 +102,11 @@
     ],
     "description": "Start battle with a Barrier (10 HP).",
     "compression": "RLABBARALR",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "     ",
-      " - x ",
-      " xxx ",
+      " - X ",
+      " XXX ",
       "     ",
       "     "
     ]
@@ -118,11 +118,11 @@
     ],
     "description": "Press B + Left to access a shield that block attacks.",
     "compression": "ABARALRBBA",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "     ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
       "  -  ",
       "     "
     ]
@@ -134,12 +134,12 @@
     ],
     "description": "Press B + Left to access a Reflector that block attacks and sends 50 damage ahead.",
     "compression": "LLRBLLAALB",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "     ",
-      " xx  ",
-      " -xx ",
-      " xxx ",
+      " XX  ",
+      " -XX ",
+      " XXX ",
       "     "
     ]
   },
@@ -150,12 +150,12 @@
     ],
     "description": "Press B + Left to set-up an temporary AntiDamage trap.",
     "compression": "RBBARBRARB",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
-      "  - x",
-      " xxx ",
-      " xxx ",
-      "  x  ",
+      "  - X",
+      " XXX ",
+      " XXX ",
+      "  X  ",
       "     "
     ]
   },
@@ -166,12 +166,12 @@
     ],
     "description": "MegaMan ignores Cracked, Swamp, Ice, Lava, Magnet and Water panels.",
     "compression": "ALLBRLAAAL",
-    "bug": "Panel Bug",
+    "bug": "Panel",
     "layout": [
-      " x   ",
-      " xx  ",
-      "  xx ",
-      "   x-",
+      " X   ",
+      " XX  ",
+      "  XX ",
+      "   X-",
       "     "
     ]
   },
@@ -182,12 +182,12 @@
     ],
     "description": "MegaMan ignores Hole and Complete Hole panels.",
     "compression": "BLBABLBBAA",
-    "bug": "Panel Bug",
+    "bug": "Panel",
     "layout": [
-      " x   ",
-      " x   ",
-      " xxx ",
-      " - x ",
+      " X   ",
+      " X   ",
+      " XXX ",
+      " - X ",
       "     "
     ]
   },
@@ -198,11 +198,11 @@
     ],
     "description": "If MegaMan would hit 0 HP, he goes down to 1 instead.",
     "compression": "ARBBRLRALA",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "     ",
       "  -  ",
-      "  x  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -214,12 +214,12 @@
     ],
     "description": "Certain random encounters based on your HP will not be encountered.",
     "compression": "RLLALLBABB",
-    "bug": "Encounter Bug",
+    "bug": "Encounter",
     "layout": [
       "     ",
       "  -  ",
-      " xx  ",
-      " xx  ",
+      " XX  ",
+      " XX  ",
       "     "
     ]
   },
@@ -230,12 +230,12 @@
     ],
     "description": "If possible, changes all random encounters in that area into those with Fire enemies.",
     "compression": "LBRARLABLB",
-    "bug": "Encounter Bug",
+    "bug": "Encounter",
     "layout": [
       "     ",
       "  -  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -246,12 +246,12 @@
     ],
     "description": "If possible, changes all random encounters in that area into those with Aqua enemies.",
     "compression": "BABALRARAA",
-    "bug": "Encounter Bug",
+    "bug": "Encounter",
     "layout": [
       "     ",
       "  -  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -262,12 +262,12 @@
     ],
     "description": "If possible, changes all random encounters in that area into those with Elec enemies.",
     "compression": "AABRABRLLR",
-    "bug": "Encounter Bug",
+    "bug": "Encounter",
     "layout": [
       "     ",
       "  -  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -278,12 +278,12 @@
     ],
     "description": "If possible, changes all random encounters in that area into those with Wood enemies.",
     "compression": "LRLABLBBLA",
-    "bug": "Encounter Bug",
+    "bug": "Encounter",
     "layout": [
       "     ",
       "  -  ",
-      "  x  ",
-      " xxx ",
+      "  X  ",
+      " XXX ",
       "     "
     ]
   },
@@ -294,11 +294,11 @@
     ],
     "description": "If possible, the reward from a battle will always be a BattleChip.",
     "compression": "BRALARBAAB",
-    "bug": "Result Bug",
+    "bug": "Result",
     "layout": [
       "     ",
-      "xxxx ",
-      " x-x ",
+      "XXXX ",
+      " X-X ",
       "     ",
       "     "
     ]
@@ -310,12 +310,12 @@
     ],
     "description": "Green Mystery Datas will always give Zenny.",
     "compression": "RLRARRLLLR",
-    "bug": "Result Bug",
+    "bug": "Result",
     "layout": [
       "     ",
-      " xxx ",
-      "   x ",
-      " -xx ",
+      " XXX ",
+      "   X ",
+      " -XX ",
       "     "
     ]
   },
@@ -326,11 +326,11 @@
     ],
     "description": "In overworld, press L. MegaMan makes jokes.",
     "compression": "ABLARABLRL",
-    "bug": "Emotion Window Bug",
+    "bug": "Emotion Window",
     "layout": [
       "     ",
-      "  x  ",
-      "  x- ",
+      "  X  ",
+      "  X- ",
       "     ",
       "     "
     ]
@@ -342,11 +342,11 @@
     ],
     "description": "In overworld, press L. MegaMan demonstrates his deepest thoughts.",
     "compression": "RRBBRBRBAA",
-    "bug": "Emotion Window Bug",
+    "bug": "Emotion Window",
     "layout": [
       "     ",
-      " x - ",
-      " xxx ",
+      " X - ",
+      " XXX ",
       "     ",
       "     "
     ]
@@ -357,12 +357,12 @@
       "Red"
     ],
     "description": "In overworld, MegaMan now automatically runs without the B button. Encounter rate is also reduced if B is not held.",
-    "compression": "---",
-    "bug": "Panel Bug",
+    "compression": "",
+    "bug": "Panel",
     "layout": [
       "     ",
       "     ",
-      "  x  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -374,12 +374,12 @@
     ],
     "description": "After battle, MegaMan is restored 10% of his max HP before HP+ programs.",
     "compression": "RLRLRBBRAB",
-    "bug": "Panel Bug",
+    "bug": "Panel",
     "layout": [
-      "  x  ",
-      "  x  ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
       "  -  "
     ]
   },
@@ -390,12 +390,12 @@
     ],
     "description": "+3 to Buster's Attack, Speed, and Charge.",
     "compression": "LLRARLBLAR",
-    "bug": "Buster Blank Bug",
+    "bug": "Buster",
     "layout": [
       "     ",
-      " x-x ",
-      " xxx ",
-      " xxx ",
+      " X-X ",
+      " XXX ",
+      " XXX ",
       "     "
     ]
   },
@@ -406,13 +406,13 @@
     ],
     "description": "Effects of SuperArmor, UnderShirt, FloatShoes, and AirShoes.",
     "compression": "BARABRLRRA",
-    "bug": "Movement Bug",
+    "bug": "Movement",
     "layout": [
       "  -  ",
-      " xxx ",
-      " xxxx",
-      " xxx ",
-      " xxx "
+      " XXX ",
+      " XXXX",
+      " XXX ",
+      " XXX "
     ]
   },
   {
@@ -422,11 +422,11 @@
     ],
     "description": "Removes all bugs in NaviCustomizer.",
     "compression": "BABLABRLRB",
-    "bug": "None",
+    "bug": "Nothing",
     "layout": [
       "     ",
       "     ",
-      " -xx ",
+      " -XX ",
       "     ",
       "     "
     ]
@@ -437,14 +437,14 @@
       "White"
     ],
     "description": "You obtain 3 Karma points instead of 1 for every battle can't escape 100% of the time.",
-    "compression": "---",
-    "bug": "Movement Bug",
+    "compression": "",
+    "bug": "Movement",
     "layout": [
-      "  x  ",
-      "  x  ",
-      "xxxxx",
-      "  x  ",
-      "  x  "
+      "  X  ",
+      "  X  ",
+      "XXXXX",
+      "  X  ",
+      "  X  "
     ]
   },
   {
@@ -454,11 +454,11 @@
     ],
     "description": "NetworkDuel only; When opponent uses an Invisible chip, takes the chip away and they become paralyzed.",
     "compression": "RBLRBRLLRL",
-    "bug": "Doesn't activate",
+    "bug": "Activation",
     "layout": [
       "     ",
-      " -x  ",
-      "  x  ",
+      " -X  ",
+      "  X  ",
       "     ",
       "     "
     ]
@@ -470,12 +470,12 @@
     ],
     "description": "NetworkDuel only; Opponent's first Mega or Giga Chip gets taken away.",
     "compression": "ABBRAABRBR",
-    "bug": "Doesn't activate",
+    "bug": "Activation",
     "layout": [
       "  -  ",
-      "  x  ",
-      "  x  ",
-      "  x  ",
+      "  X  ",
+      "  X  ",
+      "  X  ",
       "     "
     ]
   },
@@ -486,12 +486,12 @@
     ],
     "description": "NetworkDuel only; If MegaMan falls into red outside of a screen-dim, he obtains 300HP and a Barrier100.",
     "compression": "LBLABLABAL",
-    "bug": "Doesn't activate",
+    "bug": "Activation",
     "layout": [
-      "  x  ",
-      " xx  ",
-      " -xx ",
-      "  x  ",
+      "  X  ",
+      " XX  ",
+      " -XX ",
+      "  X  ",
       "     "
     ]
   },
@@ -503,8 +503,8 @@
       "Yellow"
     ],
     "description": "MegaBuster Attack +1.",
-    "compression": "---",
-    "bug": "Buster Blank Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "  #  ",
@@ -520,8 +520,8 @@
       "Pink"
     ],
     "description": "MegaBuster Speed +1.",
-    "compression": "---",
-    "bug": "Buster Blank Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "     ",
@@ -537,8 +537,8 @@
       "Yellow"
     ],
     "description": "MegaBuster Charge +1.",
-    "compression": "---",
-    "bug": "Buster Blank Bug",
+    "compression": "",
+    "bug": "Buster",
     "layout": [
       "     ",
       "     ",
@@ -555,8 +555,8 @@
       "Yellow"
     ],
     "description": "DoubleSoul time +1.",
-    "compression": "---",
-    "bug": "Emotion Window Bug",
+    "compression": "",
+    "bug": "Emotion Window",
     "layout": [
       "     ",
       "  ## ",
@@ -572,7 +572,7 @@
     ],
     "description": "MegaBuster Attack becomes 5.",
     "compression": "LLLRRBARBL",
-    "bug": "Buster Blank Bug",
+    "bug": "Buster",
     "layout": [
       " ##  ",
       " ##  ",
@@ -588,7 +588,7 @@
     ],
     "description": "MegaBuster Speed becomes 5.",
     "compression": "RARLLRRABA",
-    "bug": "Buster Blank Bug",
+    "bug": "Buster",
     "layout": [
       "     ",
       "     ",
@@ -604,7 +604,7 @@
     ],
     "description": "MegaBuster Charge becomes 5.",
     "compression": "ALAARBRBAR",
-    "bug": "Buster Blank Bug",
+    "bug": "Buster",
     "layout": [
       "     ",
       "  #  ",
@@ -621,8 +621,8 @@
       "Yellow"
     ],
     "description": "Max HP +50!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       "     ",
@@ -639,8 +639,8 @@
       "Pink"
     ],
     "description": "Max HP +100!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       "  ## ",
@@ -657,8 +657,8 @@
       "Yellow"
     ],
     "description": "Max HP +200!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       "  ## ",
@@ -675,8 +675,8 @@
       "Yellow"
     ],
     "description": "Max HP +300!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       " ####",
@@ -693,8 +693,8 @@
       "Pink"
     ],
     "description": "Max HP +400!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       " ####",
@@ -710,8 +710,8 @@
       "Pink"
     ],
     "description": "Max HP +500!",
-    "compression": "---",
-    "bug": "Damage HP Bug",
+    "compression": "",
+    "bug": "Damage HP",
     "layout": [
       "     ",
       "#####",
