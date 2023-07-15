@@ -6,8 +6,17 @@ from typing import List, Literal
 from PIL import Image, ImageDraw
 
 
-class ColorT(Enum):
-    pass
+class NaviCustColors(Enum):
+    White = "⚪"
+    Pink = "<:pink:1105722810183196702>"
+    Yellow = "🟡"
+    Green = "🟢"
+    Blue = "🔵"
+    Red = "🔴"
+    Orange = "🟠"
+    Purple = "🟣"
+    Dark = "⚫"
+    Nothing = ""
 
 
 class BugT(Enum):
@@ -34,14 +43,16 @@ ColorLiteral = Literal["White", "Yellow", "Green", "Blue", "Red", "Pink", "Orang
 class NaviCustPart:
     def __init__(
         self,
+        game: int,
         name: str,
-        color: ColorT,
+        color: NaviCustColors,
         description: str,
         compression_code: str,
         bug: BugT,
         layout: List[str],
         internal_id: int,
     ):
+        self.game = game
         self.name = name
         self.color = color
         self.description = description
@@ -101,3 +112,9 @@ class NaviCustPart:
         if self.name == "Nothing":
             return "Nothing"
         return f"{self.name} ({self.color.name})"
+
+    def __setstate__(self, state):
+        if "BN3NaviCustPartColor" in self.color.__class__.__name__:
+            self.game = 3
+        else:
+            self.game = 6

@@ -46,7 +46,7 @@ class BN6Chip(Chip):
         chip_type: int,
         description: str,
     ):
-        super().__init__(name, chip_id, code, atk, element, mb, chip_type, description)
+        super().__init__(6, name, chip_id, code, atk, element, mb, chip_type, description)
 
     @property
     def sorting_chip_id(self) -> str:

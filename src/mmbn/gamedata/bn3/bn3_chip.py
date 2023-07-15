@@ -38,7 +38,7 @@ class BN3Chip(Chip):
         chip_type: int,
         description: str,
     ):
-        super().__init__(name, chip_id, code, atk, element, mb, chip_type, description)
+        super().__init__(3, name, chip_id, code, atk, element, mb, chip_type, description)
 
     @property
     def chip_image_path(self) -> str:

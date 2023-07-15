@@ -67,8 +67,18 @@ class Chip:
     NOTHING = 4
 
     def __init__(
-        self, name: str, chip_id: str, code: Code, atk: int, element: Enum, mb: int, chip_type: int, description: str
+        self,
+        game: int,
+        name: str,
+        chip_id: str,
+        code: Code,
+        atk: int,
+        element: Enum,
+        mb: int,
+        chip_type: int,
+        description: str,
     ):
+        self.game = game
         self.name = name
         self.chip_id = chip_id
         self.code = code
@@ -115,3 +125,9 @@ class Chip:
         if self.chip_type == Chip.NOTHING:
             return "Nothing"
         return f"{self.name} {self.code}"
+
+    def __setstate__(self, state):
+        if "BN3Chip" in self.__class__.__name__:
+            self.game = 3
+        else:
+            self.game = 6

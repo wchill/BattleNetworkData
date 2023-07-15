@@ -2,22 +2,12 @@ import functools
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 from .. import ncp_list_utils
-from ..navicust_part import BugT, ColorT, NaviCustPart
+from ..navicust_part import BugT, NaviCustColors, NaviCustPart
 
 GAME = 3
 
 
-class BN3NaviCustPartColor(ColorT):
-    White = "⚪"
-    Pink = "<:pink:1105722810183196702>"
-    Yellow = "🟡"
-    Green = "🟢"
-    Blue = "🔵"
-    Red = "🔴"
-    Orange = "🟠"
-    Purple = "🟣"
-    Dark = "⚫"
-    Nothing = ""
+BN3NaviCustPartColor = NaviCustColors
 
 
 class BN3NaviCustBug(BugT):
@@ -57,7 +47,7 @@ def _get_navicust_parts() -> List[NaviCustPart]:
     return ncp_list_utils.get_navicust_parts(GAME, _make_bn3_part)
 
 
-def _create_ncp_index() -> Dict[Tuple[str, ColorT], NaviCustPart]:
+def _create_ncp_index() -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
     return ncp_list_utils.create_ncp_index(GAME, _make_bn3_part)
 
 

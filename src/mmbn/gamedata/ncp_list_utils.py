@@ -13,7 +13,7 @@ from typing import (
     Union,
 )
 
-from .navicust_part import ColorT, NaviCustPart
+from .navicust_part import NaviCustColors, NaviCustPart
 
 
 def get_navicust_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
@@ -39,9 +39,7 @@ def get_untradable_parts(
     return retval
 
 
-def get_illegal_parts(
-    game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]
-) -> List[NaviCustPart]:
+def get_illegal_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
     all_parts = get_navicust_parts(game, make_func)
     data = pkgutil.get_data(__name__, f"bn{game}/data/illegal_navicust.json").decode("utf-8")
     ncp_data = json.loads(data)
@@ -61,7 +59,7 @@ def get_tradable_parts(game: int, make_func: Callable[[Dict[str, Any], int], Lis
 
 def create_ncp_index(
     game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]
-) -> Dict[Tuple[str, ColorT], NaviCustPart]:
+) -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
     parts = get_navicust_parts(game, make_func)
     index = {(ncp.name.lower(), ncp.color): ncp for ncp in parts}
     count: MutableMapping[NaviCustPart, int] = collections.defaultdict(int)
@@ -76,7 +74,10 @@ def create_ncp_index(
 
 
 def get_ncp(
-    parts_index: Dict[Tuple[str, ColorT], NaviCustPart], name: str, color_cls: Type[ColorT], color: Union[ColorT, str]
+    parts_index: Dict[Tuple[str, NaviCustColors], NaviCustPart],
+    name: str,
+    color_cls: Type[NaviCustColors],
+    color: Union[NaviCustColors, str],
 ) -> Optional[NaviCustPart]:
     try:
         if isinstance(color, color_cls):
@@ -90,7 +91,7 @@ def get_ncp(
 
 
 def get_parts_by_color(
-    all_parts: List[NaviCustPart], color_cls: Type[ColorT], color: Union[ColorT, str]
+    all_parts: List[NaviCustPart], color_cls: Type[NaviCustColors], color: Union[NaviCustColors, str]
 ) -> List[NaviCustPart]:
     if isinstance(color, color_cls):
         ncp_color = color

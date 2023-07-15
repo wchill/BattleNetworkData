@@ -6,8 +6,8 @@ from .bn3_chip import BN3Chip, BN3Element
 
 _BN3_CHIP_READER = ChipReader(3, BN3Chip)
 
-NOTHING = Chip("Nothing", "999", Code.Star, 0, BN3Element.Null, 100, Chip.NOTHING, "")
-SENTINEL = Chip("", "", Code.Star, 0, BN3Element.Null, 0, Chip.NOTHING, "")
+NOTHING = Chip(3, "Nothing", "999", Code.Star, 0, BN3Element.Null, 100, Chip.NOTHING, "")
+SENTINEL = Chip(3, "", "", Code.Star, 0, BN3Element.Null, 0, Chip.NOTHING, "")
 
 STANDARD_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_standard_chips())
 MEGA_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_mega_chips())
