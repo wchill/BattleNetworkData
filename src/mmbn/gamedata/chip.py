@@ -61,6 +61,7 @@ class Code(Enum):
 
 @functools.total_ordering
 class Chip:
+    GAME = None
     STANDARD = 1
     MEGA = 2
     GIGA = 3
@@ -68,7 +69,6 @@ class Chip:
 
     def __init__(
         self,
-        game: int,
         name: str,
         chip_id: str,
         code: Code,
@@ -78,7 +78,6 @@ class Chip:
         chip_type: int,
         description: str,
     ):
-        self.game = game
         self.name = name
         self.chip_id = chip_id
         self.code = code
@@ -106,6 +105,10 @@ class Chip:
     def __eq__(self, other) -> bool:
         if other is None:
             return False
+
+        if self.__class__ != other.__class__:
+            return False
+
         return self.__dict__ == other.__dict__
 
     @classmethod
@@ -125,11 +128,3 @@ class Chip:
         if self.chip_type == Chip.NOTHING:
             return "Nothing"
         return f"{self.name} {self.code}"
-
-    def __setstate__(self, state):
-        self.__dict__ = state
-
-        if "BN3Chip" in self.__class__.__name__:
-            self.game = 3
-        else:
-            self.game = 6

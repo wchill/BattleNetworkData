@@ -32,7 +32,7 @@ def _make_bn6_part(ncp_dict: Dict[str, Any], internal_id: int) -> List[NaviCustP
     layout = ncp_dict["layout"]
     return [
         NaviCustPart(
-            6, name, BN6NaviCustPartColor[color], description, compression_code, bug, layout, internal_id + offset
+            name, BN6NaviCustPartColor[color], description, compression_code, bug, layout, internal_id + offset
         )
         for offset, color in enumerate(ncp_dict["color"])
     ]
@@ -51,7 +51,7 @@ ALL_PARTS = _get_navicust_parts()
 TRADABLE_PARTS = ncp_list_utils.get_tradable_parts(GAME, _make_bn6_part)
 ILLEGAL_PARTS = ncp_list_utils.get_illegal_parts(GAME, _make_bn6_part)
 NOTHING = NaviCustPart(
-    6, "Nothing", BN6NaviCustPartColor.Nothing, "Nothing", "", BN6NaviCustBug.Nothing, ["     "] * 5, 999
+    "Nothing", BN6NaviCustPartColor.Nothing, "Nothing", "", BN6NaviCustBug.Nothing, ["     "] * 5, 999
 )
 
 PARTS_INDEX = {(ncp.name.lower(), ncp.color): ncp for ncp in ALL_PARTS}

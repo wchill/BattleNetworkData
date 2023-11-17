@@ -41,9 +41,10 @@ ColorLiteral = Literal["White", "Yellow", "Green", "Blue", "Red", "Pink", "Orang
 
 @functools.total_ordering
 class NaviCustPart:
+    GAME = None
+
     def __init__(
         self,
-        game: int,
         name: str,
         color: NaviCustColors,
         description: str,
@@ -52,7 +53,6 @@ class NaviCustPart:
         layout: List[str],
         internal_id: int,
     ):
-        self.game = game
         self.name = name
         self.color = color
         self.description = description
@@ -103,6 +103,10 @@ class NaviCustPart:
     def __eq__(self, other) -> bool:
         if other is None:
             return False
+
+        if self.__class__ != other.__class__:
+            return False
+
         return self.internal_id == other.internal_id
 
     def __hash__(self) -> int:
@@ -112,11 +116,3 @@ class NaviCustPart:
         if self.name == "Nothing":
             return "Nothing"
         return f"{self.name} ({self.color.name})"
-
-    def __setstate__(self, state):
-        self.__dict__ = state
-
-        if "BN3NaviCustPartColor" in self.color.__class__.__name__:
-            self.game = 3
-        else:
-            self.game = 6
