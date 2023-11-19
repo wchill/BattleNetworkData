@@ -67,7 +67,7 @@ class ChipList:
         return self.chip_reader.get_unobtainable_chips()
 
     @cached_property
-    def tradable_unobtainable_chips(self) -> List[Chip]:
+    def tradable_obtainable_chips(self) -> List[Chip]:
         return list(set(self.tradable_chips) - set(self.unobtainable_chips))
 
     @property
