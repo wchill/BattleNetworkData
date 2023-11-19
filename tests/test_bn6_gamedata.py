@@ -40,5 +40,5 @@ class TestBN6GameData:
     def test_bn6_ncp_list(self, ncp_list):
         assert len(ncp_list.get_parts_by_name("SuprArmr")) == 1
         assert len(ncp_list.get_parts_by_color("Red")) > 0
-        assert ncp_list.get_ncp("SuprArmr", "Red") is not None
-        assert ncp_list.get_ncp("SuprArmr", "Blue") is None
+        assert ncp_list.get_part("SuprArmr", "Red") is not None
+        assert ncp_list.get_part("SuprArmr", "Blue") is None

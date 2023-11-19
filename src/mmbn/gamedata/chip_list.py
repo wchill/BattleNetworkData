@@ -1,3 +1,4 @@
+from functools import cached_property
 from typing import Type, Tuple, Dict, List, Union, Optional
 
 from mmbn.gamedata.bn1.bn1_chip import BN1Chip, BN1Element
@@ -62,8 +63,12 @@ class ChipList:
         return self.chip_reader.get_tradable_chips()
 
     @property
-    def illegal_chips(self) -> List[Chip]:
-        return self.chip_reader.get_illegal_chips()
+    def unobtainable_chips(self) -> List[Chip]:
+        return self.chip_reader.get_unobtainable_chips()
+
+    @cached_property
+    def tradable_unobtainable_chips(self) -> List[Chip]:
+        return list(set(self.tradable_chips) - set(self.unobtainable_chips))
 
     @property
     def tradable_chip_order(self) -> Dict[Sort, List[Chip]]:
@@ -76,8 +81,8 @@ class ChipList:
         return {(chip.name.lower(), chip.code): chip for chip in self.tradable_chips}
 
     @property
-    def illegal_chip_index(self) -> Dict[Tuple[str, Code], Chip]:
-        return {(chip.name.lower(), chip.code): chip for chip in self.illegal_chips}
+    def unobtainable_chip_index(self) -> Dict[Tuple[str, Code], Chip]:
+        return {(chip.name.lower(), chip.code): chip for chip in self.unobtainable_chips}
 
     @property
     def chip_index(self) -> Dict[Tuple[str, Code], Chip]:
@@ -94,8 +99,8 @@ class ChipList:
     def get_tradable_chip(self, name: str, code: Union[str, Code]) -> Optional[Chip]:
         return self.get_chip_from_index(name, code, self.tradable_chip_index)
 
-    def get_illegal_chip(self, name: str, code: Union[str, Code]) -> Optional[Chip]:
-        return self.get_chip_from_index(name, code, self.illegal_chip_index)
+    def get_unobtainable_chip(self, name: str, code: Union[str, Code]) -> Optional[Chip]:
+        return self.get_chip_from_index(name, code, self.unobtainable_chip_index)
 
     def get_chip(self, name: str, code: Union[str, Code]) -> Optional[Chip]:
         return self.get_chip_from_index(name, code, self.chip_index)

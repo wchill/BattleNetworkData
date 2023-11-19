@@ -5,18 +5,16 @@ from typing import Dict, List, Tuple, Type, TypeVar
 
 from .chip import Chip, Code, Sort
 
-ChipT = TypeVar("ChipT", bound=Chip)
-
 
 SORT_METHODS = [Sort.ID, Sort.ABCDE, Sort.Code, Sort.Attack, Sort.Element, Sort.No, Sort.MB]
 
 
 class ChipReader:
-    def __init__(self, game: int, chip_cls: Type[ChipT]):
+    def __init__(self, game: int, chip_cls: Type[Chip]):
         self.game = game
         self.chip_cls = chip_cls
 
-    def read_chips_from_file(self, filename: str, chip_type: int) -> List[ChipT]:
+    def read_chips_from_file(self, filename: str, chip_type: int) -> List[Chip]:
         try:
             data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
             chips = json.loads(data)
@@ -29,7 +27,7 @@ class ChipReader:
         except TypeError:
             pass
 
-    def read_untradable_chips_from_file(self, filename: str) -> List[ChipT]:
+    def read_untradable_chips_from_file(self, filename: str) -> List[Chip]:
         try:
             data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
             chips = json.loads(data)
@@ -44,55 +42,55 @@ class ChipReader:
             return []
 
     @functools.cache
-    def get_standard_chips(self) -> List[ChipT]:
+    def get_standard_chips(self) -> List[Chip]:
         return self.read_chips_from_file("chips.json", Chip.STANDARD) + \
             self.read_chips_from_file("secretchips.json", Chip.STANDARD_SECRET)
 
     @functools.cache
-    def get_mega_chips(self) -> List[ChipT]:
+    def get_mega_chips(self) -> List[Chip]:
         return self.read_chips_from_file("megachips.json", Chip.MEGA) + \
             self.read_chips_from_file("secret_megachips.json", Chip.MEGA_SECRET)
 
     @functools.cache
-    def get_giga_chips(self) -> List[ChipT]:
+    def get_giga_chips(self) -> List[Chip]:
         return self.read_chips_from_file("gigachips.json", Chip.GIGA)
 
     @functools.cache
-    def get_dark_chips(self) -> List[ChipT]:
+    def get_dark_chips(self) -> List[Chip]:
         return self.read_chips_from_file("darkchips.json", Chip.GIGA)
 
     @functools.cache
-    def get_all_chips(self) -> List[ChipT]:
+    def get_all_chips(self) -> List[Chip]:
         return self.get_standard_chips() + self.get_mega_chips() + self.get_giga_chips() + self.get_dark_chips()
 
     @functools.cache
-    def get_all_chips_dict(self) -> Dict[Tuple[str, Code], ChipT]:
+    def get_all_chips_dict(self) -> Dict[Tuple[str, Code], Chip]:
         all_chips = self.get_all_chips()
         all_chips_map = {(chip.name, chip.code): chip for chip in all_chips}
         return all_chips_map
 
     @functools.cache
-    def get_untradable_chips(self) -> List[ChipT]:
+    def get_untradable_chips(self) -> List[Chip]:
         return self.read_untradable_chips_from_file("untradable.json")
 
     @functools.cache
-    def get_illegal_chips(self) -> List[ChipT]:
+    def get_unobtainable_chips(self) -> List[Chip]:
         return self.read_untradable_chips_from_file("unobtainable.json")
 
     @functools.cache
-    def get_tradable_standard_chips(self) -> List[ChipT]:
+    def get_tradable_standard_chips(self) -> List[Chip]:
         return sorted(set(self.get_standard_chips()) - set(self.get_untradable_chips()))
 
     @functools.cache
-    def get_tradable_mega_chips(self) -> List[ChipT]:
+    def get_tradable_mega_chips(self) -> List[Chip]:
         return sorted(set(self.get_mega_chips()) - set(self.get_untradable_chips()))
 
     @functools.cache
-    def get_tradable_chips(self) -> List[ChipT]:
+    def get_tradable_chips(self) -> List[Chip]:
         return self.get_tradable_standard_chips() + self.get_tradable_mega_chips()
 
     @functools.cache
-    def calculate_sort_result(self, sort: Sort, nothing: ChipT, sentinel: ChipT) -> List[ChipT]:
+    def calculate_sort_result(self, sort: Sort, nothing: Chip, sentinel: Chip) -> List[Chip]:
         # TODO: Double check all sorts across all games, because sort results are different per game apparently
         all_tradable_chips = self.get_tradable_chips()
         if sort == Sort.ID:

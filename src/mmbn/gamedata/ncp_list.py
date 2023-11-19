@@ -47,18 +47,22 @@ class NcpList:
         return ncp_list_utils.get_tradable_parts(self.game, self._make_parts)
 
     @functools.cached_property
-    def illegal_parts(self) -> List[NaviCustPart]:
-        return ncp_list_utils.get_illegal_parts(self.game, self._make_parts)
+    def unobtainable_parts(self) -> List[NaviCustPart]:
+        return ncp_list_utils.get_unobtainable_parts(self.game, self._make_parts)
+
+    @functools.cached_property
+    def tradable_obtainable_parts(self) -> List[NaviCustPart]:
+        return list(set(self.tradable_parts) - set(self.unobtainable_parts))
 
     @functools.cached_property
     def parts_index(self) -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
         return {(ncp.name.lower(), ncp.color): ncp for ncp in self.all_parts}
 
     @functools.cached_property
-    def illegal_parts_index(self) -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
-        return {(ncp.name.lower(), ncp.color): ncp for ncp in self.illegal_parts}
+    def unobtainable_parts_index(self) -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
+        return {(ncp.name.lower(), ncp.color): ncp for ncp in self.unobtainable_parts}
 
-    def get_ncp(self, name: str, color: Union[NaviCustColors, str]) -> Optional[NaviCustPart]:
+    def get_part(self, name: str, color: Union[NaviCustColors, str]) -> Optional[NaviCustPart]:
         return ncp_list_utils.get_ncp(self.parts_index, name, NaviCustColors, color)
 
     def get_parts_by_color(self, color: Union[NaviCustColors, str]) -> List[NaviCustPart]:

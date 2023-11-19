@@ -45,7 +45,7 @@ def get_untradable_parts(
         return []
 
 
-def get_illegal_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
+def get_unobtainable_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
     try:
         all_parts = get_navicust_parts(game, make_func)
         data = pkgutil.get_data(__name__, f"bn{game}/data/unobtainable_navicust.json").decode("utf-8")

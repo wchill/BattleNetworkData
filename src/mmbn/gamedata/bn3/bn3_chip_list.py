@@ -17,7 +17,7 @@ UNTRADABLE_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_untradable_chips())
 TRADABLE_STANDARD_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_tradable_standard_chips())
 TRADABLE_MEGA_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_tradable_mega_chips())
 TRADABLE_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_tradable_chips())
-ILLEGAL_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_illegal_chips())
+ILLEGAL_CHIPS = cast(List[BN3Chip], _BN3_CHIP_READER.get_unobtainable_chips())
 
 TRADABLE_CHIP_ORDER = {
     method: _BN3_CHIP_READER.calculate_sort_result(method, NOTHING, SENTINEL) for method in SORT_METHODS

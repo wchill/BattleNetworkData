@@ -49,7 +49,7 @@ def _create_ncp_index() -> Dict[Tuple[str, NaviCustColors], NaviCustPart]:
 
 ALL_PARTS = _get_navicust_parts()
 TRADABLE_PARTS = ncp_list_utils.get_tradable_parts(GAME, _make_bn6_part)
-ILLEGAL_PARTS = ncp_list_utils.get_illegal_parts(GAME, _make_bn6_part)
+ILLEGAL_PARTS = ncp_list_utils.get_unobtainable_parts(GAME, _make_bn6_part)
 NOTHING = NaviCustPart(
     "Nothing", BN6NaviCustPartColor.Nothing, "Nothing", "", BN6NaviCustBug.Nothing, ["     "] * 5, 999
 )
