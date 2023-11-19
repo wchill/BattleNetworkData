@@ -69,7 +69,7 @@
     {
         "id": "BM 2",
         "name": "SignlRed",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "S"
@@ -109,5 +109,16 @@
         ],
         "mb": 82,
         "description": "A Button power up by 3 swrd"
+    },
+    {
+        "id": "---",
+        "name": "Duo",
+        "element": "Null",
+        "atk": 200,
+        "codes": [
+            "D"
+        ],
+        "mb": 99,
+        "description": "Fist of Justice: MetKnukl!"
     }
 ]

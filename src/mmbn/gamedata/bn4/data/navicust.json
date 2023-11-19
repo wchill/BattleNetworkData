@@ -160,7 +160,7 @@
     ]
   },
   {
-    "name": "FloatShoe",
+    "name": "FlotShoe",
     "color": [
       "Green"
     ],
@@ -635,6 +635,23 @@
       "#  # ",
       "#### ",
       "     ",
+      "     "
+    ]
+  },
+  {
+    "name": "HP+500",
+    "color": [
+      "White",
+      "Pink"
+    ],
+    "description": "Max HP +500!",
+    "compression": "",
+    "bug": "Battle HP",
+    "layout": [
+      "  #  ",
+      " ## ",
+      " ## ",
+      " ##  ",
       "     "
     ]
   }

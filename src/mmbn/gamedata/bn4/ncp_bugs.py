@@ -42,4 +42,4 @@ class BN4NaviCustBug(BugT):
         "- L2: MegaMan always moves forward\n"
         "- L3: MegaMan always moves back"
     )
-    Result = "You only receive Zennys as Battle Rewards."
+    BattleResult = "You only receive Zennys as Battle Rewards."

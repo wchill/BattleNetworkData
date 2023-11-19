@@ -5,7 +5,7 @@ from ..chip import Chip, Code, Element
 
 
 @functools.total_ordering
-class BN3Element(Element):
+class BN2Element(Element):
     Heat = 1
     Aqua = 2
     Elec = 3
@@ -20,8 +20,8 @@ class BN3Element(Element):
 
 
 @functools.total_ordering
-class BN3Chip(Chip):
-    GAME = 3
+class BN2Chip(Chip):
+    GAME = 2
 
     def __init__(
         self,
@@ -29,7 +29,7 @@ class BN3Chip(Chip):
         chip_id: str,
         code: Code,
         atk: int,
-        element: BN3Element,
+        element: BN2Element,
         mb: int,
         chip_type: int,
         description: str,
@@ -55,7 +55,7 @@ class BN3Chip(Chip):
                     chip_dict["id"],
                     Code[code],
                     chip_dict["atk"],
-                    BN3Element[chip_dict["element"]],
+                    BN2Element[chip_dict["element"]],
                     chip_dict["mb"],
                     chip_type,
                     chip_dict["description"],

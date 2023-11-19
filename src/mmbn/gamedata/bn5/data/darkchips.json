@@ -1,18 +1,17 @@
 [
     {
-        "id": "1",
+        "id": "001",
         "name": "DrkSword",
         "element": "Sword",
         "atk": 400,
         "codes": [
-            "Z",
-            "u"
+            "Z"
         ],
         "mb": 99,
         "description": "USE LARGE SWORD AND SLICE"
     },
     {
-        "id": "2",
+        "id": "002",
         "name": "DarkTorn",
         "element": "Wind",
         "atk": 50,
@@ -23,7 +22,7 @@
         "description": "TORNADO EXPANDS WHEN HIT"
     },
     {
-        "id": "3",
+        "id": "003",
         "name": "DarkCirc",
         "element": "Cursor",
         "atk": 300,
@@ -34,7 +33,7 @@
         "description": "STOP CURSR AND ATTACK"
     },
     {
-        "id": "4",
+        "id": "004",
         "name": "DarkMetr",
         "element": "Heat",
         "atk": 100,
@@ -45,53 +44,54 @@
         "description": "METEOR SHOWER ON ENMY"
     },
     {
-        "id": "5",
+        "id": "005",
         "name": "DarkThnd",
         "element": "Elec",
         "atk": 200,
         "codes": [
-            "M",
-            "u"
+            "M"
         ],
         "mb": 99,
         "description": "CORNER ENMY BY THUNDER"
     },
     {
-        "id": "6",
+        "id": "006",
         "name": "DrkRecov",
         "element": "Recover",
         "atk": 0,
         "codes": [
-            "H"
+            "H",
+            "*"
         ],
         "mb": 99,
         "description": "BECOME ALMOST INVINCBLE"
     },
     {
-        "id": "7",
+        "id": "007",
         "name": "DrkSonic",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
-            "E"
+            "E",
+            "*"
         ],
         "mb": 99,
         "description": "PARALYZE THE ENEMY"
     },
     {
-        "id": "8",
+        "id": "008",
         "name": "DarkInvs",
         "element": "Invis",
         "atk": 0,
         "codes": [
             "I",
-            "u"
+            "*"
         ],
         "mb": 99,
         "description": "RELEASE YOUR DARKNESS"
     },
     {
-        "id": "9",
+        "id": "009",
         "name": "DarkPlus",
         "element": "Plus",
         "atk": 0,
@@ -102,7 +102,7 @@
         "description": "NEXT CHIP ATK +50"
     },
     {
-        "id": "10",
+        "id": "010",
         "name": "DrkLance",
         "element": "Wood",
         "atk": 400,
@@ -113,7 +113,7 @@
         "description": "ATK ENMY FROM BEHIND"
     },
     {
-        "id": "11",
+        "id": "011",
         "name": "DarkDril",
         "element": "Break",
         "atk": 100,
@@ -124,7 +124,7 @@
         "description": "LETHAL DRILL OF DARKNESS"
     },
     {
-        "id": "12",
+        "id": "012",
         "name": "DarkWide",
         "element": "Aqua",
         "atk": 300,

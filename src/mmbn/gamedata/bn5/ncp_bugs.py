@@ -32,7 +32,7 @@ class BN5NaviCustBug(BugT):
         "- L6: 1 HP every 15 frames (4/sec)\n"
         "- L7: 1 HP every 10 frames (6/sec)"
     )
-    Emotion = (
+    EmotionWindow = (
         "Base MegaMan's emotion window rapidly changes between Normal, Full Synchro, Anger, and Worried during "
         "battle. Emotion remains constant during Custom Screen. Evil emotion is unaffected.\n"
         "- Normal: 7/9 Worried, 1/9 Angry, 1/9 Full Synchro\n"

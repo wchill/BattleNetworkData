@@ -17,39 +17,53 @@ class ChipReader:
         self.chip_cls = chip_cls
 
     def read_chips_from_file(self, filename: str, chip_type: int) -> List[ChipT]:
-        data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
-        chips = json.loads(data)
-        retval = []
-        for chip in chips:
-            retval += self.chip_cls.make(chip, chip_type)
-        return retval
+        try:
+            data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
+            chips = json.loads(data)
+            retval = []
+            for chip in chips:
+                retval += self.chip_cls.make(chip, chip_type)
+            return retval
+        except FileNotFoundError:
+            return []
+        except TypeError:
+            pass
 
     def read_untradable_chips_from_file(self, filename: str) -> List[ChipT]:
-        data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
-        chips = json.loads(data)
-        retval = []
-        all_chips_map = self.get_all_chips_dict()
-        for chip in chips:
-            parts = chip.split(" ")
-            code = Code.Star if parts[1] == "*" else Code[parts[1]]
-            retval.append(all_chips_map[(parts[0], code)])
-        return retval
+        try:
+            data = pkgutil.get_data(__name__, f"bn{self.game}/data/{filename}").decode("utf-8")
+            chips = json.loads(data)
+            retval = []
+            all_chips_map = self.get_all_chips_dict()
+            for chip in chips:
+                parts = chip.split(" ")
+                code = Code.Star if parts[-1] == "*" else Code[parts[-1]]
+                retval.append(all_chips_map[(" ".join(parts[:-1]), code)])
+            return retval
+        except FileNotFoundError:
+            return []
 
     @functools.cache
     def get_standard_chips(self) -> List[ChipT]:
-        return self.read_chips_from_file("chips.json", Chip.STANDARD)
+        return self.read_chips_from_file("chips.json", Chip.STANDARD) + \
+            self.read_chips_from_file("secretchips.json", Chip.STANDARD_SECRET)
 
     @functools.cache
     def get_mega_chips(self) -> List[ChipT]:
-        return self.read_chips_from_file("megachips.json", Chip.MEGA)
+        return self.read_chips_from_file("megachips.json", Chip.MEGA) + \
+            self.read_chips_from_file("secret_megachips.json", Chip.MEGA_SECRET)
 
     @functools.cache
     def get_giga_chips(self) -> List[ChipT]:
         return self.read_chips_from_file("gigachips.json", Chip.GIGA)
 
     @functools.cache
+    def get_dark_chips(self) -> List[ChipT]:
+        return self.read_chips_from_file("darkchips.json", Chip.GIGA)
+
+    @functools.cache
     def get_all_chips(self) -> List[ChipT]:
-        return self.get_standard_chips() + self.get_mega_chips() + self.get_giga_chips()
+        return self.get_standard_chips() + self.get_mega_chips() + self.get_giga_chips() + self.get_dark_chips()
 
     @functools.cache
     def get_all_chips_dict(self) -> Dict[Tuple[str, Code], ChipT]:
@@ -63,7 +77,7 @@ class ChipReader:
 
     @functools.cache
     def get_illegal_chips(self) -> List[ChipT]:
-        return self.read_untradable_chips_from_file("illegal.json")
+        return self.read_untradable_chips_from_file("unobtainable.json")
 
     @functools.cache
     def get_tradable_standard_chips(self) -> List[ChipT]:

@@ -17,38 +17,47 @@ from .navicust_part import NaviCustColors, NaviCustPart
 
 
 def get_navicust_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
-    data = pkgutil.get_data(__name__, f"bn{game}/data/navicust.json").decode("utf-8")
-    ncp_data = json.loads(data)
-    retval = []
-    for ncp in ncp_data:
-        retval += make_func(ncp, len(retval))
-    return retval
+    try:
+        data = pkgutil.get_data(__name__, f"bn{game}/data/navicust.json").decode("utf-8")
+        ncp_data = json.loads(data)
+        retval = []
+        for ncp in ncp_data:
+            retval += make_func(ncp, len(retval))
+        return retval
+    except FileNotFoundError:
+        return []
 
 
 def get_untradable_parts(
     game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]
 ) -> List[NaviCustPart]:
-    all_parts = get_navicust_parts(game, make_func)
-    data = pkgutil.get_data(__name__, f"bn{game}/data/untradable_navicust.json").decode("utf-8")
-    ncp_data = json.loads(data)
-    retval = []
-    all_parts_map = {(part.name, part.color.name): part for part in all_parts}
-    for part in ncp_data:
-        parts = part.split(" ")
-        retval.append(all_parts_map[(parts[0], parts[1])])
-    return retval
+    try:
+        all_parts = get_navicust_parts(game, make_func)
+        data = pkgutil.get_data(__name__, f"bn{game}/data/untradable_navicust.json").decode("utf-8")
+        ncp_data = json.loads(data)
+        retval = []
+        all_parts_map = {(part.name, part.color.name): part for part in all_parts}
+        for part in ncp_data:
+            parts = part.split(" ")
+            retval.append(all_parts_map[(parts[0], parts[1])])
+        return retval
+    except FileNotFoundError:
+        return []
 
 
 def get_illegal_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:
-    all_parts = get_navicust_parts(game, make_func)
-    data = pkgutil.get_data(__name__, f"bn{game}/data/illegal_navicust.json").decode("utf-8")
-    ncp_data = json.loads(data)
-    retval = []
-    all_parts_map = {(part.name, part.color.name): part for part in all_parts}
-    for part in ncp_data:
-        parts = part.split(" ")
-        retval.append(all_parts_map[(parts[0], parts[1])])
-    return retval
+    try:
+        all_parts = get_navicust_parts(game, make_func)
+        data = pkgutil.get_data(__name__, f"bn{game}/data/unobtainable_navicust.json").decode("utf-8")
+        ncp_data = json.loads(data)
+        retval = []
+        all_parts_map = {(part.name, part.color.name): part for part in all_parts}
+        for part in ncp_data:
+            parts = part.split(" ")
+            retval.append(all_parts_map[(parts[0], parts[1])])
+        return retval
+    except FileNotFoundError:
+        return []
 
 
 def get_tradable_parts(game: int, make_func: Callable[[Dict[str, Any], int], List[NaviCustPart]]) -> List[NaviCustPart]:

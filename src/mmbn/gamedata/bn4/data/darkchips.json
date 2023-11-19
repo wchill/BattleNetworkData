@@ -1,2 +1,90 @@
 [
+    {
+        "id": "---",
+        "name": "DrkCanon",
+        "element": "Null",
+        "atk": 1,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkSword",
+        "element": "Sword",
+        "atk": 1,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DarkBomb",
+        "element": "Null",
+        "atk": 200,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkVulcn",
+        "element": "Null",
+        "atk": 20,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkLance",
+        "element": "Wood",
+        "atk": 1,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkSpred",
+        "element": "Null",
+        "atk": 400,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkStage",
+        "element": "Null",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    },
+    {
+        "id": "---",
+        "name": "DrkRecov",
+        "element": "Recover",
+        "atk": 0,
+        "codes": [
+            "*"
+        ],
+        "mb": 99,
+        "description": "DARKCHIP CREATED BY DESIRE"
+    }
 ]

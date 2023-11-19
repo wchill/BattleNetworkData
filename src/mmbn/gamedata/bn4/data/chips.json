@@ -87,8 +87,8 @@
         "atk": 10,
         "codes": [
             "O",
-            "W",
-            "Y"
+            "T",
+            "W"
         ],
         "mb": 30,
         "description": "7-shot to pierce 1 panel!"
@@ -355,7 +355,8 @@
         "codes": [
             "H",
             "J",
-            "V"
+            "V",
+            "*"
         ],
         "mb": 26,
         "description": "Snowstorm attack! Ice Panel"
@@ -917,7 +918,8 @@
         "codes": [
             "L",
             "M",
-            "N"
+            "N",
+            "*"
         ],
         "mb": 16,
         "description": "Boomerang encircles field"
@@ -1138,7 +1140,7 @@
     {
         "id": "086",
         "name": "Magnum",
-        "element": "",
+        "element": "Panel",
         "atk": 130,
         "codes": [
             "H",
@@ -1190,7 +1192,7 @@
     {
         "id": "090",
         "name": "BoyBomb1",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 220,
         "codes": [
             "E",
@@ -1203,7 +1205,7 @@
     {
         "id": "091",
         "name": "BoyBomb2",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 250,
         "codes": [
             "I",
@@ -1216,7 +1218,7 @@
     {
         "id": "092",
         "name": "BoyBomb3",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 280,
         "codes": [
             "G",
@@ -1229,7 +1231,7 @@
     {
         "id": "093",
         "name": "TimeBomb",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 150,
         "codes": [
             "J",
@@ -1242,7 +1244,7 @@
     {
         "id": "094",
         "name": "Mine",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 300,
         "codes": [
             "C",
@@ -1255,7 +1257,7 @@
     {
         "id": "095",
         "name": "RockCube",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "*"
@@ -1288,7 +1290,7 @@
     {
         "id": "098",
         "name": "Fanfare",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "E",
@@ -1302,7 +1304,7 @@
     {
         "id": "099",
         "name": "Discord",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "D",
@@ -1316,7 +1318,7 @@
     {
         "id": "100",
         "name": "Timpani",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "P",
@@ -1330,7 +1332,7 @@
     {
         "id": "101",
         "name": "Silence",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "C",
@@ -1344,7 +1346,7 @@
     {
         "id": "102",
         "name": "VDoll",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "I",
@@ -1399,7 +1401,7 @@
     {
         "id": "106",
         "name": "CrakOut",
-        "element": "",
+        "element": "Panel",
         "atk": 0,
         "codes": [
             "*"
@@ -1410,7 +1412,7 @@
     {
         "id": "107",
         "name": "DublCrak",
-        "element": "",
+        "element": "Panel",
         "atk": 0,
         "codes": [
             "B",
@@ -1424,7 +1426,7 @@
     {
         "id": "108",
         "name": "TripCrak",
-        "element": "",
+        "element": "Panel",
         "atk": 0,
         "codes": [
             "B",
@@ -1538,9 +1540,10 @@
         "atk": 0,
         "codes": [
             "J",
-            "?"
+            "N",
+            "Y"
         ],
-        "mb": null,
+        "mb": 64,
         "description": "Recovers 300HP"
     },
     {
@@ -1638,7 +1641,7 @@
     {
         "id": "124",
         "name": "Geddon1",
-        "element": "",
+        "element": "Panel",
         "atk": 0,
         "codes": [
             "J",
@@ -1651,7 +1654,7 @@
     {
         "id": "125",
         "name": "Geddon2",
-        "element": "",
+        "element": "Panel",
         "atk": 0,
         "codes": [
             "N",

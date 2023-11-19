@@ -1,14 +1,13 @@
 import functools
 import os
-from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, List
 
-from ..chip import Chip, Code
+from ..chip import Chip, Code, Element
 
 
 @functools.total_ordering
-class BN6Element(Enum):
+class BN6Element(Element):
     Heat = 1
     Aqua = 2
     Elec = 3
@@ -31,10 +30,6 @@ class BN6Element(Enum):
 @functools.total_ordering
 class BN6Chip(Chip):
     GAME = 6
-    STANDARD = 1
-    MEGA = 2
-    GIGA = 3
-    NOTHING = 4
 
     def __init__(
         self,
@@ -52,7 +47,7 @@ class BN6Chip(Chip):
     @property
     def sorting_chip_id(self) -> str:
         # Ugly hack to get proper sorting
-        return "007 " + self.chip_id if self.is_link_navi_chip() else self.chip_id
+        return "007 " + self.chip_id if self.is_version_exclusive_chip() else self.chip_id
 
     @property
     def chip_image_path(self) -> str:
@@ -62,7 +57,7 @@ class BN6Chip(Chip):
         if self.chip_type == Chip.STANDARD:
             filename = f"BN6Chip{self.chip_id}.png"
         elif self.chip_type == Chip.MEGA:
-            if self.is_link_navi_chip():
+            if self.is_version_exclusive_chip():
                 filename = f"BN6{self.chip_id[1]}MChip{self.get_chip_id()}.png"
             else:
                 filename = f"BN6MChip{self.get_chip_id()}.png"
@@ -73,25 +68,11 @@ class BN6Chip(Chip):
 
         return str(base_path / filename)
 
-    def is_link_navi_chip(self) -> bool:
+    def is_version_exclusive_chip(self) -> bool:
         return self.chip_id.startswith("C")
 
     def get_chip_id(self) -> str:
         return self.chip_id.split(" ")[-1]
-
-    def __lt__(self, other: "BN6Chip") -> bool:
-        if self.chip_type != other.chip_type:
-            return self.chip_type < other.chip_type
-
-        if self.sorting_chip_id == other.sorting_chip_id:
-            if self.code == Code.Star and other.code != Code.Star:
-                return False
-            elif self.code != Code.Star and other.code == Code.Star:
-                return True
-            else:
-                return self.code < other.code
-
-        return self.sorting_chip_id < other.sorting_chip_id
 
     @classmethod
     def make(cls, chip_dict: Dict[str, Any], chip_type: int) -> List["BN6Chip"]:

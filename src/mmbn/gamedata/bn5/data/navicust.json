@@ -496,6 +496,38 @@
     ]
   },
   {
+    "name": "MegaVirs",
+    "color": [
+      "Green"
+    ],
+    "description": "Causes viruses to become their V2 variants",
+    "compression": "AABLARBLAA",
+    "bug": "Activation",
+    "layout": [
+      "  X  ",
+      " XX  ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
+    "name": "GigaVirs",
+    "color": [
+      "Green"
+    ],
+    "description": "Causes viruses to become their V3 variants",
+    "compression": "BBRALBLARR",
+    "bug": "Activation",
+    "layout": [
+      "  X  ",
+      " XX  ",
+      " -XX ",
+      "  X  ",
+      "     "
+    ]
+  },
+  {
     "name": "Attck+1",
     "color": [
       "White",
@@ -635,8 +667,8 @@
     "name": "HP+100",
     "color": [
       "White",
-      "Yellow",
-      "Pink"
+      "Pink",
+      "Yellow"
     ],
     "description": "Max HP +100!",
     "compression": "",
@@ -689,8 +721,8 @@
     "name": "HP+400",
     "color": [
       "White",
-      "Yellow",
-      "Pink"
+      "Pink",
+      "Yellow"
     ],
     "description": "Max HP +400!",
     "compression": "",

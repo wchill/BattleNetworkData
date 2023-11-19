@@ -59,13 +59,21 @@ class Code(Enum):
         return self.name
 
 
+class Element(Enum):
+    pass
+
+
 @functools.total_ordering
 class Chip:
     GAME = None
+
     STANDARD = 1
-    MEGA = 2
-    GIGA = 3
-    NOTHING = 4
+    STANDARD_SECRET = 2
+    MEGA = 3
+    MEGA_SECRET = 4
+    GIGA = 5
+
+    NOTHING = 6
 
     def __init__(
         self,
@@ -99,8 +107,28 @@ class Chip:
     def get_chip_id(self) -> str:
         return self.chip_id.split(" ")[-1]
 
+    def is_version_exclusive_chip(self) -> bool:
+        return False
+
     def __lt__(self, other: "Chip") -> bool:
-        raise NotImplementedError
+        if self.__class__ != other.__class__:
+            return False
+
+        ct = self.chip_type - 2.5 if self.chip_type in [self.STANDARD_SECRET, self.MEGA_SECRET] else self.chip_type
+        other_ct = other.chip_type - 2.5 if other.chip_type in [self.STANDARD_SECRET, self.MEGA_SECRET] else other.chip_type
+
+        if ct != other_ct:
+            return ct < other_ct
+
+        if self.sorting_chip_id == other.sorting_chip_id:
+            if self.code == Code.Star and other.code != Code.Star:
+                return False
+            elif self.code != Code.Star and other.code == Code.Star:
+                return True
+            else:
+                return self.code < other.code
+
+        return self.sorting_chip_id < other.sorting_chip_id
 
     def __eq__(self, other) -> bool:
         if other is None:

@@ -1472,7 +1472,7 @@
     {
         "id": "113",
         "name": "TimeBom1",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 100,
         "codes": [
             "H",
@@ -1485,7 +1485,7 @@
     {
         "id": "114",
         "name": "TimeBom2",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 140,
         "codes": [
             "D",
@@ -1498,7 +1498,7 @@
     {
         "id": "115",
         "name": "TimeBom3",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 200,
         "codes": [
             "F",
@@ -1511,7 +1511,7 @@
     {
         "id": "116",
         "name": "BoyBomb1",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 130,
         "codes": [
             "C",
@@ -1524,7 +1524,7 @@
     {
         "id": "117",
         "name": "BoyBomb2",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 180,
         "codes": [
             "H",
@@ -1537,7 +1537,7 @@
     {
         "id": "118",
         "name": "BoyBomb3",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 230,
         "codes": [
             "B",
@@ -1563,7 +1563,7 @@
     {
         "id": "120",
         "name": "RockCube",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "*"
@@ -1596,7 +1596,7 @@
     {
         "id": "123",
         "name": "Fanfare",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "F",
@@ -1610,7 +1610,7 @@
     {
         "id": "124",
         "name": "Discord",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "B",
@@ -1624,7 +1624,7 @@
     {
         "id": "125",
         "name": "Timpani",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "A",
@@ -1638,7 +1638,7 @@
     {
         "id": "126",
         "name": "Silence",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "C",
@@ -1691,7 +1691,7 @@
     {
         "id": "130",
         "name": "VDoll",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "O",

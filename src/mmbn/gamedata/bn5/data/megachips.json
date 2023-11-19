@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "001",
         "name": "SuprVulc",
         "element": "Null",
         "atk": 10,
@@ -11,7 +11,7 @@
         "description": "12-shot vulcan cannon"
     },
     {
-        "id": "2",
+        "id": "002",
         "name": "NeoVari",
         "element": "Sword",
         "atk": 240,
@@ -22,7 +22,7 @@
         "description": "A magical shifting sword"
     },
     {
-        "id": "3",
+        "id": "003",
         "name": "Meteors",
         "element": "Heat",
         "atk": 40,
@@ -33,7 +33,7 @@
         "description": "Drop many meteor on enmy area"
     },
     {
-        "id": "4",
+        "id": "004",
         "name": "NumbrBl",
         "element": "Null",
         "atk": 1,
@@ -45,9 +45,9 @@
         "description": "Last 2 HP digits = atk pwr"
     },
     {
-        "id": "5",
+        "id": "005",
         "name": "Guardian",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 200,
         "codes": [
             "O"
@@ -56,7 +56,7 @@
         "description": "Statue punishes when hit"
     },
     {
-        "id": "6",
+        "id": "006",
         "name": "Jealousy",
         "element": "Null",
         "atk": 80,
@@ -67,7 +67,7 @@
         "description": "More damage if enemy has chip"
     },
     {
-        "id": "7",
+        "id": "007",
         "name": "Poltrgst",
         "element": "Null",
         "atk": 150,
@@ -78,7 +78,7 @@
         "description": "Objects thrown at enemies"
     },
     {
-        "id": "8",
+        "id": "008",
         "name": "BugFix",
         "element": "Null",
         "atk": 0,
@@ -90,7 +90,7 @@
         "description": "Repairs & removes bugs"
     },
     {
-        "id": "9",
+        "id": "009",
         "name": "FullCust",
         "element": "Null",
         "atk": 0,
@@ -101,7 +101,7 @@
         "description": "CustGauge instantly refills"
     },
     {
-        "id": "10",
+        "id": "010",
         "name": "LifeAur",
         "element": "Null",
         "atk": 0,
@@ -112,7 +112,7 @@
         "description": "Repel all attacks under 200"
     },
     {
-        "id": "11",
+        "id": "011",
         "name": "Snctuary",
         "element": "Null",
         "atk": 0,
@@ -123,7 +123,7 @@
         "description": "Chng all own panel to holy"
     },
     {
-        "id": "12",
+        "id": "012",
         "name": "Attck+30",
         "element": "Plus",
         "atk": 0,
@@ -134,7 +134,7 @@
         "description": "+30 for selected atk chip"
     },
     {
-        "id": "13",
+        "id": "013",
         "name": "DblPoint",
         "element": "Plus",
         "atk": 0,
@@ -145,7 +145,7 @@
         "description": "+20 for next chip attack"
     },
     {
-        "id": "14",
+        "id": "014",
         "name": "Muramasa",
         "element": "Sword",
         "atk": 1,
@@ -156,9 +156,9 @@
         "description": "Atk power equal amt of lost HP"
     },
     {
-        "id": "15",
+        "id": "015",
         "name": "Anubis",
-        "element": "Obstacle",
+        "element": "Object",
         "atk": 0,
         "codes": [
             "A"
@@ -167,7 +167,7 @@
         "description": "Anubis poisons enemies"
     },
     {
-        "id": "16",
+        "id": "016",
         "name": "BlakWing",
         "element": "Null",
         "atk": 20,
@@ -178,7 +178,7 @@
         "description": "Wing atk from a cave"
     },
     {
-        "id": "17",
+        "id": "017",
         "name": "JustcOne",
         "element": "Break",
         "atk": 280,
@@ -189,8 +189,8 @@
         "description": "Fist atk on center panel"
     },
     {
-        "id": "18",
-        "name": "Z Saver",
+        "id": "018",
+        "name": "Z Saber",
         "element": "Sword",
         "atk": 100,
         "codes": [
@@ -200,7 +200,7 @@
         "description": "Repliroid swrd cuts 3 times"
     },
     {
-        "id": "19",
+        "id": "019",
         "name": "Roll",
         "element": "Recover",
         "atk": 20,
@@ -211,7 +211,7 @@
         "description": "Attack an enmy, then heals you"
     },
     {
-        "id": "20",
+        "id": "020",
         "name": "RollSP",
         "element": "Recover",
         "atk": 1,
@@ -222,7 +222,7 @@
         "description": "Attack an enmy, then heals you"
     },
     {
-        "id": "21",
+        "id": "021",
         "name": "RollDS",
         "element": "Recover",
         "atk": 1,
@@ -233,7 +233,7 @@
         "description": "Attack an enmy, then heals you"
     },
     {
-        "id": "40",
+        "id": "040",
         "name": "BlizMan",
         "element": "Aqua",
         "atk": 100,
@@ -244,8 +244,8 @@
         "description": "Snowball expands when hit"
     },
     {
-        "id": "41",
-        "name": "BlizMnSP",
+        "id": "041",
+        "name": "BlizManSP",
         "element": "Aqua",
         "atk": 1,
         "codes": [
@@ -255,8 +255,8 @@
         "description": "Snowball expands when hit"
     },
     {
-        "id": "42",
-        "name": "BlizMnDS",
+        "id": "042",
+        "name": "BlizManDS",
         "element": "Aqua",
         "atk": 1,
         "codes": [
@@ -266,7 +266,7 @@
         "description": "Snowball expands when hit"
     },
     {
-        "id": "43",
+        "id": "043",
         "name": "ShadeMan",
         "element": "Null",
         "atk": 120,
@@ -277,7 +277,7 @@
         "description": "CrshNoise attck all direction"
     },
     {
-        "id": "44",
+        "id": "044",
         "name": "ShadeMnSP",
         "element": "Null",
         "atk": 1,
@@ -288,7 +288,7 @@
         "description": "CrshNoise attck all direction"
     },
     {
-        "id": "45",
+        "id": "045",
         "name": "ShadeMnDS",
         "element": "Null",
         "atk": 1,
@@ -299,7 +299,7 @@
         "description": "CrshNoise attck all direction"
     },
     {
-        "id": "46",
+        "id": "046",
         "name": "CloudMan",
         "element": "Elec",
         "atk": 50,
@@ -310,7 +310,7 @@
         "description": "Thundr atk behind the enmy"
     },
     {
-        "id": "47",
+        "id": "047",
         "name": "CloudMnSP",
         "element": "Elec",
         "atk": 1,
@@ -321,7 +321,7 @@
         "description": "Thundr atk behind the enmy"
     },
     {
-        "id": "48",
+        "id": "048",
         "name": "CloudMnDS",
         "element": "Elec",
         "atk": 1,
@@ -332,7 +332,7 @@
         "description": "Thundr atk behind the enmy"
     },
     {
-        "id": "49",
+        "id": "049",
         "name": "CosmoMan",
         "element": "Null",
         "atk": 70,
@@ -343,7 +343,7 @@
         "description": "Meteors hit enemy"
     },
     {
-        "id": "50",
+        "id": "050",
         "name": "CosmoMnSP",
         "element": "Null",
         "atk": 1,
@@ -354,7 +354,7 @@
         "description": "Meteors hit enemy"
     },
     {
-        "id": "51",
+        "id": "051",
         "name": "CosmoMnDS",
         "element": "Null",
         "atk": 1,
@@ -365,7 +365,7 @@
         "description": "Meteors hit enemy"
     },
     {
-        "id": "52",
+        "id": "052",
         "name": "LarkMan",
         "element": "Null",
         "atk": 140,
@@ -376,8 +376,8 @@
         "description": "Whirl forward and atk"
     },
     {
-        "id": "53",
-        "name": "LarkMnSP",
+        "id": "053",
+        "name": "LarkManSP",
         "element": "Null",
         "atk": 1,
         "codes": [
@@ -387,8 +387,8 @@
         "description": "Whirl forward and atk"
     },
     {
-        "id": "54",
-        "name": "LarkMnDS",
+        "id": "054",
+        "name": "LarkManDS",
         "element": "Null",
         "atk": 1,
         "codes": [
@@ -398,7 +398,7 @@
         "description": "Whirl forward and atk"
     },
     {
-        "id": "55",
+        "id": "055",
         "name": "GridMan",
         "element": "Null",
         "atk": 100,
@@ -409,8 +409,8 @@
         "description": "Explodes when touchdown"
     },
     {
-        "id": "56",
-        "name": "GridMnSP",
+        "id": "056",
+        "name": "GridManSP",
         "element": "Null",
         "atk": 1,
         "codes": [
@@ -420,8 +420,8 @@
         "description": "Explodes when touchdown"
     },
     {
-        "id": "57",
-        "name": "GridMnDS",
+        "id": "057",
+        "name": "GridManDS",
         "element": "Null",
         "atk": 1,
         "codes": [
@@ -431,7 +431,7 @@
         "description": "Explodes when touchdown"
     },
     {
-        "id": "58",
+        "id": "058",
         "name": "Django",
         "element": "Null",
         "atk": 0,
@@ -442,7 +442,7 @@
         "description": "Burns with sunlight"
     },
     {
-        "id": "59",
+        "id": "059",
         "name": "DjangoSP",
         "element": "Null",
         "atk": 1,
@@ -453,7 +453,7 @@
         "description": "Burns with sunlight"
     },
     {
-        "id": "60",
+        "id": "060",
         "name": "DjangoDS",
         "element": "Null",
         "atk": 1,
@@ -464,7 +464,7 @@
         "description": "Burns with sunlight"
     },
     {
-        "id": "TP 22",
+        "id": "TP 022",
         "name": "ProtoMan",
         "element": "Sword",
         "atk": 130,
@@ -475,7 +475,7 @@
         "description": "Move in and slice enemy"
     },
     {
-        "id": "TP 23",
+        "id": "TP 023",
         "name": "ProtoMnSP",
         "element": "Sword",
         "atk": 1,
@@ -486,7 +486,7 @@
         "description": "Move in and slice enemy"
     },
     {
-        "id": "TP 24",
+        "id": "TP 024",
         "name": "ProtoMnDS",
         "element": "Sword",
         "atk": 1,
@@ -497,7 +497,7 @@
         "description": "Move in and slice enemy"
     },
     {
-        "id": "TP 25",
+        "id": "TP 025",
         "name": "GyroMan",
         "element": "Wind",
         "atk": 80,
@@ -508,8 +508,8 @@
         "description": "Bombs the front of same row"
     },
     {
-        "id": "TP 26",
-        "name": "GyroMnSP",
+        "id": "TP 026",
+        "name": "GyroManSP",
         "element": "Wind",
         "atk": 1,
         "codes": [
@@ -519,8 +519,8 @@
         "description": "Bombs the front of same row"
     },
     {
-        "id": "TP 27",
-        "name": "GyroMnDS",
+        "id": "TP 027",
+        "name": "GyroManDS",
         "element": "Wind",
         "atk": 1,
         "codes": [
@@ -530,8 +530,8 @@
         "description": "Bombs the front of same row"
     },
     {
-        "id": "TP 28",
-        "name": "SearchMan",
+        "id": "TP 028",
+        "name": "SerchMan",
         "element": "Cursor",
         "atk": 20,
         "codes": [
@@ -541,8 +541,8 @@
         "description": "Aim and fire 5 shots"
     },
     {
-        "id": "TP 29",
-        "name": "SearchMnSP",
+        "id": "TP 029",
+        "name": "SerchMnSP",
         "element": "Cursor",
         "atk": 1,
         "codes": [
@@ -552,8 +552,8 @@
         "description": "Aim and fire 5 shots"
     },
     {
-        "id": "TP 30",
-        "name": "SearchMnDS",
+        "id": "TP 030",
+        "name": "SerchMnDS",
         "element": "Cursor",
         "atk": 1,
         "codes": [
@@ -563,7 +563,7 @@
         "description": "Aim and fire 5 shots"
     },
     {
-        "id": "TP 31",
+        "id": "TP 031",
         "name": "NapalmMan",
         "element": "Heat",
         "atk": 120,
@@ -574,8 +574,8 @@
         "description": "Explosion spreads 9 panels"
     },
     {
-        "id": "TP 32",
-        "name": "NapalmMnSP",
+        "id": "TP 032",
+        "name": "NaplmMnSP",
         "element": "Heat",
         "atk": 1,
         "codes": [
@@ -585,8 +585,8 @@
         "description": "Explosion spreads 9 panels"
     },
     {
-        "id": "TP 33",
-        "name": "NapalmMnDS",
+        "id": "TP 033",
+        "name": "NaplmMnDS",
         "element": "Heat",
         "atk": 1,
         "codes": [
@@ -596,7 +596,7 @@
         "description": "Explosion spreads 9 panels"
     },
     {
-        "id": "TP 34",
+        "id": "TP 034",
         "name": "MagnetMan",
         "element": "Elec",
         "atk": 90,
@@ -607,8 +607,8 @@
         "description": "NS tackle and chrge"
     },
     {
-        "id": "TP 35",
-        "name": "MagnetMnSP",
+        "id": "TP 035",
+        "name": "MagntMnSP",
         "element": "Elec",
         "atk": 1,
         "codes": [
@@ -618,8 +618,8 @@
         "description": "NS tackle and chrge"
     },
     {
-        "id": "TP 36",
-        "name": "MagnetMnDS",
+        "id": "TP 036",
+        "name": "MagntMnDS",
         "element": "Elec",
         "atk": 1,
         "codes": [
@@ -629,7 +629,7 @@
         "description": "NS tackle and chrge"
     },
     {
-        "id": "TP 37",
+        "id": "TP 037",
         "name": "Meddy",
         "element": "Null",
         "atk": 80,
@@ -640,7 +640,7 @@
         "description": "Throws 2 bombs to enmy area"
     },
     {
-        "id": "TP 38",
+        "id": "TP 038",
         "name": "MeddySP",
         "element": "Null",
         "atk": 1,
@@ -651,7 +651,7 @@
         "description": "Throws 2 bombs to enmy area"
     },
     {
-        "id": "TP 39",
+        "id": "TP 039",
         "name": "MeddyDS",
         "element": "Null",
         "atk": 1,
@@ -662,7 +662,7 @@
         "description": "Throws 2 bombs to enmy area"
     },
     {
-        "id": "TC 22",
+        "id": "TC 022",
         "name": "Colonel",
         "element": "Null",
         "atk": 160,
@@ -673,7 +673,7 @@
         "description": "Slice enemy in same row"
     },
     {
-        "id": "TC 23",
+        "id": "TC 023",
         "name": "ColonelSP",
         "element": "Null",
         "atk": 1,
@@ -684,7 +684,7 @@
         "description": "Slice enemy in same row"
     },
     {
-        "id": "TC 24",
+        "id": "TC 024",
         "name": "ColonelDS",
         "element": "Null",
         "atk": 1,
@@ -695,7 +695,7 @@
         "description": "Slice enemy in same row"
     },
     {
-        "id": "TC 25",
+        "id": "TC 025",
         "name": "ShadoMan",
         "element": "Null",
         "atk": 40,
@@ -706,7 +706,7 @@
         "description": "Throw 3 ninja stars"
     },
     {
-        "id": "TC 26",
+        "id": "TC 026",
         "name": "ShadoMnSP",
         "element": "Null",
         "atk": 1,
@@ -717,7 +717,7 @@
         "description": "Throw 3 ninja stars"
     },
     {
-        "id": "TC 27",
+        "id": "TC 027",
         "name": "ShadoMnDS",
         "element": "Null",
         "atk": 1,
@@ -728,7 +728,7 @@
         "description": "Throw 3 ninja stars"
     },
     {
-        "id": "TC 28",
+        "id": "TC 028",
         "name": "NumbrMan",
         "element": "Null",
         "atk": 30,
@@ -739,7 +739,7 @@
         "description": "Bomb 3 ahead! Hits 9sq"
     },
     {
-        "id": "TC 29",
+        "id": "TC 029",
         "name": "NumbrMnSP",
         "element": "Null",
         "atk": 1,
@@ -750,7 +750,7 @@
         "description": "Bomb 3 ahead! Hits 9sq"
     },
     {
-        "id": "TC 30",
+        "id": "TC 030",
         "name": "NumbrMnDS",
         "element": "Null",
         "atk": 1,
@@ -761,7 +761,7 @@
         "description": "Bomb 3 ahead! Hits 9sq"
     },
     {
-        "id": "TC 31",
+        "id": "TC 031",
         "name": "TmhwkMan",
         "element": "Wood",
         "atk": 140,
@@ -772,7 +772,7 @@
         "description": "Slice 2sq side, 3sq vertical"
     },
     {
-        "id": "TC 32",
+        "id": "TC 032",
         "name": "TmhwkMnSP",
         "element": "Wood",
         "atk": 1,
@@ -783,7 +783,7 @@
         "description": "Slice 2sq side, 3sq vertical"
     },
     {
-        "id": "TC 33",
+        "id": "TC 033",
         "name": "TmhwkMnDS",
         "element": "Wood",
         "atk": 1,
@@ -794,7 +794,7 @@
         "description": "Slice 2sq side, 3sq vertical"
     },
     {
-        "id": "TC 34",
+        "id": "TC 034",
         "name": "KnightMan",
         "element": "Break",
         "atk": 170,
@@ -805,7 +805,7 @@
         "description": "Circle around and atk"
     },
     {
-        "id": "TC 35",
+        "id": "TC 035",
         "name": "KnigtMnSP",
         "element": "Break",
         "atk": 1,
@@ -816,7 +816,7 @@
         "description": "Circle around and atk"
     },
     {
-        "id": "TC 36",
+        "id": "TC 036",
         "name": "KnigtMnDS",
         "element": "Break",
         "atk": 1,
@@ -827,7 +827,7 @@
         "description": "Circle around and atk"
     },
     {
-        "id": "TC 37",
+        "id": "TC 037",
         "name": "ToadMan",
         "element": "Elec",
         "atk": 80,
@@ -838,8 +838,8 @@
         "description": "Sing and paralyze the enemy"
     },
     {
-        "id": "TC 38",
-        "name": "ToadMnSP",
+        "id": "TC 038",
+        "name": "ToadManSP",
         "element": "Elec",
         "atk": 1,
         "codes": [
@@ -849,8 +849,8 @@
         "description": "Sing and paralyze the enemy"
     },
     {
-        "id": "TC 39",
-        "name": "ToadMnDS",
+        "id": "TC 039",
+        "name": "ToadManDS",
         "element": "Elec",
         "atk": 1,
         "codes": [
@@ -858,5 +858,16 @@
         ],
         "mb": 69,
         "description": "Sing and paralyze the enemy"
+    },
+    {
+        "id": "---",
+        "name": "LeadRaid",
+        "element": "Null",
+        "atk": 200,
+        "codes": [
+            "L"
+        ],
+        "mb": 99,
+        "description": "ProtoMan & Colonel together!"
     }
 ]
