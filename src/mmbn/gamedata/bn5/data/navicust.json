@@ -416,6 +416,22 @@
     ]
   },
   {
+    "name": "HubBatc",
+    "color": [
+      "White"
+    ],
+    "description": "Maximize your ability (to be researched)",
+    "compression": "ALRABLRALR",
+    "bug": "Nothing",
+    "layout": [
+      "  X  ",
+      " XXX ",
+      "XXXXX",
+      " XXX ",
+      "  X  "
+    ]
+  },
+  {
     "name": "BugStop",
     "color": [
       "White"
