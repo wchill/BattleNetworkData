@@ -247,7 +247,7 @@
         "id": "041",
         "name": "BlizManSP",
         "element": "Aqua",
-        "atk": 1,
+        "atk": 180,
         "codes": [
             "B"
         ],
@@ -280,7 +280,7 @@
         "id": "044",
         "name": "ShadeMnSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 240,
         "codes": [
             "S"
         ],
@@ -313,7 +313,7 @@
         "id": "047",
         "name": "CloudMnSP",
         "element": "Elec",
-        "atk": 1,
+        "atk": 110,
         "codes": [
             "C"
         ],
@@ -346,7 +346,7 @@
         "id": "050",
         "name": "CosmoMnSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 130,
         "codes": [
             "C"
         ],
@@ -379,7 +379,7 @@
         "id": "053",
         "name": "LarkManSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 270,
         "codes": [
             "S"
         ],
@@ -412,7 +412,7 @@
         "id": "056",
         "name": "GridManSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 250,
         "codes": [
             "F"
         ],
@@ -445,7 +445,7 @@
         "id": "059",
         "name": "DjangoSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 0,
         "codes": [
             "D"
         ],
@@ -456,7 +456,7 @@
         "id": "060",
         "name": "DjangoDS",
         "element": "Null",
-        "atk": 1,
+        "atk": 0,
         "codes": [
             "D"
         ],
@@ -478,7 +478,7 @@
         "id": "TP 023",
         "name": "ProtoMnSP",
         "element": "Sword",
-        "atk": 1,
+        "atk": 250,
         "codes": [
             "B"
         ],
@@ -511,7 +511,7 @@
         "id": "TP 026",
         "name": "GyroManSP",
         "element": "Wind",
-        "atk": 1,
+        "atk": 140,
         "codes": [
             "G"
         ],
@@ -544,7 +544,7 @@
         "id": "TP 029",
         "name": "SerchMnSP",
         "element": "Cursor",
-        "atk": 1,
+        "atk": 75,
         "codes": [
             "S"
         ],
@@ -577,7 +577,7 @@
         "id": "TP 032",
         "name": "NaplmMnSP",
         "element": "Heat",
-        "atk": 1,
+        "atk": 250,
         "codes": [
             "N"
         ],
@@ -610,7 +610,7 @@
         "id": "TP 035",
         "name": "MagntMnSP",
         "element": "Elec",
-        "atk": 1,
+        "atk": 200,
         "codes": [
             "M"
         ],
@@ -643,7 +643,7 @@
         "id": "TP 038",
         "name": "MeddySP",
         "element": "Null",
-        "atk": 1,
+        "atk": 200,
         "codes": [
             "M"
         ],
@@ -676,7 +676,7 @@
         "id": "TC 023",
         "name": "ColonelSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 300,
         "codes": [
             "C"
         ],
@@ -709,7 +709,7 @@
         "id": "TC 026",
         "name": "ShadoMnSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 70,
         "codes": [
             "S"
         ],
@@ -742,7 +742,7 @@
         "id": "TC 029",
         "name": "NumbrMnSP",
         "element": "Null",
-        "atk": 1,
+        "atk": 90,
         "codes": [
             "N"
         ],
@@ -775,7 +775,7 @@
         "id": "TC 032",
         "name": "TmhwkMnSP",
         "element": "Wood",
-        "atk": 1,
+        "atk": 280,
         "codes": [
             "T"
         ],
@@ -808,7 +808,7 @@
         "id": "TC 035",
         "name": "KnigtMnSP",
         "element": "Break",
-        "atk": 1,
+        "atk": 320,
         "codes": [
             "K"
         ],
@@ -841,7 +841,7 @@
         "id": "TC 038",
         "name": "ToadManSP",
         "element": "Elec",
-        "atk": 1,
+        "atk": 220,
         "codes": [
             "T"
         ],
